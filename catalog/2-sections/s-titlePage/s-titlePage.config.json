@@ -1,0 +1,20 @@
+{
+  "title": "Title page",
+  "label": "s-titlePage",
+  "status": "ready",
+  "context": {
+  },
+
+  "variants": [
+    {
+      "name": "light",
+      "label": "s-titlePage-light",
+      "context": {
+        "class": "section-light",
+        "c-sectionTitle":{
+          "class": "c-sectionTitle-light"
+        }
+      }
+    }
+  ]
+}

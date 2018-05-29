@@ -1,0 +1,63 @@
+<div class="c-slider js-slider is-onFirst {{class}}" {{#if backgroundImage}}style="background-image:url({{c-slider-backgroundImage}})"{{/if}}>
+
+  <div class="c-slider_viewport">
+    <div class="c-slider_scroller js-slider_scroller">
+      <!-- The HTML comments between elements are necessary to avoid -->
+      <!-- strange spacing bettwen the slider items -->
+      <div class="c-slider_inner js-slider_inner {{slider-inner-class}}">
+        
+        {{#if teaserShow}}
+          {{#each teasers}}
+            {{#if @first}}
+              {{render '@c-teaser' c-teaser merge=true}}
+            {{else}}
+              {{render '@c-teaserhorzvert' c-teaser merge=true}}
+            {{/if}}
+          {{/each}}
+        {{/if}}
+
+        {{#if teaserSmartphoneSlickShow}}
+          {{#each teasers}}
+            {{render '@c-teaser' c-teaser merge=true}}
+          {{/each}}
+        {{/if}}
+
+        {{#if teaserSmallShow}}
+          {{#each smallTeasers}}
+            {{render '@c-teasersmall--descxxs' c-teaserSmall-descXxs merge=true}}
+          {{/each}}
+        {{/if}}
+
+        {{#if teaserStreaming-show}}
+          {{#each n-teasersStreaming}}
+            {{render '@c-teaserstreaming' c-teaserStreaming merge=true}}
+          {{/each}}
+        {{/if}}
+
+        {{#if heroImgPosterShow}}
+          {{#each n-heroImgPoster}}
+            {{render '@c-heroimg--hero-img-poster' c-heroImgPoster merge=true}}
+          {{/each}}
+        {{/if}}
+
+        {{#if c-moreBtn}}{{render '@c-morebtn' c-moreBtn merge=true}}{{/if}}
+      </div>
+    </div>    
+  </div>
+
+  {{#if c-btnShowHiddenItems}}
+    <div class="c-slider_btnShowMore js-slider_btnShowMore">
+      {{render '@c-morebtn' c-btnShowHiddenItems merge=true}}
+    </div>
+  {{/if}}
+
+  <div class="c-slider_cover c-slider_cover-left"></div>
+  <div class="c-slider_cover c-slider_cover-right"></div>
+
+  <button class="c-slider_control c-slider_control-prev js-slider_control" data-direction="prev">
+    {{render '@c-icon' c-iconAngleLft merge=true}}
+  </button>
+  <button class="c-slider_control c-slider_control-next js-slider_control" data-direction="next">
+    {{render '@c-icon' c-iconAngleRgt merge=true}}
+  </button>
+</div>

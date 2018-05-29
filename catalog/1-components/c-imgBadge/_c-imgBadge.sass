@@ -1,0 +1,83 @@
+//============================================
+// Image Badge
+//============================================
+
+// Text Badge that sits on top of images.
+// Assumes that the parent has `position: relative`
+// or `position: absolute` set.
+
+
+// Base
+//============================================
+
+.c-imgBadge
+  position: absolute
+  padding: $space-quarter $space-half
+  background-color: $primary
+  font-family: $font-alt
+  font-weight: 600
+  text-transform: uppercase
+  color: $white
+
+// Variation small
+.c-imgBadge-small
+
+// Variation no uppercase
+.c-imgBadge-noUppercase
+  text-transform: none
+
+// Variation weight normal
+.c-imgBadge-weightNormal
+  font-weight: normal
+
+// Variation grayRat
+.c-imgBadge-grayRat
+  background-color: $gray-rat
+
+// Variation buzz
+.c-imgBadge-buzz
+  background-color: $color-buzz
+
+// Variation pois blink
+.c-imgBadge-poisBlink
+  padding-left: 2rem
+
+  &::before
+    +pos(1.3rem 0.7rem, top left)
+    display: block
+    content: ""
+    width: 0.8rem
+    height: 0.8rem
+    border-radius: 50%
+    background: $white
+    animation: blinker 2.5s linear infinite;
+
+  // Variation small
+  &.c-imgBadge-small::before
+    +pos(1.1rem 0.7rem, top left)
+
+// Variation bgTransparent
+.c-imgBadge-bgTransparent
+  background-color: rgba(26, 26, 26, 0.7)
+
+@keyframes blinker
+  50% 
+    opacity: 0
+
+
+// Positions
+//============================================
+
+.c-imgBadge
+  &-topLft
+    +pos(0, top left, none)
+
+  &-btmLft
+    +pos(0, bottom left, none)
+
+
+// Small
+//============================================
+
+.c-imgBadge-small
+  font-size: $fs-sm

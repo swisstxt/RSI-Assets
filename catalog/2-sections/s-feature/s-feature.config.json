@@ -1,0 +1,40 @@
+{
+  "title": "Feature",
+  "label": "s-feature",
+  "status": "ready",
+  "context": {
+    "goToSectionShow": true,
+    "Go-to-section": "Tutto su euro 2016",
+    
+    "pathLogo": "s-feature/s-feature-logo.png",
+    "pathBgImage": "s-feature/s-feature-bg.jpg",
+
+    "c-iconAngleRight": {
+      "icon": "angle-right",
+      "class": "t-efSection_ctaBtnIcon"
+    },
+    
+    "teasers": [
+      {
+        "c-teaserHorzVert": {
+          "c-teaser-label": false
+        }
+      },
+      {
+        "c-teaserHorzVert": {
+          "c-teaser-label": false
+        }
+      },
+      {
+        "c-teaserHorzVert": {
+          "c-teaser-label": false
+        }
+      },
+      {
+        "c-teaserHorzVert": {
+          "c-teaser-label": false
+        }
+      }
+    ]
+  }
+}

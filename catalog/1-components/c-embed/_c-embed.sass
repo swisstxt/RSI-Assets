@@ -1,0 +1,68 @@
+//============================================
+// Embed
+//============================================
+
+// Avoid layout re-flows when images take time loading.
+// It also allows to make video embeds responsive by
+// forcing them to maintain a certain aspect ratio.
+// Uses the padding bottom hack: http://andyshora.com/css-image-container-padding-hack.html
+
+
+// Wrapper
+//============================================
+
+// 1. The height for `.c-embed` and `.c-embed_media-img`
+//    calculated by the browser might be different by one px.
+//    To prevent that the embed height is made slightly
+//    smaller than the intended format.
+
+.c-embed
+  position: relative
+  overflow: hidden
+  height: 0
+  display: block
+  padding-bottom: 100%
+
+.c-embed-16\:9
+  padding-bottom: ((9 / 16) * 100%) - 0.25% // 1.
+
+.c-embed-4\:3
+  padding-bottom: (3 / 4) * 100%
+
+.c-embed-3\:2
+  padding-bottom: (2 / 3) * 100%
+
+.c-embed-2\:1
+  padding-bottom: 50%
+
+.c-embed-circle
+  border-radius: 50%
+
+  img
+    height: 100%
+    width: auto
+
+  
+// Children
+//============================================
+
+.c-embed object,
+.c-embed iframe,
+.c-embed embed,
+.c-embed video,
+.c-embed_media-img,
+.c-embed_media
+  +pos(0, top left)
+  +size(100%)
+  display: block
+
+.c-embed_media-img
+  +size(100%, auto)
+  transition: transform 0.5s
+
+
+// Link
+//============================================
+
+.c-embed_link:hover .c-embed_media-img
+  transform: scale(1.15)

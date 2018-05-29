@@ -1,0 +1,12 @@
+{
+  "title": "Title page stripe",
+  "label": "s-titlePageStripe",
+  "status": "ready",
+  "context": {
+    "class": "c-titlePage-bigStripe",
+    "class-layout": "u-padd-none u-pull-top-double@md",
+    "c-titlePage": {
+    	"class-layout": "u-d-none u-d-blk@sm"
+    }
+  }
+}

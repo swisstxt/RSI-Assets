@@ -1,0 +1,18 @@
+{
+  "title": "Section - Teasers horizontal vert",
+  "label": "s-teasersHorzVert",
+  "status": "ready",
+  "context": {
+    "sectionTitleShow": true,
+  	"c-sectionTitle": {
+  		"class": "u-push-btm-threeQuarter"
+  	},
+  	
+  	"teasers": [
+  		{},
+  		{},
+  		{},
+  		{}
+  	]
+  }
+}

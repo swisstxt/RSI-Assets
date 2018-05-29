@@ -1,0 +1,20 @@
+{
+  "title": "Button more",
+  "label": "c-moreBtn",
+  "status": "ready",
+  "context": {
+  	"label": "show more",
+    "href": "#"
+  },
+  
+  "variants": [
+    {
+      "name": "light",
+      "label": "c-moreBtn-light",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-moreBtn-light"
+      }
+    }
+  ]  
+}

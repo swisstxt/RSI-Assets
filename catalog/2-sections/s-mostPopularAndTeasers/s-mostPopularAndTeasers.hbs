@@ -1,0 +1,19 @@
+<section class="section {{class}}">
+  <div class="container">
+    {{#if c-sectionTitleShow}}
+      {{render '@c-sectiontitle' c-sectionTitle merge=true}}
+    {{/if}}
+    
+    <div class="row">
+      <div class="u-push-btm u-push-btm-oneAndHalf@sm u-push-btm-none@md col-md-4">
+        {{render '@c-tabtwochoices' c-tabTwoChoices merge=true}}
+      </div>
+
+      {{#each teasers}}
+        <div class="col-sm-6 col-md-4 {{#if @last}}{{else}}u-push-btm u-push-btm-none@md{{/if}}">
+          {{render '@c-teaser' c-teaser merge=true}}
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

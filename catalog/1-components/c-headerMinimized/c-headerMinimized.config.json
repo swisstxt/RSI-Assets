@@ -1,0 +1,14 @@
+{
+  "title": "Header minimized",
+  "label": "c-headerMinimized",
+  "status": "ready",
+  "context": {
+  	"path-logo-rsi": "/images/logos/logo_rsi-white.svg",
+  	"product-name": "Patti chiari",
+
+  	"c-iconBack": {
+      "icon": "back",
+      "class": "c-headerMinimized_iconBack"
+  	}
+  }
+}

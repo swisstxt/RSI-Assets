@@ -1,0 +1,52 @@
+{
+  "title": "Quote",
+  "label": "c-quote",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "quote-text": "La leadership si basa sull'ispirazione, non sulla capacità di dominare gli altri; sulla collaborazione, non sull'intimidazione",
+    "quote-author": "William Arthur Ward",
+    "href": false,
+    "c-icon": {
+      "class": "c-quote_socialIcon"
+    }
+  },
+  
+  "variants":[
+    {
+      "name": "Social",
+      "label": "c-quote-social",
+      "context": { 
+        "class": "c-quote-social c-quote-socialTw",     
+
+        "c-quote-social": true,        
+        "href": "#",
+
+        "classSocialWrap": "c-quote_socialIcon-twitter",
+
+          "c-icon": {
+            "class": "c-quote_socialIcon",
+            "icon": "twitter"
+          }
+      }
+    },
+
+    {
+      "name": "Facebook",
+      "label": "c-quote-social-fb",
+      "context": { 
+        "class": "c-quote-social c-quote-socialFb",   
+
+        "c-quote-social": true,        
+        "href": "#",
+
+        "classSocialWrap": "c-quote_socialIcon-f_facebook",
+        
+          "c-icon": {
+            "class": "c-quote_socialIcon",
+            "icon": "f_facebook"
+          }
+      }
+    }
+  ]
+}

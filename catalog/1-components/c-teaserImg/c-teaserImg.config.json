@@ -1,0 +1,44 @@
+{
+  "title": "Teaser images",
+  "label": "c-teaserImg",
+  "status": "ready",
+  "context": {	
+  	"c-embed": {
+  		"class": "c-embed-16:9"
+  	},
+
+    "c-imgActions": {
+      "class": "c-imgActions-btmRgt"
+    },
+
+    "c-imgBadgeShow": true,
+  	"c-imgBadge": {
+  		"class": "c-imgBadge-small c-imgBadge-btmLft"
+    }
+  },
+  "variants": [
+    {
+      "name": "Vector",
+      "label": "c-teaserImg-vector",
+      "context": {
+        "c-vectorLogoShow": true,
+        "c-vectorLogo": {
+          "class": "c-vectorLogo-rsi",
+          "nameLogo": "rsi.svg"
+        }
+      }
+    },
+    {
+      "name": "Circle container",
+      "label": "c-teaserImg-circle",
+      "context": {
+        "class": "c-teaserImg-noShadow c-teaserImg-circle",
+        "c-embed":{
+          "class": "c-embed-circle",
+          "src": "../../images/1x1/default.jpg",
+          "href": "#"
+        }      
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+//============================================
+// Share Dialog
+//============================================
+
+// This dialog is displayed using the Magnific-Popup
+// JavaScript plugin. The markup for the dialog is
+// rendered via JavaScript using Handlebars. This prevents
+// having to append the markup to every page, even if no
+// Sharing functionality is present.
+
+
+// Wrap
+//============================================
+
+.c-shareDialog
+  text-align: center
+  color: $white
+
+
+// Title
+//============================================
+
+.c-shareDialog_title
+  +h1(true)
+  margin-bottom: $space-oneAndHalf
+
+
+// List
+//============================================
+
+// .c-shareDialog_list
+
+.c-shareDialog_item
+  display: inline-block
+  margin: 0 $space
+
+.c-shareDialog_link
+  display: block
+
+.c-shareDialog_icon
+  fill: $gray-ash
+  transition: fill 0.2s
+
+  .c-shareDialog_link:hover &
+    fill: $white

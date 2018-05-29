@@ -1,0 +1,49 @@
+<div class="c-sportResult {{class}}">
+	<div class="c-sportResult_wrapper">
+		<div class="c-sportResult_table">
+			{{#each n-partecipants}}
+				<div class="c-sportResult_participant {{class-partecipant}}">
+					<div class="c-sportResult_infoParticipant">
+						<div class="c-sportResult_infoWrap">
+							{{#if race-time}}<span class="c-sportResult_ranking">{{@index}}.</span>{{/if}}
+							{{#if path-flag}}<img src="{{path-flag}}" class="c-sportResult_flag" />{{/if}}
+							<span class="c-sportResult_name">{{player-name}}</span>
+						</div>
+					</div>
+
+					{{#each n-set}}
+						{{#if set-result}}
+							<div class="c-sportResult_set {{class-set}}">
+								{{set-result}}
+								{{#if tie-break}}<span class="c-sportResult_tieBreak">{{tie-break}}</span>{{/if}}
+							</div>
+						{{/if}}
+					{{/each}}
+
+					{{#if score-match}}
+						<div class="c-sportResult_score {{class-score}}">
+							{{score-match}}
+							{{#if score-addition}}<span class="c-sportResult_scoreAddition">{{score-addition}}{{/if}}
+						</div>
+					{{/if}}
+
+					{{#if race-time}}
+						<div class="c-sportResult_raceTime {{class-time}}">{{race-time}}</div>
+					{{/if}}
+				</div>
+			{{/each}}
+
+			{{#if markers}}
+				<div class="c-sportResult_markers">
+					<ul class="c-sportResult_markersTeam">
+						{{#each n-markersTeam1}}<li class="c-sportResult_marker">{{nameMarker}}</li>{{/each}}
+					</ul>
+
+					<ul class="c-sportResult_markersTeam">
+						{{#each n-markersTeam2}}<li class="c-sportResult_marker">{{nameMarker}}</li>{{/each}}
+					</ul>
+				</div>
+			{{/if}}
+		</div>
+	</div>
+</div>

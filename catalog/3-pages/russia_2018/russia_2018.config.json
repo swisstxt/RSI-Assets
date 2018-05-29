@@ -1,0 +1,265 @@
+{
+  "title": "Russia 2018",
+  "label": "Russia 2018",
+  "status": "ready",
+  "context": {
+    "mainTeaserShow": true,
+
+    "s-header": {
+      "c-header": {
+        "visualImage": true,      
+        "socialToDeviceShow": true,
+        "socialShow": true,
+        "logoStandardToDevice": true,
+        "slogan-play": false,
+        "logoHeaderText": "Russia 2018",
+        "subSectionText": "Russia 2018",
+        "appIconShow": true,
+        "description-app-firstLine": "APP RSI",
+        "description-app-secondLine": "SPORT",
+        "path-iconApp": "/images/app/icon-app-sport.png",
+
+        "c-header-metaItems": [
+          {
+            "class-metaItem": "c-header_metaItem-search",
+            "metaItemExist": true,
+            "title": "Search",
+            "isForm": true,
+
+            "c-iconMeta": {
+              "icon": "search",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "id": 1,
+            "title": "Home",
+            "link-mode": "section",
+            "items": false
+          },
+
+          {
+            "id": 2,
+            "title": "News",
+            "items": false
+          },
+
+          {
+            "id": 3,
+            "title": "Calendario",
+            "items": false
+          },
+
+          {
+            "id": 4,
+            "title": "Classifiche",
+            "items": false
+          },
+
+          {
+            "id": 4,
+            "title": "Video",
+            "items": false
+          },
+
+          {
+            "id": 5,
+            "title": "Marcatori",
+            "items": false
+          },
+
+          {
+            "id": 6,
+            "title": "Squadre",
+            "items": false
+          },
+
+          {
+            "title": false
+          }
+        ],
+
+        "c-header-secondaryNavItems-left": [
+          {
+            "title": "News"
+          },
+
+          {
+            "title": "Sport"
+          },
+
+          {
+            "title": "Cultura"
+          },
+
+          {
+            "title": "Scienza"
+          },
+
+          {
+            "title": "Chi siamo"
+          },
+
+          {
+            "title": "Meteo"
+          },
+
+          {
+            "title": "Agenda"
+          },
+
+          {
+            "title": "LA 1"
+          },
+
+          {
+            "title": "LA 2"
+          },
+
+          {
+            "title": "Rete Uno"
+          },
+
+          {
+            "title": "Rete Due"
+          },
+
+          {
+            "title": "Rete Tre"
+          }
+        ]
+      }
+    },
+
+    "s-sliderTeaserStreaming": {
+      "class": "section-dark u-padd-btm-none u-padd-btm-third@sm u-padd-top-half u-pull-top-double@md"
+    },
+
+    "s-mainTeaserTripleHero": {
+      "c-heroImgRight1": {
+        "class": "c-heroImg-playTopRight c-heroImg-subtitleShowOnHover c-heroImg-titleXs@md c-heroImg-titleXs@lg c-heroImg-descXs c-heroImg-contentGround c-heroImg-descAlwaysVisible u-d-blk@lg c-heroImg-moreHeight@xs c-heroImg-sportResultsW150@md c-heroImg-sportResultsW200@lg",
+        "playIconAbsolute": false,
+        "badgeShow": true,
+
+        "c-imgBadge": {
+          "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-poisBlink",
+          "badge": "live"
+        },
+
+        "c-sportResult": {
+          "class": "c-sportResult-transparent"
+        }
+      }
+    },
+
+    "s-featureIframes":{
+      "class": "section-border u-push-top-oneAndHalf",
+      "c-featureIframes":{
+        "imageOn": true,
+        "logoImage": "images/t-efSection/logo_olimpiadi2018.png"
+      }, 
+
+      "s-feature-backgroundImage": "/images/t-efSection/bg_olimpiadi2018.png"  
+    },
+
+    "s-mostPopularAndTeasers":{
+      "c-sectionTitleShow": false
+    },
+
+    "s-teasers":{
+      "c-sectionTitle": false
+    },
+    
+    "s-sliderShortNews": {
+      "teaserImage": true,
+      "class": "u-pull-btm c-slider-bgGrayVoid",
+      "internal-section": "section-dark section-border section-btm-noBorder",
+
+      "c-sectionTitle": {
+        "title-short": "Russo ma non dormo"
+      },
+
+      "c-sliderTeaserSmall-image": {
+
+        "smallTeasers": [
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Gorsuch ha giurato",
+              "description-medium": "Venerdì 14 Feb 2017, ore 10:29",
+              "c-label": {
+                "label": "mondo"
+              }
+            }
+          },
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Primo treno diretto da Londra alla Cina",
+              "description-medium": "Venerdì 14 Feb 2017, ore 9:29",
+              "c-label": {
+                "label": "mondo"
+              }
+            }            
+          },
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Vallese, arrestati otto svaligiatori",
+              "description-medium": "Giovedì 13 Feb 2017, ore 17:02",
+              "c-label": {
+                "label": "svizzera"
+              }
+            }              
+          },
+          {
+              "c-teaserSmall-descXxs": {
+              "title": "Lesionata una condotta principale",
+              "description-medium": "Giovedì 13 Feb 2017, ore 12:23",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }                         
+          },
+          {
+              "c-teaserSmall-descXxs": {
+              "title": "Tampona la coda, è grave",
+              "description-medium": "Mercoledì 12 Feb 2017, ore 09:43",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }             
+          },
+          {
+            
+              "c-teaserSmall-descXxs": {
+              "title": "In tre lasciano l'ISS",
+              "description-medium": "Martedì 11 Feb 2017, ore 22:40",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }            
+          },
+          {
+            
+          },
+          {
+            
+          }
+        ]
+      }
+    }
+  }
+}

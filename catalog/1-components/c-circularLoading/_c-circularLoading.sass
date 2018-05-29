@@ -1,0 +1,82 @@
+//============================================
+// Circular loading
+//============================================
+
+
+// Wrapper
+//============================================
+
+.c-circularLoading
+  position: relative
+  width: $loading-diameter
+  height: $loading-diameter
+
+// Light variation
+//.c-circularLoading-light
+
+
+// Mask
+//============================================
+
+.c-circularLoading_msk
+  position: relative
+  float: right
+  overflow: hidden
+  width: $loading-diameter / 2
+  height: $loading-diameter
+
+  &-right
+    border-radius: 0 $loading-diameter / 2 $loading-diameter / 2 0
+
+  &-left
+    border-radius: $loading-diameter / 2 0 0 $loading-diameter / 2
+
+
+// Rotating elements
+//============================================
+
+.c-circularLoading_rotatingEl
+  position: absolute
+  width: $loading-diameter / 2
+  height: $loading-diameter
+  background: $white
+  transform: rotate(180deg)
+
+  // Light variation
+  .c-circularLoading-light &
+    background: $gray-asphalt
+
+  .c-circularLoading_msk-right &
+    border-radius: 0 $loading-diameter / 2 $loading-diameter / 2 0
+    transform-origin: 0 50%
+    transform: rotate(360deg)
+    animation: anim-rotatingEl-right 1000ms linear infinite;
+
+  .c-circularLoading_msk-left &
+    border-radius: $loading-diameter / 2 0 0 $loading-diameter / 2
+    transform-origin: 100% 50%
+    animation: anim-rotatingEl-left 1000ms linear infinite;
+
+
+@keyframes anim-rotatingEl-left
+  0%
+    transform: rotate(180deg)
+  33%
+    transform: rotate(360deg)
+  50%
+    transform: rotate(480deg)
+  100%
+    transform: rotate(540deg)
+
+@keyframes anim-rotatingEl-right
+  0%
+    transform: rotate(360deg)
+  28%
+    transform: rotate(500deg)
+  33%
+    transform: rotate(540deg)
+  85%
+    transform: rotate(620deg)
+  100%
+    transform: rotate(720deg)
+

@@ -1,0 +1,11 @@
+{
+  "title": "Section galleryHero",
+  "label": "s-galleryHero",
+  "status": "ready",
+  "context": {
+  	"c-sectionTitle": {
+  		"class": "u-push-btm",
+  		"title-short": "Gallery"
+  	}
+  }
+}

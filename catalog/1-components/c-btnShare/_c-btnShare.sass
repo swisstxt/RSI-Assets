@@ -1,0 +1,74 @@
+//============================================
+// Button share
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-btnShare
+  display: block
+  background-color: $black
+  padding: $space-third $space-half
+  font-size: $fs-sm
+  color: $gray-silver
+  transition: color 0.2s
+
+// No bg variation
+.c-btnShare-noBg
+  background-color: transparent
+  padding: 0
+
+  &:hover
+    color: $white
+
+// Light variation
+.c-btnShare-light
+  &:hover
+    color: $primary
+
+// Smartphone no label variation
+//.c-btnShare-noLabel\@xs
+
+
+// Icon
+//============================================
+
+.c-btnShare_icon
+  margin-top: -0.2rem
+  margin-right: $space-quarter
+  fill: $gray-ash
+  transition: fill 0.2s
+
+  .c-btnShare:hover &
+    fill: $white
+
+  // Light variation
+  .c-btnShare-light:hover &
+    fill: $primary
+
+
+// Label
+//============================================
+
+.c-btnShare_label
+
+  // Smartphone no label variation
+  .c-btnShare-noLabel\@xs &
+    display: none
+
+    +mq($bp-sm)
+      display: inline
+
+  // Md no label variation
+  .c-btnShare-noLabel\@md &
+    +mq($bp-md)
+      +mq($bp-lg-down)
+        display: none
+
+  // Lg no label variation
+  .c-btnShare-noLabel\@lg &
+    +mq($bp-lg)
+      display: none
+
+

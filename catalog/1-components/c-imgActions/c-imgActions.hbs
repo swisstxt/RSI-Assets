@@ -1,0 +1,17 @@
+<div class="c-imgActions {{class}} {{name}}">
+  {{#each items}}
+    {{#if item}}
+        <div class="c-imgActions_action">
+          {{#if labelActions}}
+            <span class="c-imgActions_label">{{labelActions}}</span>
+          {{/if}}
+
+          {{#if numberActions}}
+              <span class="c-imgActions_label">{{numberActions}}</span>
+          {{/if}}
+
+          {{render '@c-icon' c-icon}}
+        </div>
+    {{/if}}
+  {{/each}}
+</div>

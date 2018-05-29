@@ -1,0 +1,163 @@
+{
+  "title": "Elezioni politiche 2018",
+  "label": "Elezioni politiche 2018",
+  "status": "ready",
+  "context": {
+
+    "s-header": {
+      "c-header": {
+        "visualImage": true,      
+        "socialToDeviceShow": true,
+        "socialShow": true,
+        "slogan-play": false,
+        "logoHeaderText": "Elezioni politiche 2018",
+        "subSectionText": "Elezioni politiche 2018",
+        "appIconShow": true,
+        "description-app-firstLine": "APP RSI",
+        "description-app-secondLine": "NEWS",
+        "path-iconApp": "/images/app/icon-app-news.jpg",
+
+        "c-header-metaItems": [
+          {
+            "class-metaItem": "c-header_metaItem-search",
+            "metaItemExist": true,
+            "title": "Search",
+            "isForm": true,
+            "c-iconMeta": {
+              "icon": "search",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "id": 1,
+            "title": "Home",
+            "link-mode": "section",
+            "items": false
+          },
+
+          {
+            "id": 2,
+            "title": "Tutte le news",
+            "items": false
+          },
+
+          {
+            "id": 3,
+            "title": "Dalla radio e la TV",
+            "items": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          }
+        ],
+
+        "c-header-secondaryNavItems-left": [
+          {
+            "title": "News"
+          },
+          {
+            "title": "Sport"
+          },
+          {
+            "title": "Cultura"
+          },
+          {
+            "title": "Scienza"
+          },
+          {
+            "title": "Chi siamo"
+          },
+          {
+            "title": "Meteo"
+          },
+          {
+            "title": "Agenda"
+          },
+          {
+            "title": "LA 1"
+          },
+          {
+            "title": "LA 2"
+          },
+          {
+            "title": "Rete Uno"
+          },
+          {
+            "title": "Rete Due"
+          },
+          {
+            "title": "Rete Tre"
+          }
+        ]
+      }
+    },
+
+    "s-mainTeaser-tripleHero": {
+      "class-layout": "u-push-top-none u-padd-top-half u-padd-top@sm u-padd-top-double@md u-pull-top-double@md"
+    },
+
+    "s-teasers": {
+      "class": "section-light u-pull-top-half@sm",
+      "c-sectionTitle": false
+    },
+
+    "s-nouvoTeasers": {
+      "class": "section-light",
+
+      "c-sectionTitle": {
+        "class": "u-push-btm-threeQuarter c-sectionTitle-light",
+        "title-short": "Video esplicativi"
+      }
+    },
+
+    "s-sliderFavorevoli": {
+      "c-sectionTitle-light": {
+        "title-short": "Favorevoli"
+      }
+    },
+
+    "s-sliderContrari": {
+      "c-sectionTitle-light": {
+        "title-short": "Contrari"
+      }
+    },
+
+    "s-titlePage": {
+      "class": "u-pull-btm-oneAndHalf@sm u-push-top-half",
+
+      "c-sectionTitle": {
+        "class": "c-sectionTitle-noBorder c-sectionTitle-noBg c-sectionTitle-noUppercase c-sectionTitle-TextWhite c-sectionTitle-noTruncate",
+        "href": false,
+        "title-short": "Decreto federale sull’ordinamento finaziario 2021"
+      }
+    }
+  }
+}

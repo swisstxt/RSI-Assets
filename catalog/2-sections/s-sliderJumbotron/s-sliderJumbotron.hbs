@@ -1,0 +1,9 @@
+<section class="section {{class}} {{class-layout}}">
+	{{#if c-sectionTitle}}
+		<div class="container">
+	    	{{render '@c-sectiontitle' c-sectionTitle merge=true}}
+	  	</div>
+	{{/if}}
+
+	{{render '@c-carouselwithdetail' c-carouselWithDetail merge=true}}
+</section>

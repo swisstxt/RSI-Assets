@@ -1,0 +1,188 @@
+//============================================
+// Section Title
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-sectionTitle
+  border-bottom: 0.1rem solid $gray-rat
+  width: 100%
+  overflow: hidden
+
+  // Variation no border
+  .c-sectionTitle-noBorder
+    border: none
+
+// Variation no border to smartphone
+.c-sectionTitle-noBorder\@xs
+  +mq($bp-sm-down)
+    border: none
+
+// Light variation
+.c-sectionTitle-light
+    border-bottom-color: $gray-powder
+
+// Variation xs
+//.c-sectionTitle-xs
+
+// Variation no bg
+//.c-sectionTitle-noBg
+
+// Variation live
+//.c-sectionTitle-live
+
+// Variation no border
+.c-sectionTitle-noBorder
+  border: none
+
+// Variation smartphone stripe
+.c-sectionTitle-stripe\@xs
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+    width: auto
+    border: none
+
+// Variation xs to md
+//.c-sectionTitle-xs\@md
+
+// Variation no uppercase
+//.c-sectionTitle-noUppercase
+
+// Variation text gray-rat
+//.c-sectionTitle-textGrayRat
+
+// Variation no truncate
+//.c-sectionTitle-noTruncate
+
+// Variation no secondary label to xs
+//.c-sectionTitle-noSecondaryLabel\@xs
+
+
+// Heading
+//============================================
+
+// 1. Cover the bottom line.
+
+.c-sectionTitle_heading
+  position: relative
+  +h3(true)
+  margin-bottom: -0.1rem // 1.
+  float: left
+  display: inline-block
+
+  // Variation xs
+  .c-sectionTitle-xs &
+    font-size: $fs-sm
+
+  // Variation live
+  .c-sectionTitle-live &
+  
+    &::before
+      position: absolute
+      top: 1rem
+      left: $space-half
+      display: block
+      content: ""
+      width: 0.8rem
+      height: 0.8rem
+      border-radius: 50%
+      background: $white
+      animation: blinker 2.5s linear infinite;
+
+  // Variation xs to md
+  .c-sectionTitle-xs\@md &
+    +mq($bp-lg-down)
+      +mq($bp-md)
+        font-size: 1.4rem
+
+  // Variation smartphone stripe
+  .c-sectionTitle-stripe\@xs &
+    display: block
+    width: 100%
+
+@keyframes blinker
+  50% 
+    opacity: 0
+
+
+// Link
+//============================================
+
+.c-sectionTitle_label
+  +truncate
+  background-color: $gray-rat
+  color: $white
+  font-weight: 600
+  text-transform: uppercase
+  padding: $space-third $space-twoThirds
+  display: inline-block
+  vertical-align: bottom
+
+  &:hover
+    color: $white
+
+  // Variation no bg
+  .c-sectionTitle-noBg &
+    background-color: transparent
+    padding: 0
+    font-size: 3rem
+    color: $gray-ash
+  
+  // Variation smartphone stripe
+  .c-sectionTitle-stripe\@xs &
+    +mq($bp-sm-down)
+      display: block
+      font-size: $fs-lg
+
+  // Variation live
+  .c-sectionTitle-live &
+    background-color: $primary
+    padding-left: $space-twoThirds + $space-half
+
+  // Variation no uppercase
+  .c-sectionTitle-noUppercase &
+    text-transform: none
+
+  // Variation text gray-rat
+  .c-sectionTitle-textGrayRat &
+    color: $gray-rat
+
+  // Variation text white
+  .c-sectionTitle-TextWhite &
+    color: $white
+
+  // Variation no truncate
+  .c-sectionTitle-noTruncate &
+    overflow: none
+    white-space: normal
+    text-overflow: clip
+
+
+// Secondary label
+//============================================
+
+.c-sectionTitle_secondaryLabel
+  float: right
+  display: inline-block
+  font-weight: 600
+  font-size: $fs-sm
+  margin-top: 0.7rem
+  color: $white
+
+  +mq($bp-md)
+    font-size: $fs
+
+  // Light variation
+  .c-sectionTitle-light &
+    color: $gray-silver
+
+  // Variation no secondary label to xs
+  .c-sectionTitle-noSecondaryLabel\@xs &
+    +mq($bp-sm-down)
+      display: none
+
+
+  

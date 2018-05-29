@@ -1,0 +1,10 @@
+{
+  "title": "Slider",
+  "label": "s-slider",
+  "status": "ready",
+  "context": {
+    "c-sectionTitle": {
+    	"class": "u-push-btm u-push-btm-none@sm"
+    }
+  }
+}

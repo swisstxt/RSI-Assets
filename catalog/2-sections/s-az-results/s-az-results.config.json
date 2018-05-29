@@ -1,0 +1,140 @@
+{
+  "title": "Risultati Az",
+  "label": "s-az-results",
+  "status": "ready",
+  "context": {
+    "emptyPage": {
+      "class": "c-emptyPage-light c-emptyPage-fixedWidth u-push-btm-triple u-push-top-triple"
+    },
+
+    "moreBtn": {
+      "class": "c-moreBtn-light c-moreBtn-visible@sm"
+    },
+
+    "results": [
+      {
+        "c-sectionTitle": {
+          "title-short": "A",
+          "class": "c-sectionTitle-light c-sectionTitle-stripe@xs u-push-btm-half",
+          "href": false
+        },
+
+        "items": [
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            }            
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          }
+        ]
+      },
+
+      {
+        "c-sectionTitle": {
+          "title-short": "B",
+          "class": "c-sectionTitle-light c-sectionTitle-stripe@xs u-push-btm-half",
+          "href": false
+        },
+
+        "items": [
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          }
+        ]
+      },
+
+      {
+        "c-sectionTitle": {
+          "title-short": "C",
+          "class": "c-sectionTitle-light c-sectionTitle-stripe@xs u-push-btm-half",
+          "href": false
+        },
+
+        "items": [
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          }
+        ]
+      },
+
+      {
+        "c-sectionTitle": {
+          "title-short": "D",
+          "class": "c-sectionTitle-light c-sectionTitle-stripe@xs u-push-btm-half",
+          "href": false
+        },
+
+        "items": [
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          },
+          {
+            "c-teaserSmall": {
+               "descriptionShort" : false
+            } 
+          }
+        ]
+      }
+    ]
+  }
+}

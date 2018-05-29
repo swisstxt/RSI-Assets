@@ -1,0 +1,27 @@
+  <section class="section s-filteredTeasersWithRelated {{class}} {{class-layout}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 {{classColLeftSidebar}}">
+          {{render '@c-teasercircleimg' c-teaser-circleImg merge=true}}
+      </div>
+
+      <div class="col-md-8 {{classColMiddleContainer}}">
+          {{render '@c-filteredlistwithtext' c-filteredListWithText merge=true}}
+
+          {{#each teasers}}
+            {{render '@c-teasersmall' c-teaserSmall merge=true}}
+          {{/each}}
+          {{#if c-moreBtn}}
+            {{render '@c-morebtn' c-moreBtn merge=true}}
+          {{/if}}
+    
+      </div>
+
+      <div class="col-md-2 {{classColRightSidebar}}">
+
+      </div>
+    </div>
+
+  </div>
+
+</section>

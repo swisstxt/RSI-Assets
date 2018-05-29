@@ -1,0 +1,26 @@
+{
+  "title": "Embed",
+  "label": "c-embed",
+  "status": "ready",
+  "context": {
+  	"src": "../../images/16x9/default.jpg",
+    "href": "#",
+    "showPlayIcon": false,
+    "showiFrame": false,
+    "showLabelRgt": false,
+    "c-playIcon": {
+      "class": "c-playIcon-rettangle c-playIcon-topRgt-5px"
+    }
+  },
+  "variants": [
+    {
+      "name": "Circle image",
+      "label": "circle",
+      "context": {
+        "class": "c-embed-circle",
+        "src": "../../images/1x1/default.jpg",
+        "href": "#"
+      }
+    }
+  ]
+}

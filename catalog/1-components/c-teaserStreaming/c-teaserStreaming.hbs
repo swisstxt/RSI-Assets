@@ -1,0 +1,79 @@
+<a href="#" class="c-teaserStreaming {{class}}">
+	<div class="c-teaserStreaming_wrapImg">
+		<img src="{{path-img}}" class="c-teaserStreaming_img" />
+	</div>
+
+	<div class="c-teaserStreaming_head">
+		<h3 class="c-teaserStreaming_title">{{title}}</h3>
+		<span class="c-teaserStreaming_subTitle">{{sub-title}}</span>
+	</div>
+
+	<div class="c-teaserStreaming_info">
+		{{#if in-progress}}<span class="c-teaserStreaming_inProgress">{{in-progress}}</span>{{/if}}
+		{{#if start-time}}<span class="c-teaserStreaming_startTime">{{start-time}}</span>{{/if}}
+
+		{{#if match-result}}
+			<div class="c-teaserStreaming_matchResult">
+				<span class="c-teaserStreaming_matchResultText">{{match-result}}</span>
+				{{#if match-result-additional}}<span class="c-teaserStreaming_matchResultAdditional">{{match-result-additional}}</span>{{/if}}
+			</div>
+		{{/if}}
+
+		{{#each n-teams}}
+			<div class="c-teaserStreaming_team c-teaserStreaming_team-{{@index}}">
+				<img src="{{path-flagTeam}}" class="c-teaserStreaming_teamFlag" />
+				<span class="c-teaserStreaming_teamName">{{team-name}}</span>
+			</div>
+		{{/each}}
+
+		{{#each n-set-player}}
+			<div class="c-teaserStreaming_setPlayer c-teaserStreaming_setPlayer-{{@index}}">
+				<div class="c-teaserStreaming_setPlayerInfo">
+					<img src="{{path-setPlayerFlag}}" class="c-teaserStreaming_setPlayerFlag" />
+					<span class="c-teaserStreaming_setPlayerName">{{set-player}}</span>
+				</div>
+
+				<ul class="c-teaserStreaming_setPoints">
+					{{#each n-set-player}}
+						<li class="c-teaserStreaming_singleSet {{class-set}}">
+							{{set-result}}
+							{{#if tie-break}}<span class="c-teaserStreaming_tieBreak">{{tie-break}}</span>{{/if}}
+						</li>
+					{{/each}}
+				</ul>
+			</div>
+		{{/each}}	
+
+		{{#if race-result}}
+			<div class="c-teaserStreaming_raceResult">
+				<div class="c-teaserStreaming_racer">
+					{{#if path-flagRacer}}<img src="{{path-flagRacer}}" class="c-teaserStreaming_racerFlag" />{{/if}}
+					<span class="c-teaserStreaming_racerName">{{race-result}}</span>
+				</div>
+
+				{{#if race-note}}<span class="teaserStreaming_raceNote">{{race-note}}</span>{{/if}}
+			</div>
+		{{/if}}
+	</div>
+
+	{{#if status-show}}
+		<div class="c-teaserStreaming_status">
+			{{#if status-live-show}}
+				<div class="c-teaserStreaming_statusLive">
+					{{#if status-live-past}}
+						{{render '@c-livemark--horz-black' c-liveMark merge=true}}
+					{{else}}
+						{{render '@c-livemark--horz-poisblink' c-liveMark merge=true}}
+					{{/if}}
+				</div>
+			{{/if}}
+
+			{{#if status-label-show}}
+				<span class="c-teaserStreaming_labelStatus">
+					<span class="c-teaserStreaming_typeStatus">{{label-status}}</span>
+					{{#if time-status}}<span>{{time-status}}</span>{{/if}}					
+				</span>				
+			{{/if}}
+		</div>
+	{{/if}}
+</a>

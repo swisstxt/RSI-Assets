@@ -1,0 +1,173 @@
+{
+  "title": "MASTER sito standard",
+  "label": "MASTER sito standard",
+  "status": "ready",
+  "context": {
+
+    "s-header": {
+      "c-header": {
+        "visualImage": true,      
+        "socialToDeviceShow": true,
+        "socialShow": true,
+        "slogan-play": false,
+        "logoHeaderText": "Titolo sito",
+        "subSectionText": "Titolo sito",
+
+        "c-header-metaItems": [
+          {
+            "class-metaItem": "c-header_metaItem-search",
+            "metaItemExist": true,
+            "title": "Search",
+            "isForm": true,
+            "c-iconMeta": {
+              "icon": "search",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "id": 1,
+            "title": "Home",
+            "link-mode": "section",
+            "items": false
+          },
+
+          {
+            "id": 2,
+            "title": "Tutte le news",
+            "items": false
+          },
+
+          {
+            "id": 3,
+            "title": "Dalla radio e la TV",
+            "items": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          }
+        ],
+
+        "c-header-secondaryNavItems-left": [
+          {
+            "title": "News"
+          },
+          {
+            "title": "Sport"
+          },
+          {
+            "title": "Cultura"
+          },
+          {
+            "title": "Scienza"
+          },
+          {
+            "title": "Chi siamo"
+          },
+          {
+            "title": "Meteo"
+          },
+          {
+            "title": "Agenda"
+          },
+          {
+            "title": "LA 1"
+          },
+          {
+            "title": "LA 2"
+          },
+          {
+            "title": "Rete Uno"
+          },
+          {
+            "title": "Rete Due"
+          },
+          {
+            "title": "Rete Tre"
+          }
+        ]
+      }
+    },
+
+    "s-mainTeaser-tripleHero": {
+      "class-layout": "section-grayBright u-push-top-none u-padd-top-half u-padd-top@sm u-padd-top-oneAndHalf@md u-pull-top-double@md"
+    },
+
+    "s-teasers": {
+      "class": "section-grayBright u-pull-top-half@sm",
+      "c-sectionTitle": false
+    },
+
+    "s-sliderShortNews": {
+      "class": "u-pull-btm section-grayBright",
+      "internal-section": "section-grayBright section-border-grayPowder section-btm-noBorder"
+    },
+
+    "s-slider1": {
+      "class": "section-top-border-grayPowder"
+    },
+
+    "s-bannersB6": {
+      "class": "section-light"
+    }
+  },
+
+  "variants": [
+      {
+          "name": "v1",
+          "label": "MASTER sito standard v1",
+          "context": {
+            "s-mainTeaser-tripleHero": false,
+            "s-sliderShortNews": false,
+            
+            "s-mainTeasersLight": {
+              "class-layout": "section-grayBright u-push-top-none u-padd-top-half u-padd-top@sm u-padd-top-oneAndHalf@md u-pull-top-double@md"
+            },
+
+            "s-carouselTeaserSmall": {
+              "class-layout": "u-pull-btm section-grayBright",
+              "internal-section": "section-grayBright section-border-grayPowder section-btm-noBorder"
+            }            
+          }
+      },
+
+      {
+          "name": "v2",
+          "label": "MASTER sito standard v2",
+          "context": {
+            "s-mainTeaser-tripleHero": false,
+
+            "s-mainTeasersSoft": {
+              "class-layout": "section-grayBright u-push-top-none u-padd-top-half u-padd-top@sm u-padd-top-oneAndHalf@md u-pull-top-double@md"
+            }
+          }
+      }
+  ]
+}

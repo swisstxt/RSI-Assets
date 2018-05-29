@@ -1,0 +1,35 @@
+{
+  "title": "Jumbotron",
+  "label": "c-jumbotron",
+  "status": "ready",
+  "context": {
+	"imageDesktop": "../../images/16x9/default.jpg",
+	"imageSmartphone": "../../images/4x3/default.jpg",
+	"info": "La seconda stagione",
+	"title": "Titolo",
+	"description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+	"schedulingVector": "la1",
+
+	"c-button": {
+		"label": "scheda serie"
+	},
+
+	"c-buttonIconPlay": {
+		"label": "Rivedi ultimo episodio"
+	},
+
+	"schedulingTex-nLine": [
+		{
+			"text": "Domenica"
+		},
+
+		{
+			"text": "alle 22:00"
+		},
+
+		{
+			"text": "su LA 1"
+		}
+	]
+  }
+}

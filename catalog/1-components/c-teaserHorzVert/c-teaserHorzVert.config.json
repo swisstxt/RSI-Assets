@@ -1,0 +1,31 @@
+{
+  "title": "Teaser horizontal vert",
+  "label": "c-teaserHorzVert",
+  "status": "ready",
+  "context": {
+    "c-teaser-label": true,
+    "shareShow": true,
+    "descriptionShow": true,
+    "c-teaser-gridClass-img": "col-xs-6 col-md-12",
+    "c-teaser-gridClass-content": "col-xs-6 col-md-12",
+
+    "c-teaserImg": {
+      "class": "c-teaser_img"
+    },
+
+  	"c-iconShare": {
+  		"icon": "share",
+  		"class": "c-teaser_shareIcon"
+  	}
+  },
+
+  "variants":[
+    {
+      "name": "Data Source",
+      "label": "c-teaserHorzVert-dataSource",
+      "context":{
+        "secondaryInfo": "da News"
+      }
+    }
+  ]
+}

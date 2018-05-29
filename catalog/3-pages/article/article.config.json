@@ -1,0 +1,85 @@
+{
+  "title": "Article",
+  "label": "Article",
+  "status": "ready",
+  "context": {
+    "s-header": {
+      "c-header": {
+        "subSectionText": "Svizzera"
+      }
+    },
+
+    "s-article": {
+      "class": "u-pull-top-oneAndHalf u-pull-top-none@sm u-padd-top-triple@md u-pull-top-double@md u-padd-btm-double@sm u-padd-btm-triple@md",
+    
+      "c-article": {
+        "c-heroImgOpeningVideo": false
+      }
+    },
+
+    "s-sliderInterested": {
+      "class": "u-push-top-double@md u-d-none@print",
+
+      "c-sectionTitle": {
+        "title-short": "Potrebbe interessarti anche..."
+      }
+    }
+  },
+
+  "variants":[
+    {
+      "name": "article-video",
+      "label": "video",
+      "context": { 
+        "s-article": {
+          "c-article": {
+            "c-heroImgOpeningVideo": {
+              "class": "c-heroImg-titleXxs c-heroImg-descAlwaysVisible c-heroImg-contentGround c-heroImg-playCenter c-heroImg-16:7 c-heroImg-noFull@sm",
+              "imageDesktop": "../../images/16x7/default.jpg",
+              "imageSmartphone": "../../images/5x4/default.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "name": "article-match",
+      "label": "match",
+      "context": { 
+        "s-article": {
+          "c-article": {
+            "sportResults": true,
+            "c-sportResultsMatch": true
+          }
+        }
+      }
+    },
+
+    {
+      "name": "article-set",
+      "label": "set",
+      "context": { 
+        "s-article": {
+          "c-article": {
+            "sportResults": true,
+            "c-sportResultsSet": true
+          }
+        }
+      }
+    },
+
+    {
+      "name": "article-race",
+      "label": "race",
+      "context": { 
+        "s-article": {
+          "c-article": {
+            "sportResults": true,
+            "c-sportResultsRace": true
+          }
+        }
+      }
+    }    
+  ]
+}

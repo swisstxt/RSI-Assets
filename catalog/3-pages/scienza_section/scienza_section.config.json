@@ -1,0 +1,88 @@
+{
+  "title": "Scienza section",
+  "label": "Scienza section",
+  "status": "ready",
+
+  "context": {
+    "theme": "rsi_scienza_natura",
+
+    "s-header": {
+      "c-header": {
+        "subSectionText": "Natura",
+        "socialShow": false,
+        "appIconShow": false,
+        "slogan-play": false,
+
+        "c-header-metaItems": [
+          {
+            "class-metaItem": "c-header_metaItem-search",
+            "metaItemExist": true,
+            "title": "Search",
+            "isForm": true,
+            "c-iconMeta": {
+              "icon": "search",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "class-metaItem": "c-header_metaItem-traffic",
+            "metaItemExist": false,
+            "title": "Traffico",
+            "c-iconMeta": {
+              "icon": "car",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "class-metaItem": "c-header_metaItem-meteo",
+            "metaItemExist": true,
+            "title": "Pomeriggio<br>9° /18°",
+            "c-iconMeta": {
+              "icon": "weather",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "class-metaItem": "c-header_metaItem-podcast",
+            "metaItemExist": true,
+            "title": "Podcast",
+            "c-iconMeta": {
+              "icon": "podcast",
+              "class": "c-header_metaIcon"
+            }
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {},
+          {},
+          {},
+
+          {
+            "link-mode": "section",
+            "items": [
+              {
+                "link-mode": "current"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "s-titlePageStripe": {
+      "c-titlePage": {
+        "title-page": "Natura"
+      }
+    },
+
+    "s-teasers-infiniteList": {
+      "c-sectionTitle": false,
+      "class-layout": "u-padd-top-1@sm",
+      "class-container": "u-pull-top@md u-pull-top-oneAndHalf@lg u-padd-top-oneAndHalf@sm u-padd-top@md u-padd-top-oneAndHalf@lg section-light u-p-rel"
+    }
+  }
+}

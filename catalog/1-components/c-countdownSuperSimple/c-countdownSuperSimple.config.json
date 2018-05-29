@@ -1,0 +1,9 @@
+{
+  "title": "Countdown super simple",
+  "label": "c-countdownSuperSimple",
+  "status": "ready",
+  "context": {
+    "info": "online",
+    "time": "5 giorni"
+  }
+}

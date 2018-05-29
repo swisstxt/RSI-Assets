@@ -1,0 +1,1165 @@
+{
+  "title": "Film e telefilm",
+  "label": "Film e telefilm",
+  "status": "ready",
+  "context": {
+    "mainTeaserShow": true,
+
+    "s-header": {
+      "c-header": {      
+        "logoHeaderText": "Film e telefilm",
+        "subSectionText": "Film e telefilm",
+
+        "c-header-metaItems": [
+          {
+            "class-metaItem": "c-header_metaItem-search",
+            "metaItemExist": true,
+            "title": "Search",
+            "isForm": true,
+            "c-iconMeta": {
+              "icon": "search",
+              "class": "c-header_metaIcon"
+            }
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "metaItemExist": false
+          },
+
+          {
+            "class-metaItem": "c-header_metaItem-podcast",
+            "metaItemExist": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "id": 1,
+            "title": "Home",
+            "link-mode": "section",
+            "items": false
+          },
+
+          {
+            "id": 2,
+            "title": "Web series",
+            "items": false
+          },
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          },
+
+          {
+            "title": false
+          }
+        ],
+
+        "c-header-secondaryNavItems-left": [
+          {
+            "title": "News"
+          },
+          {
+            "title": "Sport"
+          },
+          {
+            "title": "Cultura"
+          },
+          {
+            "title": "Scienza"
+          },
+          {
+            "title": "Chi siamo"
+          },
+          {
+            "title": "Meteo"
+          },
+          {
+            "title": "Agenda"
+          },
+          {
+            "title": "LA 1"
+          },
+          {
+            "title": "LA 2"
+          },
+          {
+            "title": "Rete Uno"
+          },
+          {
+            "title": "Rete Due"
+          },
+          {
+            "title": "Rete Tre"
+          }
+        ]
+      }
+    },
+    
+    "s-mainTeasers-status": {
+      "class": "u-pull-top-double@md",
+
+      "c-heroImg":{
+        "imageDesktop": "../../images/16x9/9.jpg",
+        "imageSmartphone": "../../images/5x4/9.jpg",
+         "c-imgActions": false,
+
+        "c-imgBadge": {
+          "badge": "Prima TV"
+        },
+                
+        "c-label": {
+          "label": "Film"
+        },       
+
+        "c-vectorLogo": {
+          "nameLogo": "la2.png"
+        },
+
+        "title": "Un amore di testimone",
+        "description": "Brillante commedia matrimoniale in cui Patrick Dempsey veste i panni di un affascinante donnaiolo che paga le sue colpe soffrendo le pene d'amore.",
+        "secondaryInfo": "LA 1, sabato 11 novembre, 16:05"
+      },
+
+      "c-teaserListVert-status": {
+        "c-sectionTitle": {
+          "href": "#",
+          "title-short": "Gli episodi da rivedere"
+        },
+
+        "teasers": [
+          {            
+            "notOnlyList": true,
+            "c-teaserSmall": {
+
+              "c-icon": {
+                "class": "c-teaserSmall_teaserStatus_icon"
+              },
+
+              "teaserStatus-text": "online",
+              "teaserStatus-time": "5 giorni",
+
+              "c-label": {
+                "class": "c-label-truncate c-label-small c-label-round c-label-150@md c-label-330@lg",
+                "label": "Major crimes"
+              },
+
+              "title": "Tempo presente",
+
+              "descriptionMediumShow": true,
+              "description-medium": "Stagione 5, episodio 1",
+
+              "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9040327&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",
+
+              "c-embed": {
+                "classEmbedLink" : "js-popup-video",
+                "modalTitle" : "Titolo finestra modale",
+                "modalDescription" : "Descrizione finestra modale",
+                "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9225280&autoplay=true&hideendscreen=1",
+                "src": "../../images/16x9/1.jpg"
+              }
+            }
+          },
+
+          {            
+            "notOnlyList": true,
+            "c-teaserSmall": {
+
+              "c-icon": {
+                "class": "c-teaserSmall_teaserStatus_icon"
+              },
+
+              "teaserStatus-text": "online",
+              "teaserStatus-time": "5 giorni",
+
+              "c-label": {
+                "class": "c-label-truncate c-label-small c-label-round c-label-150@md c-label-330@lg",
+                "label": "Rizzoli & Isles"
+              },
+
+              "title": "Eterno riposo",
+              "descriptionMediumShow": true,
+              "description-medium": "Stagione 3, episodio 21",
+
+              "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9040327&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",
+
+              "c-embed": {
+                "classEmbedLink" : "js-popup-video",
+                "modalTitle" : "Titolo finestra modale",
+                "modalDescription" : "Descrizione finestra modale",
+                "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9225280&autoplay=true&hideendscreen=1",
+                "src": "../../images/16x9/2.jpg"
+              }
+            }
+          },
+
+          {            
+            "notOnlyList": true,
+            "c-teaserSmall": {
+
+              "c-icon": {
+                "class": "c-teaserSmall_teaserStatus_icon"
+              },
+
+              "teaserStatus-text": "online",
+              "teaserStatus-time": "5 giorni",
+
+              "c-label": {
+                "class": "c-label-truncate c-label-small c-label-round c-label-150@md c-label-330@lg",
+                "label": "Chicago fire"
+              },
+
+              "title": "Sessanta giorni",
+              "descriptionMediumShow": true,
+              "description-medium": "Stagione 3, episodio 4",
+
+              "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9040327&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",
+
+              "c-embed": {
+                "classEmbedLink" : "js-popup-video",
+                "modalTitle" : "Titolo finestra modale",
+                "modalDescription" : "Descrizione finestra modale",
+                "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9225280&autoplay=true&hideendscreen=1",
+                "src": "../../images/16x9/3.jpg"
+              }
+            }
+          },
+
+          {            
+            "notOnlyList": true,
+            "c-teaserSmall": {
+
+              "c-icon": {
+                "class": "c-teaserSmall_teaserStatus_icon"
+              },
+              
+              "teaserStatus-text": "online",
+              "teaserStatus-time": "5 giorni",
+
+              "c-label": {
+                "class": "c-label-truncate c-label-small c-label-round c-label-150@md c-label-330@lg",
+                "label": "The fall - caccia al serial killer"
+              },
+
+              "title": "Episodio 4",
+              "descriptionMediumShow": true,
+              "description-medium": "Stagione 3, episodio 4",
+
+              "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9040327&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",
+
+              "c-embed": {
+                "classEmbedLink" : "js-popup-video",
+                "modalTitle" : "Titolo finestra modale",
+                "modalDescription" : "Descrizione finestra modale",
+                "href":"//tp.srgssr.ch/p/rsi/portal-detail?urn=urn:rsi:video:9225280&autoplay=true&hideendscreen=1",
+                "src": "../../images/16x9/4.jpg"
+              }
+            }
+          }          
+        ]
+      }
+    },
+
+    "s-slider1": {
+      "class": "u-padd-top u-padd-btm-none",
+      "c-sectionTitle":{
+        "title-short": "I film della settimana"
+      },
+
+      "teaserShow": true,
+      "c-slider":{
+        "c-moreBtn": false,
+
+        "teasers": [
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/1.jpg",
+                  "href": "#",
+                  "showPlayIcon": false
+                },
+
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/2.jpg",
+                  "href": "#",
+                  "showPlayIcon": false
+                },
+
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la2.png"
+                }
+              },
+              
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }  
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/3.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/4.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/5.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            } 
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/6.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/7.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          },
+
+          {
+            "c-teaser":{
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaserImg":{
+                "c-embed":{
+                  "src": "../../images/16x9/8.jpg",
+                  "href": "#"
+                },
+                "c-imgActions": false,
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-bgTransparent",
+                  "badge": "Prima TV"
+                },
+                "c-vectorLogoShow": true,
+                "c-vectorLogo": {
+                  "nameLogo": "la1.png"
+                }
+              },
+              "c-teaser-label": false,
+              "title": "Un poliziotto ancora in prova",
+              "descriptionShow": true,
+              "description": "LA 1, giovedì 9 novembre, 12:50",
+            
+              "shareShow": false
+            }
+          }            
+        ]
+      }
+    },
+
+    "s-teasers": {
+      "c-sectionTitle": false,
+
+      "c-sectionTitleExternal": {
+        "title-short": "Le nostre promo"
+      },
+
+      "teasers": [
+        {
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/8.jpg",
+                "href": "#",
+                "showPlayIcon": true,
+
+                "c-playIcon":{
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px",
+                  "size": "34"
+                }                
+              }
+            },
+
+            "title": "La nuova serie targata RSI",
+            "descriptionShow": false,
+            "shareShow": false
+          }              
+        },
+
+        {
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/7.jpg",
+                "href": "#",
+                "showPlayIcon": true,
+
+                "c-playIcon":{
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px",
+                  "size": "34"
+                }               
+              }
+            },
+
+            "title": "Major Crimes - 5a stagione",
+            "descriptionShow": false,
+            "shareShow": false
+          }              
+        },
+
+        {
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/6.jpg",
+                "href": "#",
+                "showPlayIcon": true,
+
+                "c-playIcon":{
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px",
+                  "size": "34"
+                }               
+              }
+            },
+            "title": "Made in Europe - I testimoni",
+            "descriptionShow": false,
+            "shareShow": false
+          }              
+        },
+
+        {
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/5.jpg",
+                "href": "#",
+                "showPlayIcon": true,
+                
+                "c-playIcon":{
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px",
+                  "size": "34"
+                }                
+              }
+            },
+            "title": "Homeland",
+            "descriptionShow": false,
+            "shareShow": false
+          }              
+        }
+      ]
+    },
+
+    "s-teaserJumbotrone": {
+      "c-carouselWithDetail": {
+        "items": [
+          {
+            "c-jumbotron": {
+            "imageDesktop": "../../images/16x9/scienza/1.jpg",
+            "imageSmartphone": "../../images/4x3/scienza/1.jpg",          
+            "title": "Basket per la vita",
+            "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+            "info": "La seconda stagione",
+
+            "c-button": {
+              "label": "scheda serie"
+            },
+
+            "c-buttonIconPlay": {
+              "label": "Rivedi ultimo episodio"
+            }
+          },
+
+          "c-heroImg-poster": {              
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/1.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/1.jpg",
+              "noLinks": true,
+              "imgLink": false
+            } 
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/2.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/2.jpg",           
+              "title": "Il Signore degli anelli",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "Quindicesima stagione",
+              "schedulingVector": "la2",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              },
+
+              "schedulingTex-nLine": [
+                {
+                  "text": "Lunedì"
+                },
+
+                {
+                  "text": "alle 21:00"
+                },
+
+                {
+                  "text": "su LA 2"
+                }
+              ]
+            },
+
+            "c-heroImg-poster": {     
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/2.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/2.jpg",
+              "noLinks": true,
+              "imgLink": false,
+              "c-vectorLogo": {
+                "nameLogo": "la2.png"
+              }
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/3.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/3.jpg",             
+              "title": "Mondiali 2018",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "La seconda stagione",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              }
+            },
+
+            "c-heroImg-poster": {
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/3.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/3.jpg",
+              "noLinks": true,
+              "imgLink": false
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/4.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/4.jpg",            
+              "title": "La grande partita",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "Il ritorno",
+              "schedulingVector": "la2",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              },
+
+              "schedulingTex-nLine": [
+                {
+                  "text": "Mercoledì"
+                },
+
+                {
+                  "text": "alle 15:30"
+                },
+
+                {
+                  "text": "su LA 2"
+                }
+              ]
+            },
+
+            "c-heroImg-poster": {           
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/4.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/4.jpg",
+              "noLinks": true,
+              "imgLink": false,
+              "c-vectorLogo": {
+                "nameLogo": "la2.png"
+              }
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/5.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/5.jpg",            
+              "title": "Il ritorno",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "La seconda stagione",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              }
+            },
+
+            "c-heroImg-poster": {           
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/5.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/5.jpg",
+              "noLinks": true,
+              "imgLink": false
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/6.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/6.jpg",          
+              "title": "La leggenda ed il suo amico",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "La prima stagione",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              }
+            },
+
+            "c-heroImg-poster": {           
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/6.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/6.jpg",
+              "noLinks": true,
+              "imgLink": false
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/scienza/7.jpg",
+              "imageSmartphone": "../../images/4x3/scienza/7.jpg",             
+              "title": "La foca assassina",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "Stagione unica",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              }
+            },
+
+            "c-heroImg-poster": {           
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/scienza/7.jpg",
+              "imageSmartphone": "../../images/5x4/scienza/7.jpg",
+              "noLinks": true,
+              "imgLink": false
+            }
+          },
+
+          {
+            "c-jumbotron": {
+              "imageDesktop": "../../images/16x9/sport/1.jpg",
+              "imageSmartphone": "../../images/4x3/sport/1.jpg",          
+              "title": "Star wars",
+              "description": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend.",
+              "info": "La sesta stagione",
+
+              "c-button": {
+                "label": "scheda serie"
+              },
+
+              "c-buttonIconPlay": {
+                "label": "Rivedi ultimo episodio"
+              }
+            },
+
+            "c-heroImg-poster": {           
+              "class-layout": "c-heroImg-gradientGrayVoid c-heroImg-moreHeight",
+              "imageDesktop": "../../images/3x4/sport/1.jpg",
+              "imageSmartphone": "../../images/5x4/sport/1.jpg",
+              "noLinks": true,
+              "imgLink": false
+            }
+          }
+        ]
+      }
+    },
+
+    "s-teasersLight":{
+      "c-sectionTitle":{
+        "title-short": "A proposito di fiction"  
+      },
+
+      "teasers": [
+        {
+          "teasersGrid": "col-sm-6 col-md-3 col-lg-3 u-push-btm u-padd-btm",
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": true,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/1.jpg",
+                "href": "#",
+                "showPlayIcon": false             
+              }
+            },
+            "title": "La nuova serie targata RSI",
+            "descriptionShow": true,
+            "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+            "shareShow": false
+          }              
+        },
+
+        {
+          "teasersGrid": "col-sm-6 col-md-3 col-lg-3 u-push-btm u-padd-btm",
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": true,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/2.jpg",
+                "href": "#",
+                "showPlayIcon": false             
+              }
+            },
+            "title": "La nuova serie targata RSI",
+            "descriptionShow": true,
+            "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+            "shareShow": false
+          }              
+        },
+
+        {
+          "teasersGrid": "col-sm-6 col-md-3 col-lg-3 u-push-btm u-padd-btm",
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": true,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/3.jpg",
+                "href": "#",
+                "showPlayIcon": false             
+              }
+            },
+            "title": "La nuova serie targata RSI",
+            "descriptionShow": true,
+            "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+            "shareShow": false
+          }              
+        },
+
+        {
+          "teasersGrid": "col-sm-6 col-md-3 col-lg-3 u-push-btm u-padd-btm",
+          "c-teaser": {
+            "c-teaser-label": false,
+            "c-teaserImg":{
+              "c-imgBadgeShow": true,                                    
+              "c-imgActions": false,
+              "c-embed": {
+                "src": "../../images/16x9/4.jpg",
+                "href": "#",
+                "showPlayIcon": false             
+              }
+            },
+            "title": "La nuova serie targata RSI",
+            "descriptionShow": true,
+            "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+            "shareShow": false
+          }              
+        }
+      ]
+    },
+
+    "s-sliderLight": {
+      "c-sectionTitle-light":{
+        "title-short": "Dalle news"  
+      },
+
+      "class": "u-padd-top-none",
+      "c-slider-light":{
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/3.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/2.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-gridClass-img": "col-xs-12",
+              "c-teaser-gridClass-content": "col-xs-12",
+              "c-teaser-label": false,
+              "c-teaserImg":{
+                "c-imgBadgeShow": true,                                    
+                "c-imgActions": false,
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg",
+                  "href": "#",
+                  "showPlayIcon": false             
+                }
+              },
+              "title": "La nuova serie targata RSI",
+              "descriptionShow": true,
+              "description": "Domenica alle 21.55 su LA 1, la 2a stagione della serie francese \"I testimoni \"",
+              "shareShow": false
+            }              
+          }
+        ]
+      }
+    }
+  }
+}

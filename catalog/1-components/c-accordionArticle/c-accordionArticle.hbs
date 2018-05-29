@@ -1,0 +1,74 @@
+
+<div class="c-accordionArticle js-accordion {{class}}">
+
+	{{#each accordionItem}}
+
+		<div class="c-accordionArticle_wrapper {{statusWrapper}}">
+
+
+			<div class="c-accordionArticle_toggler">
+				<span class="c-accordionArticle_toggler-label">
+					{{togglerLabel}}
+				</span>
+
+				<span class="c-accordionArticle_toggler-icon">                  
+					{{> '@c-icon' c-icon icon="angle-down" }}
+				</span>
+			</div>
+
+
+			<div class="c-accordionArticle_body">
+				<div class="row">
+					
+					<div class="{{#if mediaShow}}col-sm-12 col-md-8 col-lg-8{{else}}col-sm-12 col-md-12 col-lg-12{{/if}}">
+
+						<div class="c-accordionArticle_bodyWrap">
+							<p class="c-accordionArticle_body-paragraph c-accordionArticle_body_standardWrapper">
+								<strong>{{paragraphStrong}}</strong><br>
+								{{paragraphNormal}}
+								<i>{{paragraphItalic}}</i> 
+								<a href="#" class="c-accordionArticle_body-link">{{paragraphNormal}}</a>
+							</p>
+
+							<p class="c-accordionArticle_body-paragraph c-accordionArticle_body_standardWrapper">
+								<strong>{{paragraphStrong}}</strong><br>
+								{{paragraphNormal}}
+							</p>
+
+							{{#if listShow}}
+							<ul class="c-accordionArticle_body-list c-accordionArticle_body_standardWrapper">
+								<li>{{listText}}</li>
+								<li>{{listText}}</li>
+								<li>{{listText}}</li>
+								<li><a href="#" class="c-accordionArticle_body-link">{{listText}}</a></li>
+							</ul>
+							{{/if}}
+
+							{{#if numberedListShow}}
+							<ol class="c-accordionArticle_body-list c-accordionArticle_body-numberedList c-accordionArticle_body_standardWrapper">
+								<li>{{listText}}</li>
+								<li>{{listText}}</li>
+								<li>{{listText}}</li>
+								<li><a href="#" class="c-accordionArticle_body-link">{{listText}}</a></li>
+							</ol>
+							{{/if}}
+
+						</div>
+
+					</div>
+
+					{{#if mediaShow}}
+						<div class="col-sm-12 col-md-4 col-lg-4 u-push-top u-push-top-none@md">
+							{{render '@c-embed'c-embed merge="true"}}
+						</div>
+					{{/if}}
+				</div>
+			</div>
+
+
+		</div>   
+
+	{{/each}} 
+
+</div>
+

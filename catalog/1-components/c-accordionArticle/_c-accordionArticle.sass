@@ -1,0 +1,111 @@
+//============================================
+// Accordion
+//============================================
+
+// Light variation
+//.c-accordionArticle-light
+
+// Wrapper
+//============================================
+
+.c-accordionArticle_wrapper
+  width: 100%
+  border-bottom: 0.1rem solid $gray-rat
+
+  &.closed .c-accordionArticle_toggler-icon
+    transform: rotate(0deg)
+    transition: transform .5s
+
+  &.open .c-accordionArticle_toggler-icon
+    transition: transform .5s
+    transform: rotate(180deg)
+
+// Accordion toggler
+.c-accordionArticle_toggler
+  outline: none
+  padding: 2rem 1.4rem
+
+.c-accordionArticle_toggler-label
+  font-family: $font-alt
+  color: $white
+  font-size: 2.5rem
+  font-weight: bold
+
+.c-accordionArticle_toggler-icon
+  margin-top: 0.5rem
+  fill: $white
+  float: right
+
+// Accordion body
+.c-accordionArticle_body
+  color: $color-text
+  line-height: 2.8rem
+  background-color: $gray-void
+  padding: 3.4rem 5rem
+  font-size: 1.8rem
+
+.c-accordionArticle_body-paragraph
+  font-size: $fs-lg
+
+.c-accordionArticle_body-image
+  max-width: 100%
+  display: block
+
+// List
+.c-accordionArticle_body-list
+  margin-left: $space-oneAndHalf
+  list-style-type: disc
+
+.c-accordionArticle_body-numberedList
+  list-style-type: decimal
+
+// Link
+.c-accordionArticle_body-link
+  padding-bottom: 0.2rem
+  border-bottom-style: dotted
+  border-bottom-width: 0.15rem
+  border-bottom-color: $gray-ash
+
+  &:hover
+    color: $gray-rat
+    background-color: $gray-wetDust
+    border-bottom-style: solid
+    border-bottom-color: $gray-rat
+    border-bottom-width: 0.1rem
+
+
+// Generic
+.c-accordionArticle_bodyWrap
+  margin-top: -$space - 0.7
+
+  +mq($bp-md)
+    margin-top: -$space-oneAndHalf - 0.7
+
+.c-accordionArticle_body_standardWrapper
+  margin-top: $space
+  clear: both
+
+  +mq($bp-md)
+    margin-top: $space-oneAndHalf
+
+  +mq("print")
+    margin-top: $space
+
+
+// Light variation
+.c-accordionArticle-light
+
+  .c-accordionArticle_wrapper
+    border-bottom: 0.1rem solid $gray-powder
+
+  .c-accordionArticle_toggler-label
+    color: $gray-void
+
+  .c-accordionArticle_toggler-icon
+    fill: $gray-void
+
+  .c-accordionArticle_body
+    color: $gray-rat
+    background-color: $gray-dust
+
+

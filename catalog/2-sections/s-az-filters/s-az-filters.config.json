@@ -1,0 +1,37 @@
+{
+  "title": "Filtri Az",
+  "label": "s-az-filters",
+  "status": "ready",
+  "context": {
+    "c-titlepage": {
+      "title-page": "Programmi A-Z"
+    },
+
+    "c-buttonTabs": {
+      "class": "u-float-rgt u-d-none u-d-blk@md u-d-blk@lg",
+      "labels": [
+        {
+          "c-label": {
+            "label": "Tutti i canali"
+          }
+        },
+        {
+          "c-label": {
+            "label":"Tv"
+          }
+        },
+        {
+          "c-label": {
+            "label":"Radio"
+          }
+        },
+        {
+          "c-label": {
+            "label":"Web"
+          }
+        }
+      ]
+    }
+
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Section follow us",
+  "label": "s-followUs",
+  "status": "ready",
+  "context": {
+  	"c-followUs": {
+  		"class": "u-pull-top"
+  	}
+  }
+}

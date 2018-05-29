@@ -1,0 +1,31 @@
+{
+	"title": "Field search",
+	"label": "c-fieldSearch",
+	"status": "ready",
+	"context": {
+		"placeholder": "Ricerca per titolo",
+
+		"c-iconSearch": {
+			"icon": "search",
+			"class": "c-fieldSearch_icon c-fieldSearch_icon-search"
+		},
+
+		"c-iconClose": {
+			"icon": "close",
+			"class": "c-fieldSearch_icon"
+		}
+	},
+
+	"variants": [
+	  {
+	      "name": "standard-light",
+	      "label": "c-fieldSearchStandard-light",
+	      "preview": "@preview-light",
+	      "context": {
+	        "class": "c-fieldSearch-light c-fieldSearch-standard c-fieldSearch-textXl",
+	        "label-description": "Cerca",
+	        "placeholder": "Digita la tua ricerca"
+	      }
+	  }
+	]
+}

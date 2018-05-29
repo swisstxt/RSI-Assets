@@ -1,0 +1,63 @@
+//============================================
+// Euro France theme section
+//============================================
+
+// Disposable theme styles for the Euro France
+// event. After their use these styles can be
+// safely deleted.
+
+
+// Wrap
+//============================================
+
+// 1. Extends `.section`
+
+.t-efSection // 1.
+  background-position: 50% 0
+  background-repeat: no-repeat
+  background-size: contain
+  border-top: 0.1rem solid $gray-rat
+
+
+// Logo
+//============================================
+
+.t-efSection_logo
+  width: 11.6rem
+  margin: 0 auto ($space * 3)
+
+  +mq($bp-sm)
+    width: 18.5rem
+
+  +mq($bp-lg)
+    margin-bottom: $space * 5
+    margin-top: $space
+
+
+// CTA
+//============================================
+
+// 1. Extends `.btn`
+
+.t-efSection_cta
+  text-align: right
+  margin-bottom: $space
+
+.t-efSection_ctaBtn // 1.
+  background-color: transparent
+  border-color: $white
+  transition: opacity 0.2s
+  opacity: 0.6
+
+  &:hover,
+  &:focus,
+  &:active
+    opacity: 1
+    background-color: transparent
+    border-color: $white
+
+.t-efSection_ctaBtnIcon
+  +iscale("angle-right", 1.2rem)
+  fill: $white
+  margin-left: $space-third
+  margin-top: -0.2rem

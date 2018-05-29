@@ -1,0 +1,26 @@
+{
+  "title": "Filtered list with text",
+  "label": "c-filteredListWithText",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "class": "c-filteredListWithText-light",
+    "description": false,
+    "title": true,
+
+    "c-sectionTitle": {
+      "class-layout": "c-sectionTitle-noBorder",
+      "title-short": "Lorem ipsum"
+    },
+
+    "labelDefault": "Lorem ipsum",
+
+    "c-iconFilter":{
+        "icon": "angle-down",
+        "class": "c-filteredListWithText_icon c-icon-grayrat"
+    },
+    "c-iconCheckmark": {
+      "icon": "checkmark"
+    }
+  }
+}

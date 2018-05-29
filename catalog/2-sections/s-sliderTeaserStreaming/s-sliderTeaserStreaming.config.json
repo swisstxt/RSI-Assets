@@ -1,0 +1,573 @@
+{
+  "title": "Slider teaser streaming",
+  "label": "s-sliderTeaserStreaming",
+  "status": "ready",
+  "context": {
+    "sectionTitle": false,
+    "class": "section-dark",
+    
+  	"c-sliderTeaserStreaming": {
+		"n-teasersStreaming": [
+		  {
+		    "c-teaserStreaming": {
+                "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                "path-img": "../../images/epg_sport/tennis-erba.jpg",
+                "title": "Wimbledon",
+                "subtitle": "semifinale",
+                "status-show": true,
+                "status-live-show": true,
+                "status-live-past": true,
+
+                "c-liveMark": {
+                    "c-label": {
+                        "label": "Rivedi"
+                    }
+                },
+
+                "n-set-player": [
+                    {
+                        "set-player": "Federer",
+                        "path-setPlayerFlag": "../../images/flag/nations/svizzera.png", 
+                        "n-set-player": [
+                            {                        
+                                "set-result": "6",
+                                "tie-break": "12",
+                                "class-set": "c-teaserStreaming_singleSet-win"
+                            },
+                            {
+                                "set-result": "2"
+                            },
+                            {
+                                "set-result": "6",
+                                "class-set": "c-teaserStreaming_singleSet-win"
+                            },
+                            {
+                                "set-result": "4"
+                            },
+                            {
+                                "set-result": "9"
+                            }
+                        ]
+                    },
+
+                    {
+                        "set-player": "Wawrinka",
+                        "path-setPlayerFlag": "../../images/flag/nations/svizzera.png", 
+                        "n-set-player": [
+                            {                        
+                                "set-result": "6",
+                                "tie-break": "5"
+                            },
+                            {
+                                "set-result": "6",
+                                "class-set": "c-teaserStreaming_singleSet-win"
+                            },
+                            {
+                                "set-result": "1"
+                            },
+                            {
+                                "set-result": "6",
+                                "class-set": "c-teaserStreaming_singleSet-win"
+                            },
+                            {
+                                "set-result": "7"
+                            }
+                        ]
+                    }
+                ]
+		    }		  	
+		  },
+
+		  {
+		    "c-teaserStreaming": {
+				"class": "c-teaserStreaming-race c-teaserStreaming-racePast c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+				"path-img": "../../images/epg_sport/sci.jpg",
+                "title": "Super G Donne Gara",
+                "sub-title": "St. Moritz",
+
+                "status-show": true,
+                "status-label-show": true,
+                "label-status": "Evento concluso",
+
+                "path-flagRacer": "../../images/flag/nations/svizzera.png",
+                "race-result": "1. Lara Gut"
+		    }		  	
+		  },
+
+		  {
+		    "c-teaserStreaming": {
+				"class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+				"path-img": "../../images/epg_sport/calcio.jpg",
+				"title": "Coppa UEFA",
+                "sub-title": "finale",
+                "status-show": true,
+                "status-live-show": true,
+                "status-live-past": true,
+
+                "c-liveMark": {
+                    "c-label": {
+                        "label": "Hilights"
+                    }
+                },
+
+                "n-teams": [
+                    {
+                        "team-name": "Juventus",
+                        "path-flagTeam": "../../images/flag/soccer/juventus.png"
+                    },
+                    {
+                        "team-name": "Real madrid",
+                        "path-flagTeam": "../../images/flag/soccer/real_madrid.png"
+                    }
+                ],
+
+                "match-result": "3-2",
+                "match-result-additional": "dr"
+		    }		  	
+		  },
+
+		  {
+		    "c-teaserStreaming": {
+				"class": "c-teaserStreaming-match c-teaserStreaming js-slider-firstItem c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+				"path-img": "../../images/epg_sport/calcio.jpg",
+				"status-show": true,
+				"status-live-show": true,
+
+				"n-teams": [
+					{
+					    "team-name": "Juventus",
+					    "path-flagTeam": "../../images/flag/soccer/juventus.png"
+					},
+					{
+					    "team-name": "Real madrid",
+					    "path-flagTeam": "../../images/flag/soccer/real_madrid.png"
+					}
+				],
+
+				"match-result": "1-4"
+		    }
+		  },
+
+          {
+            "c-teaserStreaming": {
+                "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                "path-img": "../../images/epg_sport/hockey.jpg",
+                "title": "Playoff",
+                "sub-title": "finale",
+                "status-show": true,
+                "status-live-show": true,
+
+                "n-teams": [
+                    {
+                        "team-name": "Ambrì",
+                        "path-flagTeam": "../../images/flag/hockey/lugano.png"
+                    },
+                    {
+                        "team-name": "Lugano",
+                        "path-flagTeam": "../../images/flag/hockey/davos.png"
+                    }
+                ],
+
+                "match-result": "0-0"
+            }
+          }, 
+
+		  {
+            "c-teaserStreaming": {
+                "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                "path-img": "../../images/epg_sport/tennis-terra.jpg",
+                "title": "Roland Garros",
+                "sub-title": "finale",
+                "status-show": true,
+                "status-label-show": true,
+
+                "n-teams": [
+                    {
+                        "team-name": "Federer",
+                        "path-flagTeam": "../../images/flag/nations/svizzera.png"
+                    },
+                    {
+                        "team-name": "Murray",
+                        "path-flagTeam": "../../images/flag/nations/inghilterra.png"
+                    }
+                ],
+
+                "start-time": "14:00",
+                "label-status": "Domani"
+            }
+		  },
+
+		  {
+		  	"c-teaserStreaming": {
+                "path-img": "../../images/epg_sport/moto.jpg",
+		  		"title": "Moto 2 Mondiale 2017",
+                "sub-title": "Quatar",
+                "status-show": true,
+                "status-label-show": true,
+
+                "start-time": "12:30",
+                "label-status": "13 maggio"
+            }
+		  },
+
+		  {
+		  	"c-teaserStreaming": {                
+		  		"title": "GP di China",
+                "sub-title": "Shanghai",
+                "status-show": true,
+                "status-label-show": true,
+                "path-img": "../../images/epg_sport/f1.jpg",
+
+                "start-time": "15:30",
+                "label-status": "13 maggio"
+            }
+		  },
+
+		  {
+		    "c-teaserStreaming": {
+				"class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+				"path-img": "../../images/epg_sport/generico.jpg",
+                "title": "Curling",
+                "sub-title": "finali",
+				"status-show": true,
+				"status-label-show": true,
+
+				"start-time": "15:30",
+                "label-status": "17 maggio"
+		    }
+		  }, 
+
+          {
+            "c-teaserStreaming": {
+                "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                "path-img": "../../images/epg_sport/tennis-cemento.jpg",
+                "title": "Roland Garros",
+                "sub-title": "finale",
+                "status-show": true,
+                "status-label-show": true,
+
+                "n-teams": [
+                    {
+                        "team-name": "Federer",
+                        "path-flagTeam": "../../images/flag/nations/svizzera.png"
+                    },
+                    {
+                        "team-name": "Murray",
+                        "path-flagTeam": "../../images/flag/nations/inghilterra.png"
+                    }
+                ],
+
+                "start-time": "14:00",
+                "label-status": "19 maggio"
+            }
+          },
+
+          {
+            "c-teaserStreaming": {
+                "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                "path-img": "../../images/epg_sport/ciclismo.jpg",
+                "title": "World Tour",
+                "sub-title": "Down Under",
+                "status-show": true,
+                "status-label-show": true,
+
+                "start-time": "15:30",
+                "label-status": "20 maggio"
+            }
+          }
+
+		]
+    }
+  },
+
+  "variants": [
+    {
+        "name": "light",
+        "label": "s-sliderTeaserStreaming-light",
+        "context": {
+            "sectionTitle": true,
+            "class": "section-light",
+            
+            "c-sectionTitle":{
+                "class-layout": "u-push-btm u-push-btm-none@sm",
+                "secondary-label": "4 eventi"
+            },
+
+            "c-sliderTeaserStreaming": {
+                "class": " c-slider-teaserStreaming c-slider-hoverMagnify c-slider-controlCenter c-slider-light c-slider-slick",
+
+                "n-teasersStreaming": [
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/tennis-erba.jpg",
+                        "title": "Wimbledon",
+                        "subtitle": "semifinale",
+                        "status-show": true,
+                        "status-live-show": true,
+                        "status-live-past": true,
+        
+                        "c-liveMark": {
+                            "c-label": {
+                                "label": "Rivedi"
+                            }
+                        },
+        
+                        "n-set-player": [
+                            {
+                                "set-player": "Federer",
+                                "path-setPlayerFlag": "../../images/flag/nations/svizzera.png", 
+                                "n-set-player": [
+                                    {                        
+                                        "set-result": "6",
+                                        "tie-break": "12",
+                                        "class-set": "c-teaserStreaming_singleSet-win"
+                                    },
+                                    {
+                                        "set-result": "2"
+                                    },
+                                    {
+                                        "set-result": "6",
+                                        "class-set": "c-teaserStreaming_singleSet-win"
+                                    },
+                                    {
+                                        "set-result": "4"
+                                    },
+                                    {
+                                        "set-result": "9"
+                                    }
+                                ]
+                            },
+        
+                            {
+                                "set-player": "Wawrinka",
+                                "path-setPlayerFlag": "../../images/flag/nations/svizzera.png", 
+                                "n-set-player": [
+                                    {                        
+                                        "set-result": "6",
+                                        "tie-break": "5"
+                                    },
+                                    {
+                                        "set-result": "6",
+                                        "class-set": "c-teaserStreaming_singleSet-win"
+                                    },
+                                    {
+                                        "set-result": "1"
+                                    },
+                                    {
+                                        "set-result": "6",
+                                        "class-set": "c-teaserStreaming_singleSet-win"
+                                    },
+                                    {
+                                        "set-result": "7"
+                                    }
+                                ]
+                            }
+                        ]
+                    }		  	
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-race c-teaserStreaming-racePast c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/sci.jpg",
+                        "title": "Super G Donne Gara",
+                        "sub-title": "St. Moritz",
+        
+                        "status-show": true,
+                        "status-label-show": true,
+                        "label-status": "Evento concluso",
+        
+                        "path-flagRacer": "../../images/flag/nations/svizzera.png",
+                        "race-result": "1. Lara Gut"
+                    }		  	
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/calcio.jpg",
+                        "title": "Coppa UEFA",
+                        "sub-title": "finale",
+                        "status-show": true,
+                        "status-live-show": true,
+                        "status-live-past": true,
+        
+                        "c-liveMark": {
+                            "c-label": {
+                                "label": "Hilights"
+                            }
+                        },
+        
+                        "n-teams": [
+                            {
+                                "team-name": "Juventus",
+                                "path-flagTeam": "../../images/flag/soccer/juventus.png"
+                            },
+                            {
+                                "team-name": "Real madrid",
+                                "path-flagTeam": "../../images/flag/soccer/real_madrid.png"
+                            }
+                        ],
+        
+                        "match-result": "3-2",
+                        "match-result-additional": "dr"
+                    }		  	
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-match c-teaserStreaming js-slider-firstItem c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/calcio.jpg",
+                        "status-show": true,
+                        "status-live-show": true,
+        
+                        "n-teams": [
+                            {
+                                "team-name": "Juventus",
+                                "path-flagTeam": "../../images/flag/soccer/juventus.png"
+                            },
+                            {
+                                "team-name": "Real madrid",
+                                "path-flagTeam": "../../images/flag/soccer/real_madrid.png"
+                            }
+                        ],
+        
+                        "match-result": "1-4"
+                    }
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/hockey.jpg",
+                        "title": "Playoff",
+                        "sub-title": "finale",
+                        "status-show": true,
+                        "status-live-show": true,
+        
+                        "n-teams": [
+                            {
+                                "team-name": "Ambrì",
+                                "path-flagTeam": "../../images/flag/hockey/lugano.png"
+                            },
+                            {
+                                "team-name": "Lugano",
+                                "path-flagTeam": "../../images/flag/hockey/davos.png"
+                            }
+                        ],
+        
+                        "match-result": "0-0"
+                    }
+                  }, 
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/tennis-terra.jpg",
+                        "title": "Roland Garros",
+                        "sub-title": "finale",
+                        "status-show": true,
+                        "status-label-show": true,
+        
+                        "n-teams": [
+                            {
+                                "team-name": "Federer",
+                                "path-flagTeam": "../../images/flag/nations/svizzera.png"
+                            },
+                            {
+                                "team-name": "Murray",
+                                "path-flagTeam": "../../images/flag/nations/inghilterra.png"
+                            }
+                        ],
+        
+                        "start-time": "14:00",
+                        "label-status": "Domani"
+                    }
+                  },
+        
+                  {
+                      "c-teaserStreaming": {
+                        "path-img": "../../images/epg_sport/moto.jpg",
+                          "title": "Moto 2 Mondiale 2017",
+                        "sub-title": "Quatar",
+                        "status-show": true,
+                        "status-label-show": true,
+        
+                        "start-time": "12:30",
+                        "label-status": "13 maggio"
+                    }
+                  },
+        
+                  {
+                      "c-teaserStreaming": {                
+                          "title": "GP di China",
+                        "sub-title": "Shanghai",
+                        "status-show": true,
+                        "status-label-show": true,
+                        "path-img": "../../images/epg_sport/f1.jpg",
+        
+                        "start-time": "15:30",
+                        "label-status": "13 maggio"
+                    }
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/generico.jpg",
+                        "title": "Curling",
+                        "sub-title": "finali",
+                        "status-show": true,
+                        "status-label-show": true,
+        
+                        "start-time": "15:30",
+                        "label-status": "17 maggio"
+                    }
+                  }, 
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-set c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/tennis-cemento.jpg",
+                        "title": "Roland Garros",
+                        "sub-title": "finale",
+                        "status-show": true,
+                        "status-label-show": true,
+        
+                        "n-teams": [
+                            {
+                                "team-name": "Federer",
+                                "path-flagTeam": "../../images/flag/nations/svizzera.png"
+                            },
+                            {
+                                "team-name": "Murray",
+                                "path-flagTeam": "../../images/flag/nations/inghilterra.png"
+                            }
+                        ],
+        
+                        "start-time": "14:00",
+                        "label-status": "19 maggio"
+                    }
+                  },
+        
+                  {
+                    "c-teaserStreaming": {
+                        "class": "c-teaserStreaming-match c-teaserStreaming c-slider_item js-slider_item u-push-btm u-push-btm-threeQuarter@sm",
+                        "path-img": "../../images/epg_sport/ciclismo.jpg",
+                        "title": "World Tour",
+                        "sub-title": "Down Under",
+                        "status-show": true,
+                        "status-label-show": true,
+        
+                        "start-time": "15:30",
+                        "label-status": "20 maggio"
+                    }
+                  }
+        
+                ]
+            }      
+        }
+    }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Teasers small",
+  "label": "s-teasersSmall",
+  "status": "ready",
+  "context": {
+    "teasers": [
+    	{
+        "c-teaserSmall": {
+          "descriptionShort" : false
+        }
+      },
+    	{
+        "c-teaserSmall": {
+          "descriptionShort" : false
+        }
+      },
+    	{
+        "c-teaserSmall": {
+          "descriptionShort" : false
+        }
+      }
+    ]
+  }
+}

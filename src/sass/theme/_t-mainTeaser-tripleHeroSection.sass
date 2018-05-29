@@ -1,0 +1,28 @@
+//============================================
+// Main Teaser - Triple Hero theme section
+//============================================
+
+// Disposable theme styles for the Main Teaser - Triple Hero Section
+
+
+// Share label display
+//============================================
+.c-heroImg_shareLabel
+
+  // Smartphone no label variation
+  &-noLabel\@xs
+    display: none
+
+    +mq($bp-sm)
+      display: inline
+
+  // Md no label variation
+  &-noLabel\@md
+    +mq($bp-md)
+      +mq($bp-lg-down)
+        display: none
+
+  // Lg no label variation
+  &-noLabel\@lg
+    +mq($bp-lg)
+      display: none

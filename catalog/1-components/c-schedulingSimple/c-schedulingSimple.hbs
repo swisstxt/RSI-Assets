@@ -1,0 +1,19 @@
+<div class="c-schedulingSimple {{class}} {{class-layout}}">
+	<div class="c-schedulingSimple_wrapper">
+		<div class="c-schedulingSimple_row c-schedulingSimple_row-days">
+			{{#each n-cell}}
+				<div class="c-schedulingSimple_cell {{class-cell}}">
+					<span class="c-schedulingSimple_text">{{day}}</span>
+				</div>
+			{{/each}}
+		</div>
+
+		<div class="c-schedulingSimple_row c-schedulingSimple_row-hours">
+			{{#each n-cell}}
+				<div class="c-schedulingSimple_cell {{class-cell}}">
+					<span class="c-schedulingSimple_text c-schedulingSimple_text-hour">{{hour}}</span>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+</div>

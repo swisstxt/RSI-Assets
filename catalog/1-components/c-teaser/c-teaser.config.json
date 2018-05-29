@@ -1,0 +1,58 @@
+{
+  "title": "Teaser",
+  "label": "c-teaser",
+  "status": "ready",
+  "context": {
+    "c-teaser-label": true,
+    "shareShow": true,
+    "descriptionShow": true,
+    "infoShow": false,  
+
+    "c-teaserImg": {
+      "class": "c-teaser_img"
+    },
+
+    "c-iconShare": {
+      "icon": "share",
+      "class": "c-teaser_shareIcon"
+    }
+  },
+
+  "variants": [
+    {
+      "name": "Secondary label",
+      "label": "c-teaser-secondaryLabel",
+      "context":{
+        "secondaryInfo": "16 maggio 2018, da News"
+      }
+    },
+    
+    {
+      "name": "light",
+      "label": "c-teaser-light",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-teaser-light",
+        "c-label": {
+          "class": "c-label-light c-label-small c-label-round"
+        },
+
+        "c-teaserImg": {
+          "class": "c-teaser_img "
+        },
+
+        "c-iconShare": {
+          "icon": "share",
+          "class": "c-teaser_shareIcon"
+        }
+      }
+    },
+    {
+      "name": "Sport results",
+      "label": "sportResults",
+      "context": {
+        "c-sportResult": true
+      }
+    }
+  ] 
+}

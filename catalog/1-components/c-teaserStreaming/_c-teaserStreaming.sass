@@ -1,0 +1,313 @@
+//============================================
+// Teaser streaming
+//============================================
+
+
+// Wrapper
+//============================================
+
+.c-teaserStreaming
+  display: inline-block
+  position: relative
+  width: 26rem
+
+// Variation coming soon
+//.c-teaserStreaming-comingSoonLive
+
+// Variation race past
+//.c-teaserStreaming-racePast
+
+// Variation set
+//.c-teaserStreaming-set
+
+
+// Img
+//============================================
+
+.c-teaserStreaming_wrapImg
+  position: relative
+  overflow: hidden
+  border-radius: 0.5rem
+
+  &::before
+    display: block
+    content: ""
+    padding-bottom: (9 / 16) * 100%
+
+    +mq($bp-lg-down)
+      +mq($bp-md)
+        padding-bottom: (8 / 16) * 100%
+
+  &::after
+    +pos(0, all)
+    content: ""
+    background: rgba($black, 0.55)
+
+.c-teaserStreaming_img
+  +pos(0, all)
+  width: 100%
+  display: block
+  transform: scale(1.1)
+
+
+// Head
+//============================================
+
+.c-teaserStreaming_head
+  +pos($space, top)
+  width: 100%
+  padding: 0 $space-half
+  text-align: center
+
+  +mq($bp-lg-down)
+    +mq($bp-md)
+      top: $space-half
+
+.c-teaserStreaming_title
+  font-size: $fs-lg
+  font-weight: normal
+  color: rgba($white, 0.85)
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+  +mq($bp-lg-down)
+    +mq($bp-md)
+      font-size: $fs
+
+.c-teaserStreaming_subTitle
+  display: block
+  margin-top: 0.3rem
+  font-size: $fs-xs
+  font-weight: 200
+  font-family: $font-alt
+  text-transform: uppercase
+  color: rgba($white, 0.85)
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+  +mq($bp-lg-down)
+    +mq($bp-md)
+      font-size: $fs-xs - 0.1
+
+
+// Info
+//============================================
+
+.c-teaserStreaming_info
+  +pos(6rem, top)
+  display: block
+  width: 100%
+  font-family: $font-alt
+  color: rgba($white, 0.85)
+  text-shadow: $text-shadow
+
+  +mq($bp-lg-down)
+    +mq($bp-md)
+      top: 4.5rem
+
+// In progress
+.c-teaserStreaming_inProgress
+  display: block
+  margin-top: 2rem
+  text-transform: uppercase
+  text-align: center
+  font-size: $fs-lg
+  font-weight: 200
+
+// Time to start
+.c-teaserStreaming_startTime
+  +pos(0 50%, top left)
+  transform: translateX(-50%)
+  display: block
+  margin-top: 0.5rem
+  text-transform: uppercase
+  text-align: center
+  font-size: $fs-h1-md - 0.2
+  font-weight: 200
+
+// Teams
+.c-teaserStreaming_team
+  +pos(0.5rem, top)
+  width: 7rem
+  height: 5.5rem
+  text-align: center
+
+  &-0
+    left: 1rem
+
+  &-1
+    right: 1rem
+
+.c-teaserStreaming_teamFlag
+  display: block;
+  width: 3rem
+  margin-top: -1.3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  // Forzatura quando l'elemento è all'interno dello slicker
+  .slick-slide &
+    display: inline-block !important
+
+.c-teaserStreaming_teamName
+  display: block
+  position: absolute
+  bottom: 0
+  width: 100%
+  margin-top: 0.8rem
+  text-transform: uppercase
+  font-size: $fs-xs - 0.1
+  font-weight: 200
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+// Match result
+.c-teaserStreaming_matchResult
+  +pos(0 50%, top left)
+  transform: translateX(-50%)
+  display: block
+  margin-top: 0.5rem
+  text-transform: uppercase
+  text-align: center
+  font-size: $fs-h1-md - 0.2
+  font-weight: 200
+
+.c-teaserStreaming_matchResultAdditional
+  display: inline-block
+  margin-left: -0.4rem
+  font-size: $fs-sm
+  font-weight: 200
+
+// Race
+.c-teaserStreaming_raceResult
+  +pos(0.9rem, top)
+  display: block
+  width: 100%
+  text-align: center
+
+  // Variation race past
+  .c-teaserStreaming-racePast &
+    top: 1.5rem
+
+.c-teaserStreaming_racerFlag
+  display: inline-block
+  width: 2.5rem
+  margin-bottom: 0.6rem
+  margin-right: 0.5rem
+
+  // Forzatura quando l'elemento è all'interno dello slicker
+  .slick-slide &
+    display: inline-block !important
+
+.c-teaserStreaming_racerName
+  font-size: $fs
+  font-weight: 200
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  max-width: 19.5rem
+
+  // Variation race past
+  .c-teaserStreaming-racePast &
+    font-size: $fs-lg
+
+.teaserStreaming_raceNote
+  display: block
+  font-size: $fs-xs
+  font-weight: 200
+  margin-top: -0.2rem
+
+// Set
+.c-teaserStreaming_setPlayer
+  +pos(0.7rem 0, top left)
+  width: 100%
+
+  &-1
+    top: 3.3rem
+
+.c-teaserStreaming_setPlayerInfo
+  +pos(0 $space-half, top left)
+
+.c-teaserStreaming_setPlayerName
+  display: inline-block
+  margin-left: 3.3rem
+  font-size: $fs
+  font-weight: 200
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  max-width: 9.5rem
+
+.c-teaserStreaming_setPlayerFlag
+  +pos(0, top left)
+  display: block
+  width: 2.5rem
+  margin-bottom: $space-half
+  margin-right: 0.5rem
+
+  // Forzatura quando l'elemento è all'interno dello slicker
+  .slick-slide &
+    display: inline-block !important
+
+.c-teaserStreaming_setPoints
+  +pos(0.1rem $space-half, top right)
+  font-size: $fs-sm
+  font-weight: 200
+
+.c-teaserStreaming_singleSet
+  display: inline-block
+  min-width: 1.8rem
+  text-align: center
+  font-size: $fs-sm
+  line-height: $fs-sm
+
+  &-win
+    font-weight: 600
+
+.c-teaserStreaming_tieBreak
+  display: inline-block
+  width: 0.8rem
+  vertical-align: super
+  font-size: $fs-xs - 0.2rem
+  text-align: left
+  overflow: visible
+  margin-left: -0.3rem
+
+
+// Status
+//============================================
+
+.c-teaserStreaming_status
+  +pos(0, bottom)
+  width: 100%
+  text-align: center
+
+// Live mark
+.c-teaserStreaming_statusLive
+  position: absolute
+  top: 0.3rem
+  left: 50%
+  transform: translate(-50%, -100%)
+
+// label
+.c-teaserStreaming_labelStatus
+  display: inline-block
+  padding: 0.1rem 0.9rem
+  font-family: $font-alt
+  font-size: $fs-sm
+  color: rgba($white, 0.85)
+  background: rgba($black, 0.7)
+
+  // Variation coming soon live
+  .c-teaserStreaming-comingSoonLive &
+    background: $primary
+
+.c-teaserStreaming_typeStatus
+  text-transform: uppercase
+  
+

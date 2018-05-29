@@ -1,0 +1,1192 @@
+{
+  "title": "News home",
+  "label": "News home",
+  "status": "ready",
+  "context": {
+    "mainTeaserShow": true,
+
+    "s-header": {
+      "c-header": {
+        "socialShow": true,
+        
+        "appIconShow": true,
+        "class-appImg": "c-header_appImg-noShadow",
+        "description-app-firstLine": "APP RSI",
+        "description-app-secondLine": "NEWS",
+        "path-iconApp": "/images/app/icon-app-news.jpg",
+
+        "slogan-play": false,
+
+        "socialShow": true,
+        "c-header-socialItems": [
+          {
+            "c-iconSocial": {
+              "icon": "facebook",
+              "class": "c-header_socialIcon c-header_socialIcon-fb"
+            }
+          },
+
+          {
+            "c-iconSocial": {
+              "icon": "twitter",
+              "class": "c-header_socialIcon c-header_socialIcon-tw"
+            }
+          },
+
+          {
+            "c-iconSocial": false
+          }
+        ],
+
+        "c-header-metaItems": [
+          {},
+          {},
+          {},
+          {
+            "metaItemExist": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "id": 1,
+            "title": "News",
+            "link-mode": "section",
+            "items": [
+              {
+                "title": "Ticino, Grigioni e Insubria",
+                "link-mode": "link"
+              },
+              {
+                "title": "Svizzera",
+                "link-mode": "link"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "s-mainTeasersSoft": {
+      "c-heroImg": {
+        "class": "c-heroImg-4:3",
+        "imageDesktop": "../../images/4x3/1.jpg",
+        "imageSmartphone": "../../images/5x4/1.jpg",
+
+        "playIconShow": false
+      },
+
+      "teasers": [
+          {
+            "c-teaser": {
+              "title": "Lugano messo con le spalle al muro",
+              "description": "Arriva la terza vittoria consecutiva del Berna contro i bianconeri.",
+              
+              "c-label": {
+                "label": "Ticino, grigioni e insubria"              
+              },
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Reportage"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                },
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": true,
+                  "audio": false
+                }
+              }            
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Torino, migranti da spostare",
+              "description": "Profughi fuggiti dalla Libia vivono nei palazzi dell'ex villaggio olimpico.",
+              
+              "c-label": {
+                "label": "Mondo"              
+              },
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }
+          }
+      ] 
+    },
+
+
+    "s-mostPopularAndTeasers": {
+      "class": "u-pull-btm-oneAndHalf u-pull-btm-none@md u-pull-top-oneAndHalf u-pull-top-none@md",
+      "c-sectionTitleShow": false,
+
+      "teasers": [
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Hillary Clinton has emerged from the investigation into her email practices with more voters saying she cannot be trusted.",
+            "c-label": {
+              "label": "politica"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/8.jpg"
+              }
+            }
+          }
+        },
+
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+            "c-label": {
+              "label": "mondo"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              },
+
+              "c-embed": {
+                "src": "../../images/16x9/4.jpg"
+              }
+            }
+          }          
+        }
+      ]
+    },
+
+
+    "s-teasers": {
+      "class": "u-pull-btm u-pull-btm-none@sm",
+      "moreBtShow": false,
+      "c-sectionTitle": false,
+
+      "teasers": [
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Hillary Clinton has emerged from the investigation into her email practices with more voters saying she cannot be trusted.",
+            "c-label": {
+              "label": "politica"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/8.jpg"
+              }
+            }
+          }
+        },
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+            "c-label": {
+              "label": "mondo"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              },
+
+              "c-embed": {
+                "src": "../../images/16x9/4.jpg"
+              }
+            }
+          }          
+        },
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+            "c-label": {
+              "label": "Sport"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+
+              "c-imgActions": {
+                "gallery": false,
+                "video": false,
+                "audio": false
+              },
+
+              "c-embed": {
+                "src": "../../images/16x9/6.jpg"
+              }
+            }
+          } 
+        },
+        {
+          "c-teaser": {
+            "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+            "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+            "c-label": {
+              "label": "Sport"              
+            },
+
+            "c-teaserImg": {
+              "c-imgBadge": {
+                "badge": "Olimpiadi"
+              },
+
+              "c-imgActions": {
+                "gallery": false,
+                "audio": false
+              },
+
+              "c-embed": {
+                "src": "../../images/16x9/5.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+
+
+    "s-sliderShortNews": {
+      "c-sliderTeaserSmall": {
+
+        "smallTeasers": [
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Gorsuch ha giurato",
+              "description-medium": "Venerdì 14 Feb 2017, ore 10:29",
+              "c-label": {
+                "label": "mondo"
+              }
+            }
+          },
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Primo treno diretto da Londra alla Cina",
+              "description-medium": "Venerdì 14 Feb 2017, ore 9:29",
+              "c-label": {
+                "label": "mondo"
+              }
+            }            
+          },
+          {
+            "c-teaserSmall-descXxs": {
+              "title": "Vallese, arrestati otto svaligiatori",
+              "description-medium": "Giovedì 13 Feb 2017, ore 17:02",
+              "c-label": {
+                "label": "svizzera"
+              }
+            }              
+          },
+          {
+             "c-teaserSmall-descXxs": {
+              "title": "Lesionata una condotta principale",
+              "description-medium": "Giovedì 13 Feb 2017, ore 12:23",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }                         
+          },
+          {
+             "c-teaserSmall-descXxs": {
+              "title": "Tampona la coda, è grave",
+              "description-medium": "Mercoledì 12 Feb 2017, ore 09:43",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }             
+          },
+          {
+           
+             "c-teaserSmall-descXxs": {
+              "title": "In tre lasciano l'ISS",
+              "description-medium": "Martedì 11 Feb 2017, ore 22:40",
+              "c-label": {
+                "label": "Ticino, Grigioni e Insubria"
+              }
+            }            
+          },
+          {
+            
+          },
+          {
+            
+          }
+        ]
+      }
+    },
+
+
+    "s-nouvoTeasers": {
+      
+    },
+
+
+    "s-teasersSmall": {
+      "teasers": [
+        {
+          "c-teaserSmall": {
+            "title": "Telegiornale",
+            "c-embed": {
+              "showPlayIcon": true,
+              "src": "../../images/16x9/3.jpg"
+            },
+
+            "c-label": {
+              "label": "informazione"
+            }          
+          }
+        },
+        {
+          "c-teaserSmall": {
+            "title": "Il Quotidiano",
+            "c-embed": {
+              "showPlayIcon": true,
+              "src": "../../images/16x9/4.jpg"
+            },
+
+            "c-label": {
+              "label": "informazione"
+            }          
+          }
+        },
+        {
+          "c-teaserSmall": {
+            "title": "Il Radiogiornale",
+            "c-embed": {              
+              "src": "../../images/16x9/6.jpg",
+
+              "showPlayIcon": true,
+              "c-playIcon": {
+                "c-iconPlay": {
+                  "class": "c-playIcon_icon",
+                  "icon": "sound"
+                }
+              }
+            },
+
+            "c-label": {
+              "label": "informazione"
+            }           
+          }
+        }
+      ]
+    },
+
+    "s-feature": {
+      "teasers": [
+        {
+          "c-teaserHorzVert": {
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/8.jpg"
+              },
+
+              "c-imgActions": {
+                "gallery": false,
+                "video": false,
+                "audio": false
+              }
+            }
+          }
+        },
+        {
+          "c-teaserHorzVert": {
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/3.jpg"
+              },
+
+              "c-imgActions": {
+                "gallery": false,
+                "video": false,
+                "audio": false
+              }
+            }
+          }
+        },
+        {
+          "c-teaserHorzVert": {
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/6.jpg"
+              },
+
+              "c-imgActions": {
+                "video": false,
+                "audio": false
+              }
+            }
+          }
+        },
+        {
+          "c-teaserHorzVert": {
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/7.jpg"
+              },
+
+              "c-imgActions": {
+                "gallery": false,
+                "audio": false
+              }
+            }
+          }
+        }
+      ]
+    },
+
+
+    "s-sliderLight-1": {
+      "class": "",
+
+      "c-sectionTitle-light": {
+        "title-short": "Cultura"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Hillary Clinton has emerged from the investigation into her email practices with more voters saying she cannot be trusted.",
+              "c-label": {
+                "label": "politica"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "mondo"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": true,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }          
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "Olimpiadi"
+                },
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          }
+        ]
+      }
+    },
+
+
+    "s-sliderLight": {
+      "class": "u-pull-top-oneAndHalf@sm",
+
+      "c-sectionTitle-light": {
+        "title-short": "Cultura"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Hillary Clinton has emerged from the investigation into her email practices with more voters saying she cannot be trusted.",
+              "c-label": {
+                "label": "politica"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "mondo"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": true,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }          
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "video": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-slider": {
+      "c-sectionTitle": {
+        "title-short": "I programmi di News"
+      },
+
+      "c-slider": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Hillary Clinton has emerged from the investigation into her email practices with more voters saying she cannot be trusted.",
+              "c-label": {
+                "label": "politica"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "mondo"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }          
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            } 
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "title": "Emails Weigh on Clinton, Poll Finds, as Trump Pulls Even",
+              "description": "Want to Live in Far East Russia? Wimps Need Not Apply.",
+              "c-label": {
+                "label": "Sport"              
+              },
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgBadgeShow": false,
+
+                "c-imgActions": {
+                  "gallery": false,
+                  "audio": false
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+
+
+  "variants": [
+    {
+      "name": "newsRelated",
+      "label": "news + related",
+      "context": {
+        "mainTeaserShow": false,
+        "mainTeaserRelatedShow": true,
+
+        "s-mainTeasersSoft": {
+          "c-heroImgRelated": {
+            "imageDesktop": "../../images/4x3/2.jpg",
+            "imageSmartphone": "../../images/5x4/2.jpg"
+          }
+        }
+      }
+    },
+
+    {
+      "name": "bigNews",
+      "label": "big news",
+      "context": {
+        "bigNewsShow": true,
+
+        "s-mainWide": {
+          "class": "u-pull-top-threeQuarter u-pull-top-none@sm",
+
+          "c-heroImgWide": {
+            "imageDesktop": "../../images/16x7/2.jpg",
+            "imageSmartphone": "../../images/5x4/2.jpg"
+          }
+        }
+      }
+    },
+
+    {
+      "name": "bigNewsLiveTickerAndRelated",
+      "label": "big news + ticker and related",
+      "context": {
+        "bigNewsliveTickerAndRelatedShow": true,
+
+        "s-mainWideLiveTickerRelated": {
+          "class": "u-pull-top-threeQuarter u-pull-top-none@sm"
+        }
+      }
+    },
+
+    {
+      "name": "bigNewsTicker",
+      "label": "big news + ticker",
+      "context": {
+        "bigNewsliveTickerAndRelatedShow": true,
+
+        "s-mainWideLiveTickerRelated": {
+          "class": "u-pull-top-threeQuarter u-pull-top-none@sm",
+
+          "c-heroImgWide": {
+            "relatedContentShow": false
+          }
+        }
+      }
+    },
+
+    {
+      "name": "bigNewsRelated",
+      "label": "big news + related",
+      "context": {
+        "bigNewsliveTickeRelatedShow": true,
+
+        "s-mainWideRelated": {
+          "class": "u-pull-top-threeQuarter u-pull-top-none@sm"
+        }
+      }
+    }
+
+  ]
+}

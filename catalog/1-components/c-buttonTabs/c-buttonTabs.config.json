@@ -1,0 +1,36 @@
+{
+  "title": "Tabs to button style",
+  "label": "c-buttonTabs",
+  "status": "ready",
+  "context": {
+    "labels": [{
+        "c-label": {
+          "href": true,
+          "label": "Tab 1",
+          "class": "is-active c-label-small c-label-round"
+          }
+      },
+      {
+        "c-label": {
+          "href": true,
+          "label": "Tab 2",
+          "class": "c-label-small c-label-round"
+        }
+      },
+      {
+        "c-label": {
+          "href": true,
+          "label": "Tab 3",
+          "class": "c-label-small c-label-round"
+        }
+      },
+      {
+        "c-label": {
+          "href": true,
+          "label": "Tab 4",
+          "class": "c-label-small c-label-round"
+        }
+      }]
+  }
+
+}

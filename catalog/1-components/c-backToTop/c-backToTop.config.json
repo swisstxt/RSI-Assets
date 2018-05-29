@@ -1,0 +1,11 @@
+{
+	"title": "Button back to top",
+	"label": "c-backToTop",
+	"status": "ready",
+	"context": {
+		"c-iconUpwards": {
+			"icon": "arrow-upwards",
+			"class": "c-backToTop_iconEl"
+		}
+	}
+}

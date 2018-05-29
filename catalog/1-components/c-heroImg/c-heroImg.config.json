@@ -1,0 +1,342 @@
+{
+  "title": "Hero image",
+  "label": "c-heroImg",
+  "status": "ready",
+  "context": {
+    "imageDesktop": "../../images/16x9/default.jpg",
+    "imageSmartphone": "../../images/5x4/default.jpg",
+    "titleShow": true,
+    "descriptionShow": true,
+    "dataShow": false,
+    "sourceShow": false,
+    "nouvoShow": false,
+    "infoShow": false,  
+
+    "badgeShow": false,
+    "c-imgBadge": {
+      "class": "c-imgBadge-topLft"
+    },
+
+    "labelShow": true,
+    "c-label": {
+      "class": "c-label-alt c-label-bgGrayRatAlpha"
+    },
+
+    "playIconAbsolute": false,
+    "playIconShow": true,
+    "c-playIcon": {
+      "size": "lg"
+    },
+
+    "shareShow": true,
+    "c-iconShare": {
+      "icon": "share",
+      "class": "c-heroImg_shareIcon"
+    },
+
+    "c-imgActions": {
+      "class": "c-imgActions-label c-imgActions-topRgt"
+    }
+  },
+
+  "variants": [
+    {
+      "name": "Data Source",
+      "label": "c-heroImg-dataSource",
+      "context":{
+        "infoShow": true,
+        "dataShow": true,
+        "sourceShow": true,
+        "data":"16 Giugno 2017",
+        "textBeforeSource":"da",
+        "sectionSource":true,
+        "source":"News"
+        
+      }
+    },
+    {
+      "name": "Live ticker",
+      "label": "c-heroImg-liveTicker",
+      "context": {
+        "class": "c-heroImg-16:9 c-heroImg-contentGround c-heroImg-btmContentPushed",
+        "imageDesktop": "../../images/16x9/default.jpg",
+        "imageSmartphone": "../../images/5x4/2.jpg",
+
+        "playIconShow": false,
+        "shareShow": false,
+        "bottomContenShow": true,
+
+        "liveTickerShow": true,        
+        "liveTickerGrid": "col-sm-12 col-lg-12",
+        "c-liveTickerAlert": {
+          "class": "c-liveTickerAlert-small"
+        }
+      }
+    },
+
+    {
+      "name": "video",
+      "label": "c-heroImg-video",
+      "context": {
+        "class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+        "imageDesktop": "../../images/1x1/default.jpg",
+        "imageSmartphone": "../../images/1x1/default.jpg",
+
+        "imgLink": true,
+        "c-imgActions": false,
+        "shareShow": false,
+        "labelShow": false,
+        "descriptionShow": false,
+        "playIconShow": false,
+        "playIconAbsolute": true,
+        
+        "c-playIcon": {
+          "size": "44",
+          "class": "c-playIcon-rettangle c-playIcon-sm@xs" 
+        }
+      }
+    },
+
+    {
+      "name": "video16x9",
+      "label": "c-heroImg-video16x9",
+      "context": {
+        "class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-playCenter c-heroImg-16:9",
+        "imageDesktop": "../../images/16x9/default.jpg",
+        "imageSmartphone": "../../images/16x9/default.jpg",
+
+        "imgLink": true,
+        "shareShow": false,
+        "labelShow": false,
+        "playIconShow": false,
+        "c-imgActions": false,
+        "playIconAbsolute": true,
+
+        "c-playIcon": {
+          "size": "44",
+          "class": "c-playIcon-rettangle c-playIcon-sm@xs" 
+        }
+      }
+    },
+
+    {
+      "name": "wide",
+      "label": "c-heroImg-wide",
+      "context": {
+        "class": "c-heroImg-wide c-heroImg-16:7",
+        "imageDesktop": "../../images/16x7/default.jpg",
+        "playIconShow": false
+      }
+    },
+
+
+    {
+      "name" : "gallery",
+      "label": "c-heroImg-gallery",
+      "context" : {
+        "class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs",
+        "imageSmartphone": "../../images/16x9/default.jpg",
+
+        "imgLink": true,
+        "shareShow": false,
+        "descriptionShow": false,
+        "playIconShow": false,
+        
+        "c-imgActions": {
+          "class": "c-imgActions-label c-imgActions-topRgt",
+          "items": [
+            {
+              "labelActions": "Apri galleria",
+              "numberActions": "5",
+              "c-icon": {
+                "icon": "pics",
+                "class": "c-imgActions_icon"
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    {
+      "name": "wide-liveTickerAndRelated",
+      "label": "c-heroImg-wide-liveTickerAndRelated",
+      "context": {
+        "class": "c-heroImg-wide c-heroImg-16:7 c-heroImg-contentFarGround c-heroImg-contentGround@sm",
+        "imageDesktop": "../../images/16x7/default.jpg",
+        "imageSmartphone": "../../images/5x4/2.jpg",
+
+        "playIconShow": false,
+        "shareShow": false,
+
+        "bottomContenShow": true,
+        "liveTickerShow": true,
+        "liveTickerGrid": "col-sm-5 col-lg-4",
+        "relatedContentShow": true,
+        "gridRelated": "col-sm-6 col-lg-7"
+      }
+    },
+
+    {
+      "name": "wide-liveTicker",
+      "label": "c-heroImg-wide-liveTicker",
+      "context": {
+        "class": "c-heroImg-wide c-heroImg-16:7 c-heroImg-contentFarGround c-heroImg-contentGround@sm",
+        "imageDesktop": "../../images/16x7/default.jpg",
+        "imageSmartphone": "../../images/5x4/2.jpg",
+
+        "playIconShow": false,
+        "shareShow": false,
+
+        "bottomContenShow": true,
+        "liveTickerShow": true,
+        "liveTickerGrid": "col-sm-5 col-lg-4"
+      }
+    },
+
+    {
+      "name": "wide-related",
+      "label": "c-heroImg-wide-related",
+      "context": {
+        "class": "c-heroImg-wide c-heroImg-16:7 c-heroImg-contentFarGround c-heroImg-contentGround@sm c-heroImg-relatedLeft",
+        "imageDesktop": "../../images/16x7/default.jpg",
+        "imageSmartphone": "../../images/5x4/2.jpg",
+
+        "playIconShow": false,
+        "shareShow": false,
+
+        "bottomContenShow": true,
+        "relatedContentShow": true,
+        "gridRelated": "col-sm-9 col-lg-9",
+
+        "c-titleList": {
+          "section-title": false
+        }
+      }
+    },
+
+    {
+      "name": "related-4x3",
+      "label": "c-heroImg-related-4x3",
+      "context": {
+        "class": "c-heroImg-wide c-heroImg-4:3 c-heroImg-contentGround c-heroImg-relatedLeft c-heroImg-btmContentPushed",
+        "imageDesktop": "../../images/4x3/default.jpg",
+        "imageSmartphone": "../../images/5x4/default.jpg",
+
+        "playIconShow": false,
+        "shareShow": false,
+
+        "bottomContenShow": true,
+        "relatedContentShow": true,
+        "gridRelated": "col-sm-12 col-lg-11",
+
+        "c-titleList": {
+          "section-title": false
+        }
+      }
+    },
+
+    {
+      "name": "Sport result",
+      "label": "sportResult",
+      "context": {
+
+        "badgeShow": true,
+        "c-imgBadge": {
+          "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-poisBlink",
+          "badge": "live"
+        },
+
+        "c-sportResult": {
+          "class": "c-sportResult-transparent"
+        },
+
+        "c-imgActions": false
+      }
+    },
+
+    {
+      "name": "bigHero",
+      "label": "c-heroImg-bigHero",
+      "context": {
+        "class": "c-heroImg-bigHeroImg",
+        "imageDesktop": "../../images/16x9/9.jpg",
+        "imageSmartphone": "../../images/5x4/9.jpg",
+
+        "c-label": {
+          "label": "News"
+        },
+
+        "title": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget",
+        "playIconShow": false,
+        "shareShow": true,
+        "titleShow": true,
+        "descriptionShow": true,
+
+        "c-imgActions": {
+          "name": "c-heroImg_imgActions"
+        },
+
+        "secondaryInfo": "da Il Giardino di Albert"
+      }
+    },
+
+    {
+      "name": "bigHero video",
+      "label": "c-heroImg-bigHero-video",
+      "context": {
+        "class": "c-heroImg-bigHeroImg",
+        "imageDesktop": "../../images/16x9/9.jpg",
+        "imageSmartphone": "../../images/5x4/9.jpg",
+
+        "c-label": {
+          "label": "News"
+        },
+
+        "title": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget",
+        "playIconShow": false,
+        "shareShow": true,
+        "titleShow": true,
+        "descriptionShow": true,
+        "c-imgActions": false,
+        "playIconAbsolute": true,
+
+        "c-playIcon": {
+          "size": "sm",
+          "class": "c-playIcon-rettangle c-playIcon-44@sm c-playIcon-44@md c-playIcon-md@lg"
+        },
+
+        "secondaryInfo": "da Il Giardino di Albert"
+      }
+    },
+
+    {
+      "name": "Hero img poster",
+      "label": "c-heroImg-poster",
+      "context": {
+        "class": "c-heroImg-3:4 c-heroImg-titleXxs c-heroImg-contentGround",
+        "imageDesktop": "../../images/3x4/default.jpg",
+        "imageSmartphone": "../../images/5x4/9.jpg",
+
+        "labelShow": false,
+        "title": "Lorem ipsum dolor sit amet",
+        "playIconShow": false,
+        "shareShow": false,
+        "descriptionShow": false,
+        "imgLink": true,
+        "c-imgActions": false,
+
+        "c-vectorLogo": {
+          "nameLogo": "la1.png"
+        },
+
+        "c-schedulingSimple": {
+          "class": "c-schedulingSimple-xs@sm c-schedulingSimple-xs@md"
+        }
+      }
+    }
+  ]
+
+}

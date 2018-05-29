@@ -1,0 +1,1101 @@
+//============================================
+// Article
+//============================================
+
+
+// Wrapper
+//============================================
+
+.c-article
+  text-rendering: geometricPrecision
+  backface-visibility: hidden
+  +mq($bp-sm-down)
+    margin-top: -0.1rem // remove 1px space to smarthpone
+
+
+// Header
+//============================================
+
+.c-article_header
+  display: flex
+  flex-direction: column
+  backface-visibility: hidden
+
+  +mq("print")
+    width: 100%
+
+
+// Var order element in article header
+//============================================
+
+$article-order-openingImage:  1
+$article-order-sportsResults: 2
+$article-order-category:      3
+$article-order-hGroup:        4
+$article-order-service:       5
+
+$article-order-category-sm:       1
+$article-order-hGroup-sm:         2
+$article-order-service-sm:        3
+$article-order-openingImage-sm:   4
+$article-order-sportsResults-sm:  5
+
+
+// Opening image (lead)
+//============================================
+
+.c-article_openingImage
+  order: $article-order-openingImage
+  height: 100%
+
+  +mq($bp-sm)
+    order: $article-order-openingImage-sm
+    margin-top: $space-oneAndHalf
+
+  +mq("print")
+    order: $article-order-openingImage-sm
+    margin-top: 0
+
+.c-article_openingImageWrapper
+  position: relative
+  display: block
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+
+  +mq("print")
+    margin-top: $space-oneAndHalf
+    margin-left: 0
+    margin-right: 0
+
+.c-article_openingImage_img
+  +size(100%)
+  display: block
+
+  img
+    +size(100%, auto)
+
+.c-article_openingImage_caption
+  margin-top: $space-twoThirds
+  font-size: $fs-article-caption
+  color: $gray-ash
+
+  +mq($bp-sm)
+    font-size: $fs-article-caption-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-caption-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-caption-lg
+
+  +mq("print")
+    font-size: $fs-article-caption
+
+
+// Sports results
+//============================================
+.c-article_sportsResults
+  margin-top: $space
+  order: $article-order-sportsResults
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+    background-image: linear-gradient(to bottom, $gray-dust, #dedede)
+
+  +mq($bp-sm)
+    order: $article-order-sportsResults-sm
+
+  +mq("print")
+    order: $article-order-sportsResults-sm
+
+.c-article_sportsResults_wrapper
+  
+  +mq($bp-sm-down)
+    margin-left: $layout-gutter-xs
+    margin-right: $layout-gutter-xs
+    padding-bottom: $space
+    text-align: center
+
+.c-article_sportsResults_button
+  margin-top: $space
+
+  +mq($bp-sm-down)
+    text-align: center
+
+
+// Title
+//============================================
+.c-article_category
+  margin: 0 auto
+  text-align: center
+  margin-top: $space 
+  order: $article-order-category
+
+  +mq($bp-sm)
+    order: $article-order-category-sm
+    margin-top: 0
+
+  +mq("print")
+    margin-top: 0
+    order: $article-order-category-sm
+
+// Group titles
+.c-article_hGroup
+  order: $article-order-hGroup
+  margin-top: $space
+  padding-bottom: $space
+  text-align: center
+
+  +mq($bp-sm)
+    order: $article-order-hGroup-sm
+
+  +mq("print")
+    order: $article-order-hGroup-sm
+
+// Title
+.c-article_title
+  font-size: $fs-article-title
+  line-height: $lh-article-title
+  color: $gray-rat
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    font-size: $fs-article-title-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-title-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-title-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-title-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-title-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-title-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-title-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-title-lg - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-title-lg + $fs-gap-resizeFont
+
+  +mq("print")
+    font-size: $fs-article-title
+    line-height: $lh-article-title
+
+// Subtitle
+.c-article_subTitle
+  margin-top: $space-half
+  font-family: $font
+  font-size: $fs-article-sub-title
+  line-height: $fs-article-sub-lh
+  font-weight: normal
+  color: $gray-mid
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    font-size: $fs-article-sub-title-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-sub-title-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-sub-title-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-sub-title-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-sub-title-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-sub-title-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-sub-title-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-sub-title-lg - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-sub-title-lg + $fs-gap-resizeFont
+
+  +mq("print")
+    font-size: $fs-article-sub-title
+    line-height: $fs-article-sub-lh
+
+
+// Service
+//============================================
+
+.c-article_service
+  order: $article-order-service
+  overflow: hidden
+  border-top: 0.1rem solid $gray-powder
+
+  +mq($bp-sm)
+    order: $article-order-service-sm
+
+  +mq("print")
+    order: $article-order-service-sm
+
+// Date
+.c-article_date
+  margin-top: $space-half
+  float: left
+  font-size: $fs-article-date
+  color: $gray-light
+
+  +mq($bp-sm)
+    font-size: $fs-article-date-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-date-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-date-lg
+
+  +mq("print")
+    font-size: $fs-article-date
+    float: none
+
+.c-article_dateLabel
+  color: $gray-mid
+
+// Options
+.c-article_service_options
+  display: flex
+  float: right
+
+  +mq("print")
+    float: none
+
+.c-article_service_option
+  display: flex
+  align-items: center
+  margin-top: 0.9rem
+
+  +mq($bp-sm)
+    margin-top: 0.2rem
+
+    &:not(:last-child)
+
+      &::after
+        +size(0.1rem, 4rem)
+        content: ""
+        background-color: $gray-powder
+        margin-top: -0.2rem
+        margin-left: $space-half
+        margin-right: $space-half
+
+  &-fontSize
+    display: none
+
+    +mq($bp-sm)
+      display: flex
+
+  &-btnShare
+
+    +mq("print")
+      display: none
+      visibility: hidden
+
+  &-btPrint
+    display: none
+
+    +mq($bp-sm)
+      display: flex
+  
+.c-article_option_smallerFont
+  position: relative
+  display: inline-block
+  margin-right: 1.8rem
+  cursor: pointer
+
+  &::after
+    position: absolute
+    top: 0
+    right: -0.7rem
+    +size(0.7rem, 0.1rem)
+    content: ""
+    background-color: $gray-light
+
+  &:hover
+    color: $primary
+
+    &::after
+      background-color: $primary
+
+  &.is-active
+    cursor: default
+    color: $gray-powder
+
+    &::after
+      background-color: $gray-powder
+
+.c-article_option_biggerFont
+  position: relative
+  display: inline-block
+  margin-right: 0.8rem
+  cursor: pointer
+
+  &::before
+    position: absolute
+    top: -1.2rem
+    right: -0.8rem
+    content: "+"
+    font-weight: 200
+
+  &:hover
+    color: $primary
+
+    &::before
+      color: $primary
+
+  &.is-active
+    cursor: default
+    color: $gray-powder
+
+    &::before
+      color: $gray-powder
+
+
+// Content
+//============================================
+.c-article_colContent
+
+  +mq("print")
+    width: 100%
+
+.c-article_content
+  margin-top: $space-oneAndHalf
+  backface-visibility: hidden
+
+// Generic
+.c-article_standardWrapper
+  margin-top: $space
+  clear: both
+
+  +mq($bp-md)
+    margin-top: $space-oneAndHalf
+
+  +mq("print")
+    margin-top: $space
+
+// Heading
+.c-article_h1,
+.c-article_h2,
+.c-article_h3,
+.c-article_h4,
+.c-article_h5,
+.c-article_h6
+  margin-top: $space-oneAndHalf
+  margin-bottom: -$space-half
+  color: $gray-rat
+
+  +mq($bp-md)
+    margin-top: $space-double
+    margin-bottom: -$space
+
+.c-article_h1
+  font-size: $fs-article-h1
+
+  +mq($bp-sm)
+    font-size: $fs-article-h1-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-h1-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-h1-lg
+
+.c-article_h2
+  font-size: $fs-article-h2
+
+  +mq($bp-sm)
+    font-size: $fs-article-h2-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-h2-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-h2-lg
+
+.c-article_h3
+  font-size: $fs-article-h3
+
+  +mq($bp-sm)
+    font-size: $fs-article-h3-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-h3-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-h3-lg
+
+.c-article_h4
+  font-size: $fs-article-h4
+
+  +mq($bp-sm)
+    font-size: $fs-article-h4-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-h4-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-h4-lg
+
+.c-article_h5,
+.c-article_h6
+  font-size: $fs-article-h5
+
+  +mq($bp-sm)
+    font-size: $fs-article-h5-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-h5-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-h5-lg
+
+// Paragrafo
+.c-article_paragraph
+  margin-top: $space
+  color: $gray-rat
+  font-size: $fs-article-p
+  line-height: $fs-article-p-lh
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    font-size: $fs-article-p-sm
+    line-height: $fs-article-p-lh-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-article-p-md
+    line-height: $fs-article-p-lh-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-p-lg
+    line-height: $fs-article-p-lh-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-lg - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-lg + $fs-gap-resizeFont
+
+  +mq("print")
+    margin-top: $space
+    font-size: $fs-article-p
+    line-height: $fs-article-p-lh
+
+// Link
+.c-article_link
+  padding-bottom: 0.2rem
+  border-bottom-style: dotted
+  border-bottom-width: 0.15rem
+  border-bottom-color: $gray-ash
+
+  &:hover
+    color: $gray-rat
+    background-color: $gray-wetDust
+    border-bottom-style: solid
+    border-bottom-color: $gray-rat
+    border-bottom-width: 0.1rem
+
+// Content image
+.c-article_contentImage
+  margin-top: $space
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+
+  +mq($bp-sm)    
+    width: 100%
+    margin-top: $space
+
+    &-indented
+      float: left;
+      width: 32rem
+      margin-top: $space + 0.7
+      margin-right: $space
+      margin-bottom: $space
+
+  +mq($bp-md)
+    width: 100%
+    margin-top: $space-oneAndHalf
+
+    &-indented
+      width: 39rem
+      margin-left: -8.2rem;
+      margin-top: $space-oneAndHalf + 0.7
+
+  +mq($bp-lg)
+    width: 100%
+    margin-right: $space-oneAndHalf
+
+    &-indented
+      width: 59rem
+      margin-left: -12.4rem;
+      margin-top: $space-oneAndHalf + 0.7
+
+  +mq("print")
+    width: 45rem
+    margin: 0 auto
+    margin-top: $space
+
+    &-indented
+      float: none
+      width: 45rem
+      margin-top: $space + 0.7
+      margin-right: auto
+      margin-bottom: auto
+
+  &-vert
+    width: 18rem
+    margin-top: $space
+    margin-right: auto
+    margin-bottom: $space
+    margin-left: auto
+
+    +mq($bp-sm)
+      width: 30rem
+      margin-top: $space
+
+      &.c-article_contentImage-indented
+        float: left;
+        margin-top: $space + 0.7
+        margin-right: $space
+        margin-bottom: $space
+        margin-left: 0
+        width: 19rem
+
+    +mq($bp-md)
+      width: 38rem
+      margin-top: $space-oneAndHalf
+
+      &.c-article_contentImage-indented
+        margin-top: $space-oneAndHalf + 0.7
+        margin-left: -8.2rem
+        width: 22.7rem
+
+    +mq($bp-lg)
+      width: 50rem
+
+      &.c-article_contentImage-indented
+        width: 34.3rem
+        margin-left: -12.4rem
+        margin-right: $space-oneAndHalf
+
+    +mq("print")
+      width: 25rem
+      margin-top: $space
+
+      &.c-article_contentImage-indented
+        float: none
+        margin-top: $space + 0.7
+        margin-right: auto
+        margin-bottom: $space
+        margin-left: auto
+        width: 25rem
+
+.c-article_contentImage_img
+  +size(100%)
+  display: block
+
+  img
+    +size(100%, auto)
+
+.c-article_contentImage_caption
+  margin-top: $space-twoThirds
+  font-size: $fs-article-caption
+  color: $gray-ash
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm-down)
+    margin-left: $layout-gutter-xs
+    margin-right: $layout-gutter-xs
+
+    .c-article_contentImage-vert &
+      margin-left: 0
+      margin-right: 0
+
+  +mq($bp-sm)
+    font-size: $fs-article-caption-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-caption-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-caption-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-caption-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-caption-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-caption-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-caption-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-caption-lg - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-caption-lg + $fs-gap-resizeFont
+
+  +mq("print")
+    margin-left: 0
+    margin-right: 0
+
+// Quote
+.c-article_quote
+  position: relative
+  margin-top: $space-double
+  clear: both
+
+  +mq($bp-sm)    
+
+    &-indented
+      float: left;
+      width: 32rem
+      margin-top: $space + 0.7
+      margin-right: $space;
+      margin-bottom: $space;
+
+  +mq($bp-md)
+
+    &-indented
+      width: 42rem
+      margin-left: -1.7rem;
+      margin-top: $space-oneAndHalf + 0.7
+
+  +mq($bp-lg)
+
+    &-indented
+      width: 59rem
+      margin-left: -4rem;
+      margin-top: $space-oneAndHalf + 0.7
+
+  +mq("print")
+    margin-top: $space-double
+
+    &-indented
+      float: none
+      width: auto
+
+.c-article_quoteText
+  display: block
+  font-family: $font-alt
+  font-size: $fs-article-quote
+  font-weight: bold
+  line-height: $lh-article-quote
+  color: $gray-rat
+
+  +mq($bp-sm)
+    font-size: $fs-article-quote-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-quote-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-quote-lg
+
+  +mq("print")
+    font-family: $font-alt
+    font-size: $fs-article-quote
+
+  &::before
+    display: block
+    content: "“"
+    margin-left: -0.3rem
+    margin-bottom: $space
+    color: $gray-powder
+    font-size: 10rem
+    font-weight: bold
+    line-height: 7.35rem
+    height: 2.6rem
+
+    +mq($bp-md)
+      position: absolute
+      top: 0.7rem
+      left: -7rem
+      margin-left: 0rem
+      margin-bottom: 0rem
+      font-size: 12rem
+      line-height: 8.4rem
+      height: 3rem
+
+    +mq($bp-lg)
+      position: absolute
+      top: 1rem
+      left: -9rem
+      font-size: 14.4rem
+      line-height: 10rem
+      height: 3.6rem
+
+    +mq("print")
+      position: relative
+      font-size: 10rem
+      line-height: 7.35rem
+      height: 2.6rem
+
+.c-article_quoteAuthor
+  margin-top: $space-half
+  display: inline-block
+  font-family: $font-alt
+  font-weight: 200
+  font-style: italic
+  font-size: $fs-article-quoteAuthor
+  color: $gray-ash
+
+  +mq($bp-sm)
+    font-size: $fs-article-quoteAuthor-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-quoteAuthor-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-quoteAuthor-lg
+
+  +mq("print")
+    font-size: $fs-article-quoteAuthor
+
+// List
+.c-article_list
+  font-size: $fs-article-p
+  color: $gray-rat
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    font-size: $fs-article-p-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-p-md
+    margin-left: $space-oneAndHalf
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-p-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-p-lg - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-p-lg + $fs-gap-resizeFont
+
+  +mq("print")
+    font-size: $fs-article-p
+    margin-left: $space
+
+  li
+    list-style-type: disc
+    margin-left: $layout-gutter-xs
+
+    &:not(:first-child)
+      margin-top: $space-half
+
+.c-article_numberedList
+
+  li
+    list-style-type: decimal
+
+// Question and answer
+.c-article_questionAnswer
+  padding: $space
+  background-color: $white
+  color: $gray-rat
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+    padding-left: $layout-gutter-xs
+    padding-right: $layout-gutter-xs
+
+  +mq($bp-md)
+    padding: $space + $space-half $space-oneAndHalf
+
+.c-article_question
+  font-weight: bold
+  font-size: $fs-article-question
+  line-height: $fs-article-p-lh
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    font-size: $fs-article-question-sm
+    line-height: $fs-article-p-lh-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-question-md
+    line-height: $fs-article-p-lh-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-question-lg
+    line-height: $fs-article-p-lh-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-md + $fs-gap-resizeFont
+
+  +mq("print")
+    font-size: $fs-article-question
+
+.c-article_answer
+  margin-top: $space-half
+  padding-left: $space
+  border-left: 0.6rem solid $gray-wetDust
+  font-size: $fs-article-p
+  line-height: $fs-article-p-lh
+  transition: font-size 0.2s ease-out
+
+  +mq($bp-sm)
+    margin-top: $space + $space-half
+    font-size: $fs-article-p-sm
+    line-height: $fs-article-p-lh-sm
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-sm - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-sm + $fs-gap-resizeFont
+
+  +mq($bp-md)
+    font-size: $fs-article-p-md
+    line-height: $fs-article-p-lh-md
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-md + $fs-gap-resizeFont
+
+  +mq($bp-lg)
+    font-size: $fs-article-p-lg
+    line-height: $fs-article-p-lh-lg
+
+    // Activation smaller font
+    .js-article-smallerFont &
+      font-size: $fs-article-question-md - $fs-gap-resizeFont
+
+    // Activation bigger font
+    .js-article-biggerFont &
+      font-size: $fs-article-question-md + $fs-gap-resizeFont
+
+  +mq("print")
+    margin-top: $space-half
+    font-size: $fs-article-p
+    line-height: $fs-article-p-lh
+
+// Gallery photo
+.c-article_galleryPhoto
+
+  +mq("print")
+    width: 45rem
+    margin-left: auto
+    margin-right: auto
+
+// Single video
+.c-article_singleVideo
+  
+  +mq("print")
+    display: none
+    visibility: hidden
+
+// Gallery video
+.c-article_galleryVideo
+  margin-bottom: -$space-oneAndHalf
+
+  +mq($bp-sm)
+    margin-bottom: -$space
+
+  +mq($bp-md)
+    margin-left: -8.2rem;
+
+  +mq($bp-lg)
+    margin-left: -12.4rem;
+
+  +mq("print")
+    display: none
+    visibility: hidden
+
+  & .slick-dots
+    bottom: 0
+
+
+// Closing info
+//============================================
+  
+.c-article_closingInfo
+  display: flex
+  flex-direction: column
+  margin-top: $space
+  color: $gray-ash
+
+  +mq($bp-md)
+    display: block
+    margin-top: $space-oneAndHalf
+
+// Author
+.c-article_closingInfo_author
+  order: 1
+  font-weight: bold
+  font-size: $fs-article-p
+
+  +mq($bp-sm)
+    font-size: $fs-article-p-sm
+
+  +mq($bp-md)
+    float: left
+    font-size: $fs-article-p-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-p-lg
+
+  +mq("print")
+    float: none
+
+// Pub dates
+.c-article_closingInfo_dates
+  order: 2
+  clear: both
+  margin-top: $space-twoThirds
+
+.c-article_closingInfo_pubDate
+  display: block
+  font-size: $fs-article-closingDate
+
+  &:not(:first-child)
+    margin-top: $space-eigth
+
+    +mq($bp-md)
+      margin-left: $space-half
+
+  +mq($bp-sm)
+    font-size: $fs-article-closingDate-sm
+
+  +mq($bp-md)
+    display: inline-block
+    font-size: $fs-article-closingDate-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-closingDate-lg
+
+  +mq("print")
+    font-size: $fs-article-closingDate
+
+    &:not(:first-child)
+      margin-top: $space-eigth
+
+.c-article_closingInfo_dateLabel
+  color: $gray-mid
+
+// Share
+.c-article_closingInfo_share
+  order: 3
+  margin-top: $space-twoThirds
+
+  +mq($bp-md)
+    float: right
+    margin-top: 0.7rem
+    margin-bottom: $space
+
+  +mq("print")
+    display: none
+    visibility: hidden
+
+// Sticky-kit scrolling sidebar
+#sidebar-sticky
+  position: static
+

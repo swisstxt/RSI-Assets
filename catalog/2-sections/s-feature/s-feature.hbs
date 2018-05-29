@@ -1,0 +1,28 @@
+<section class="section t-efSection {{class}}" {{#if pathBgImage}}style="background-image:url({{imagePath pathBgImage}})"{{/if}}>
+  <div class="container">
+
+    <div class="t-efSection_logo">
+      <img class="u-img-max" src="{{imagePath pathLogo}}" alt="">
+    </div>
+
+    {{#if goToSectionShow}}
+      <div class="t-efSection_cta">
+        <a href="#" class="c-btn t-efSection_ctaBtn">
+          {{Go-to-section}}
+          {{render '@c-icon' c-iconAngleRight merge=true}}
+        </a>
+      </div>
+    {{/if}}
+
+    <div class="row">
+      {{#each teasers}}
+       <div class="col-sm-6 col-md-3 col-lg-3 u-push-btm{{!--{{#ifMultiple @index 4}} u-d-none@md u-d-blk@lg{{/ifMultiple}}--}}">
+          {{render '@c-teaserhorzvert' c-teaserHorzVert merge=true}}
+        </div>
+      {{/each}}
+
+    </div>
+
+    {{render '@c-morebtn' }}
+  </div>
+</section>

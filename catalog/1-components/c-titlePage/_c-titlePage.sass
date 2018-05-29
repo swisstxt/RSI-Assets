@@ -1,0 +1,61 @@
+//============================================
+// Title page
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-titlePage
+
+	// Variation big stripe
+	.c-titlePage-bigStripe &
+
+		+mq($bp-sm)
+			height: $header-visualHeight-sm
+
+		+mq($bp-md)
+			height: $header-visualHeight-md
+
+		+mq($bp-lg)
+			height: $header-visualHeight-lg
+
+// Variation light
+//.c-titlePage-light
+
+// Variation big stripe
+//.c-titlePage-bigStripe
+
+
+// Title
+//============================================
+.c-titlePage_title
+	font-size: 2.5rem
+	font-weight: normal
+	color: $white
+
+	+mq($bp-md)
+		font-size: 3.0rem
+
+	+mq($bp-lg)
+		font-size: 3.5rem
+
+	// Variation light
+	.c-titlePage-light &
+		color: $gray-rat
+
+	// Variation big stripe
+	.c-titlePage-bigStripe &
+		+h1(true)
+
+		+mq($bp-md-down)
+			+mq($bp-sm)
+				display: none
+
+		+mq($bp-md)
+			+pos($space-double $space-half, bottom left)
+			font-size: $fs-titlePage-md
+
+		+mq($bp-lg)
+			+pos($space-doubleAndHalf $space-twoThirds, bottom left)
+			font-size: $fs-titlePage-lg

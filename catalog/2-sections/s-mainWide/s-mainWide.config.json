@@ -1,0 +1,60 @@
+{
+  "title": "Main wide",
+  "label": "s-mainWide",
+  "status": "ready",
+  "context": {
+
+  },
+
+	"variants": [
+		{
+		  "name": "liveTickerAndRelated",
+		  "label": "s-mainWide-liveTickerAndRelated",
+		  "context": {
+		  	"c-heroImgWide": {
+	        "class": "c-heroImg-wide c-heroImg-16:7 c-heroImg-contentFarGround c-heroImg-contentGround@sm",
+	        "imageDesktop": "../../images/16x7/2.jpg",
+	        "imageSmartphone": "../../images/5x4/2.jpg",
+
+	        "playIconShow": false,
+	        "shareShow": false,
+
+	        "bottomContenShow": true,
+
+	        "liveTickerShow": true,
+		    	"liveTickerGrid": "col-sm-5 col-lg-4",
+
+	        "relatedContentShow": true,
+	        "gridRelated": "col-sm-6 col-lg-7"
+	      }
+		  }
+		},
+
+		{
+		  "name": "related",
+		  "label": "s-mainWide-related",
+		  "context": {
+		  	"c-heroImgWide": {
+		        "class": "c-heroImg-wide c-heroImg-16:7 c-heroImg-contentFarGround c-heroImg-contentGround@sm c-heroImg-relatedLeft",
+		        "imageDesktop": "../../images/16x7/2.jpg",
+		        "imageSmartphone": "../../images/5x4/2.jpg",
+
+		        "playIconShow": false,
+		        "shareShow": false,
+
+		        "bottomContenShow": true,
+
+		        "liveTickerShow": false,
+
+		        "relatedContentShow": true,
+		        "gridRelated": "col-sm-6 col-lg-7",
+
+		        "c-titleList": {
+	          	"section-title": false
+	        	}
+		      }
+		  }
+		}
+	]
+
+}

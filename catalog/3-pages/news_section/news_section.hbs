@@ -1,0 +1,20 @@
+{{setTheme 'news_subsection'}}
+{{render '@s-header' s-header merge=true}}
+
+{{#if mainTeasersDoubleShow}}
+    {{render '@s-mainteasersdouble--light' s-mainTeasersDouble merge=true}}
+{{/if}}
+
+{{#if mainTeasersSoftShow}}
+    {{render '@s-mainteaserssoft--light' s-mainTeasersSoftDefault merge=true}}
+{{/if}}
+
+{{#if mainTeaserShow}}
+    {{render '@s-mainteaser-triplehero' s-mainTeaser-tripleHero merge=true}}
+{{/if}}
+
+{{render '@s-teasers--infinitelist' s-teasers-infiniteList merge=true}}
+{{render '@s-slidershortnews' s-sliderShortNews merge=true}}
+{{render '@s-teasersgallery' s-teasersGallery merge=true}}
+{{render '@s-slider' s-slider1 merge=true}}
+{{render '@c-backtotop'}}

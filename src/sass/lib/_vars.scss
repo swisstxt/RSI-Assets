@@ -1,0 +1,623 @@
+//============================================
+// Global variables
+//============================================
+
+
+// Colors
+//============================================
+
+// 1. To prevent linting errors these values are stored.
+//    in variables. Be careful when changing (better don't).
+// 2. As there are a crazy amount of gray-shades we give
+//    them memorable names that more or less indicate what
+//    shade is to be expected when using.
+
+$black:         #000; // 1.
+$white:         #fff; // 1.
+
+// Brand colors
+$primary:       #af001e !default;
+$secondary:     #690a0b !default;
+$tertiary:      #430708 !default;
+
+// All vector colors
+$color-rsi: #af001e;
+$color-la1: #ff9120;
+$color-la2: #ffc314;
+
+// Shades of gray
+$gray-bright:     #f4f4f4;  //2
+$gray-dust:       #eaeaea;  // 2.
+$gray-wetDust:    #d6d6d6;  // 2.
+$gray-powder:     #bfbfbf;  // 2.
+$gray-light:      #a8a8a8;  // 2.
+$gray-silver:     #8c8c8c;  // 2.
+$gray-ash:        #808080;  // 2.
+$gray-mid:        #666;     // 2.
+$gray-concrete:   #444;     // 2.
+$gray-rat:        #333;     // 2.
+$gray-asphalt:    #2b2b2b;  // 2.
+$gray-wetAsphalt: #252525;  // 2.
+$gray-space:      #1a1a1a;  // 2.
+$gray-void:       #111;     // 2.
+
+// Color shortcuts
+$color-text:      $gray-ash;
+$color-bg:        $gray-space;
+$color-bg-light:  $gray-dust;
+
+// General helper colors
+$color-error:   #ed331a;
+$color-success: #2fa714;
+
+// Special colors
+$color-nouvo: #ffbc32;
+$color-buzz:  #f6a623;
+
+// Social color
+$color-facebook:  #3b5998;
+$color-twitter:   #1da1f2;
+$color-whatsapp:  #25d366;
+
+
+// Dimensions
+//============================================
+
+// 1. The font size is reset to 62.5% == 10px on
+//    the root (`html`) element. This makes `rem`
+//    calculations easy. e.g. 2.2rem == 22px.
+//    See: base/_defaults.sass
+
+// General base size
+$space:              2.2rem; // 1.
+
+// Variations for convenience
+$space-eigth:         decimal-round($space * 0.125, 1);
+$space-quarter:       $space * 0.25;
+$space-third:         decimal-round($space / 3, 1);
+$space-half:          $space * 0.5;
+$space-twoThirds:     decimal-round($space - ($space / 3), 1);
+$space-threeQuarter:  decimal-round($space * 0.75, 1);
+$space-oneAndHalf:    $space * 1.5;
+$space-double:        $space * 2;
+$space-doubleAndHalf: $space * 2.5;
+$space-triple:        $space * 3;
+$space-tripleAndHalf: $space * 3.5;
+
+// Slider elements width
+$slider-item-width-xSmall:  21.7rem;
+$slider-item-width-small:   30rem;
+$slider-item-width-large:   40rem;
+
+
+// Header
+//============================================
+
+// Type
+$header-subSection:       false !default;
+$header-visual:           false !default;
+$header-visualToXs:       false !default;
+$header-brandText:        false !default;
+$header-subMenuEmpty:     false !default;
+$header-meteoVisibleToXs: false !default;
+
+// Brand
+$header-brand-width:    6.125rem !default;
+$header-brand-width-md: 10.065rem !default;
+$header-brand-width-lg: 11.815rem !default;
+
+// RSI
+$header-brand-rsi-width-sm: 3.9rem;
+
+$header-inneWrap-height:    6.2rem;
+$header-inneWrap-height-md: 8.6rem;
+$header-inneWrap-height-lg: 10.6rem;
+
+$header-inneWrap-height-md: 8.6rem;
+$header-inneWrap-height-lg: 10.6rem;
+
+$header-mainNavSubList-height: 50rem;
+$header-searchWidth-md: 4.2rem;
+$header-searchWidth-lg: 4.67rem;
+$header-searchWidth-expanded: 12rem;
+
+$header-hiddenMenu-height-md: 6.1rem;
+$header-hiddenMenu-height-lg: 7.5rem;
+
+// Visual
+$header-visualHeight-sm: 12.4rem;
+$header-visualHeight-md: 17.9rem;
+$header-visualHeight-lg: 21.7rem;
+
+// Visual style
+$header-visualBgColor:    #000 !default;
+$header-visualBgImage-xs: "../images/c-header/visual-xs.jpg" !default;
+$header-visualBgImage-sm: "../images/c-header/visual-sm.jpg" !default;
+$header-visualBgImage-md: "../images/c-header/visual-md.jpg" !default;
+$header-visualBgImage-lg: "../images/c-header/visual-lg.jpg" !default;
+
+
+// Title page
+//============================================
+
+$titlePage-BgImage:     false !default;
+$titlePage-BgColor:     $gray-space !default;
+
+// Img
+$titlePage-BgImage-sm:  "../images/s-titlePageStripe/titlePageBg-sm.jpg" !default;
+$titlePage-BgImage-md:  "../images/s-titlePageStripe/titlePageBg-md.jpg" !default;
+$titlePage-BgImage-lg:  "../images/s-titlePageStripe/titlePageBg-lg.jpg" !default;
+
+// Font
+$fs-titlePage-md:  3.2rem;
+$fs-titlePage-lg:  4rem;
+
+// Z-index
+//============================================
+
+$z-header: 200;
+
+
+// Circular Loading
+//============================================
+
+$loading-diameter:  1.6rem;
+
+
+// Play icon size
+//============================================
+
+$playIconSize-xxs:  2rem;
+$playIconSize-24:   2.4rem;
+$playIconSize-xs:   3rem;
+$playIconSize-34:   3.4rem;
+$playIconSize-36:   3.6rem;
+$playIconSize-sm:   4rem;
+$playIconSize-44:   4.4rem;
+$playIconSize-md:   5.7rem;
+$playIconSize-lg:   6.5rem;
+
+$playIconSize-xxs-ico:  1rem;
+$playIconSize-24-ico:   1.1rem;
+$playIconSize-xs-ico:   1.2rem;
+$playIconSize-34-ico:   1.4rem;
+$playIconSize-36-ico:   1.6rem;
+$playIconSize-sm-ico:   1.7rem;
+$playIconSize-44-ico:   1.9rem;
+$playIconSize-md-ico:   2.5rem;
+$playIconSize-lg-ico:   3rem;
+
+$playIconSize-xxs-icoSound:  1rem;
+$playIconSize-24-icoSound:   1.1rem;
+$playIconSize-xs-icoSound:   1.2rem;
+$playIconSize-34-icoSound:   1.4rem;
+$playIconSize-36-icoSound:   1.6rem;
+$playIconSize-sm-icoSound:   1.7rem;
+$playIconSize-44-icoSound:   1.9rem;
+$playIconSize-md-icoSound:   2.5rem;
+$playIconSize-lg-icoSound:   3rem;
+
+$playIconSize-xxs-icoPics:  1.4rem;
+$playIconSize-24-icoPics:   1.8rem;
+$playIconSize-xs-icoPics:   2.1rem;
+$playIconSize-34-icoPics:   2.4rem;
+$playIconSize-36-icoPics:   2.7rem;
+$playIconSize-sm-icoPics:   3rem;
+$playIconSize-44-icoPics:   3.3rem;
+$playIconSize-md-icoPics:   4rem;
+$playIconSize-lg-icoPics:   4.6rem;
+
+$playIconSize-rettangle-xxs-ico:  1.1rem;
+$playIconSize-rettangle-24-ico:   1.3rem;
+$playIconSize-rettangle-xs-ico:   1.5rem;
+$playIconSize-rettangle-34-ico:   1.6rem;
+$playIconSize-rettangle-36-ico:   1.8rem;
+$playIconSize-rettangle-sm-ico:   2.2rem;
+$playIconSize-rettangle-44-ico:   2.2rem;
+$playIconSize-rettangle-md-ico:   3rem;
+$playIconSize-rettangle-lg-ico:   3.6rem;
+
+$playIconSize-rettangle-xxs-icoSound:  1.4rem;
+$playIconSize-rettangle-24-icoSound:   1.6rem;
+$playIconSize-rettangle-xs-icoSound:   1.98rem;
+$playIconSize-rettangle-34-icoSound:   2.18rem;
+$playIconSize-rettangle-36-icoSound:   2.3rem;
+$playIconSize-rettangle-sm-icoSound:   2.5rem;
+$playIconSize-rettangle-44-icoSound:   2.8rem;
+$playIconSize-rettangle-md-icoSound:   3.4rem;
+$playIconSize-rettangle-lg-icoSound:   3.8rem;
+
+$playIconSize-rettangle-xxs-icoPics:  1.9rem;
+$playIconSize-rettangle-24-icoPics:   2.2rem;
+$playIconSize-rettangle-xs-icoPics:   2.7rem;
+$playIconSize-rettangle-34-icoPics:   3.2rem;
+$playIconSize-rettangle-36-icoPics:   3.7rem;
+$playIconSize-rettangle-sm-icoPics:   4rem;
+$playIconSize-rettangle-44-icoPics:   4.5rem;
+$playIconSize-rettangle-md-icoPics:   5.5rem;
+$playIconSize-rettangle-lg-icoPics:   6.5rem;
+
+
+// Modal
+//============================================
+
+$modal-width-sm:  70rem;
+$modal-width-md:  80rem;
+$modal-width-lg:  100rem;
+
+
+// Motion
+//============================================
+
+$motion-duration: 0.2s;
+
+
+// Typography
+//============================================
+
+// Font families
+$font:      "Helvetica Neue", Arial, sans-serif;
+$font-alt:  "RSI", "Helvetica Neue", Arial, sans-serif;
+$font-mono: monospace, monospace;
+
+// Base font sizes
+$fs:        1.6rem;
+$fs-xs:     1.2rem;
+$fs-sm:     1.4rem;
+$fs-lg:     1.8rem;
+
+// Line height
+$lh:        ($space / $fs);
+
+// Heading sizes
+$fs-h1:     3.2rem;
+$fs-h1-sm:  3.2rem;
+$fs-h1-md:  3.6rem;
+$fs-h1-lg:  5rem;
+
+$fs-h2:     1.9rem;
+$fs-h2-sm:  2.2rem;
+$fs-h2-md:  2.5rem;
+
+$fs-h3:     1.9rem;
+
+$fs-h4:     $fs-h3;
+$fs-h5:     $fs-h3;
+$fs-h6:     $fs-h3;
+
+// Header brand logo text
+$fs-header-logo:      1.8rem;
+$fs-header-logo-md:   3.2rem;
+$fs-header-logo-lg:   4rem;
+
+// Text Shadow for (white) text on photos
+$text-shadow: 0 0 0.07em rgba($black, 0.4), 0 0 0.5em rgba($black, 0.3);
+
+
+// Article font size
+//============================================
+
+//Title
+$fs-article-title:     3.2rem;
+$fs-article-title-sm:  3.2rem;
+$fs-article-title-md:  3.8rem;
+$fs-article-title-lg:  5.6rem;
+$lh-article-title: 1.125;
+
+// h1
+$fs-article-h1:     2.8rem;
+$fs-article-h1-sm:  3rem;
+$fs-article-h1-md:  3.4rem;
+$fs-article-h1-lg:  5rem;
+
+// h2
+$fs-article-h2:     2.6rem;
+$fs-article-h2-sm:  2.8rem;
+$fs-article-h2-md:  3.2rem;
+$fs-article-h2-lg:  4.6rem;
+
+// h3
+$fs-article-h3:     2.4rem;
+$fs-article-h3-sm:  2.6rem;
+$fs-article-h3-md:  3rem;
+$fs-article-h3-lg:  4rem;
+
+// h4
+$fs-article-h4:     2.2rem;
+$fs-article-h4-sm:  2.4rem;
+$fs-article-h4-md:  2.8rem;
+$fs-article-h4-lg:  3.6rem;
+
+// h5
+$fs-article-h5:     2rem;
+$fs-article-h5-sm:  2.2rem;
+$fs-article-h5-md:  2.6rem;
+$fs-article-h5-lg:  3.4rem;
+
+// Sub title
+$fs-article-sub-title:     1.9rem;
+$fs-article-sub-title-sm:  2.1rem;
+$fs-article-sub-title-md:  2.5rem;
+$fs-article-sub-title-lg:  3.2rem;
+
+$fs-article-sub-lh: 1.375;
+
+// Date
+$fs-article-date:     1.1rem;
+$fs-article-date-sm:  1.3rem;
+$fs-article-date-md:  1.4rem;
+$fs-article-date-lg:  1.5rem;
+
+// Paragraph
+$fs-article-p:     1.6rem;
+$fs-article-p-sm:  1.8rem;
+$fs-article-p-md:  2rem;
+$fs-article-p-lg:  2.4rem;
+
+$fs-article-p-lh:     1.5;
+$fs-article-p-lh-sm:  1.666666;
+$fs-article-p-lh-md:  1.6;
+$fs-article-p-lh-lg:  1.666666;
+
+// Caption
+$fs-article-caption:     1.1rem;
+$fs-article-caption-sm:  1.2rem;
+$fs-article-caption-md:  1.3rem;
+$fs-article-caption-lg:  1.5rem;
+
+// Quote
+$fs-article-quote:     1.8rem;
+$fs-article-quote-sm:  2rem;
+$fs-article-quote-md:  2.4rem;
+$fs-article-quote-lg:  3rem;
+$lh-article-quote:     1.5;
+
+// Author
+$fs-article-quoteAuthor:     1.4rem;
+$fs-article-quoteAuthor-sm:  1.5rem;
+$fs-article-quoteAuthor-md:  1.8rem;
+$fs-article-quoteAuthor-lg:  2.4rem;
+
+// Question
+$fs-article-question:     1.8rem;
+$fs-article-question-sm:  2rem;
+$fs-article-question-md:  2.2rem;
+$fs-article-question-lg:  2.8rem;
+
+// Video title
+$fs-article-videoTitle:     1.8rem;
+$fs-article-videoTitle-sm:  1.9rem;
+$fs-article-videoTitle-md:  2rem;
+$fs-article-videoTitle-lg:  2.4rem;
+
+// Closing date
+$fs-article-closingDate:     1.2rem;
+$fs-article-closingDate-sm:  1.4rem;
+$fs-article-closingDate-md:  1.6rem;
+$fs-article-closingDate-lg:  1.9rem;
+
+// Resize font
+$fs-gap-resizeFont:   0.3;
+
+
+// Live ticker font size
+//============================================
+
+$lh-article-sub-title:                3.8rem;
+
+$fs-liveTicker-timeframe-title:       2.4rem;
+$fs-liveTicker-timeframe-title-sm:    2.4rem;
+$fs-liveTicker-timeframe-title-md:    2.4rem;
+$fs-liveTicker-timeframe-title-lg:    2.4rem;
+
+$fs-liveTicker-timeframe-p:           1.6rem;
+$fs-liveTicker-timeframe-p-sm:        1.8rem;
+$fs-liveTicker-timeframe-p-md:        1.8rem;
+$fs-liveTicker-timeframe-p-lg:        2.2rem;
+
+$fs-liveTicker-info-date:             1.3rem;
+$fs-liveTicker-info-date-sm:          1.9rem;
+$fs-liveTicker-info-date-md:          1.9rem;
+$fs-liveTicker-info-date-lg:          1.9rem;
+
+$fs-liveTicker-overview-time:         1.4rem;
+$fs-liveTicker-overview-time-sm:      1.9rem;
+$fs-liveTicker-overview-time-md:      1.9rem;
+$fs-liveTicker-overview-time-lg:      1.9rem;
+
+
+// Box Shadow
+//============================================
+
+$box-shadow: 0.7rem 0.7rem 2.8rem rgba($black, 0.3);
+
+
+// Layout
+//============================================
+
+// XS
+$layout-gutter-xs: 1.6rem;
+
+// SM
+$layout-gutter-sm: 2rem;
+$layout-width-sm:  76.8rem;
+
+// MD
+$layout-gutter-md: 2.2rem;
+$layout-width-md:  101.8rem;
+
+// LG
+$layout-gutter-lg: 3rem;
+$layout-width-lg:  152rem;
+
+
+// Breakpoints
+//============================================
+
+// 1. Breakpoints are defined in em's, they are not affected by the
+//    reset on the html element. They use 16px (browser default)
+//    as a base for calculations. Keep in mind when creating new breakpoints.
+// 2. 1px in em (1 / 16 = 0.0625em) to create max-width queries.
+// 3. Full media query expressions for use in modules.
+
+$breakpoints: ( // 1.
+  "xs":     26em, // == 416px
+  "sm":     48em, // == 768px
+  "md": 63.625em, // == 992px
+  "lg":     95em, // == 1460px
+);
+
+$px-in-em: 0.0625em; // 2.
+
+$bp-xs:       "(min-width: #{map-get($breakpoints, 'xs')})"; // 3.
+$bp-sm:       "(min-width: #{map-get($breakpoints, 'sm')})"; // 3.
+$bp-md:       "(min-width: #{map-get($breakpoints, 'md')})"; // 3.
+$bp-lg:       "(min-width: #{map-get($breakpoints, 'lg')})"; // 3.
+
+$bp-xs-down:  "(max-width: #{map-get($breakpoints, 'xs') - $px-in-em})"; // 3.
+$bp-sm-down:  "(max-width: #{map-get($breakpoints, 'sm') - $px-in-em})"; // 3.
+$bp-md-down:  "(max-width: #{map-get($breakpoints, 'md') - $px-in-em})"; // 3.
+$bp-lg-down:  "(max-width: #{map-get($breakpoints, 'lg') - $px-in-em})"; // 3.
+
+
+// Grid
+//============================================
+
+// Variables to create the grid system. Grid mixin
+// is located at lib/mixins/_grid.sass and is applied
+// in layout/_grid.sass using the vars below/
+
+// 1. Store the col number for convenience
+
+$grid-columns: 12; // 1.
+
+$grid-config-xs: (
+  "name": "xs",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-xs,
+  "bp": false,
+  "offset": false,
+  "pull": false,
+  "push": false,
+  "clear": 2
+);
+
+$grid-config-sm: (
+  "name": "sm",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-sm,
+  "bp": $bp-sm,
+  "offset": true,
+  "pull": true,
+  "push": true,
+  "clear": 2
+);
+
+$grid-config-md: (
+  "name": "md",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-md,
+  "bp": $bp-md,
+  "offset": true,
+  "pull": true,
+  "push": true,
+  "clear": 3 4
+);
+
+$grid-config-lg: (
+  "name": "lg",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-lg,
+  "bp": $bp-lg,
+  "offset": true,
+  "pull": true,
+  "push": true,
+  "clear": 3 4
+);
+
+// Grid sizes for print
+$grid-config-print: (
+  "name": "print",
+  "cols": $grid-columns,
+  "gutter": $layout-gutter-md,
+  "bp": "print",
+  "offset": true,
+  "pull": true,
+  "push": true,
+  "clear": 2 3
+);
+
+
+// Dimension Utility
+//============================================
+
+// Vars to create margin/padding helper classes,
+// see utility/_dimensions.sass for more information.
+
+$dimension-utility-sizes: (
+  "1": 0.1rem,
+  "2": 0.2rem,
+  "3": 0.3rem,
+  "4": 0.4rem,
+  "eigth": $space-eigth,
+  "quarter": $space-quarter,
+  "third": $space-third,
+  "half": $space-half,
+  "twoThirds": $space-twoThirds,
+  "threeQuarter": $space-threeQuarter,
+  "": $space,
+  "oneAndHalf": $space-oneAndHalf,
+  "double": $space * 2,
+  "doubleAndHalf": $space * 2.5,
+  "triple": $space * 3,
+  "tripleAndHalf": $space * 3.5,
+  "none": 0
+);
+
+$dimension-utility-config-xs: (
+  "name": "",
+  "pull": true,
+  "push": true,
+  "padd": true,
+  "bp": false,
+
+  "sizes": $dimension-utility-sizes
+);
+
+$dimension-utility-config-sm: (
+  "name": "sm",
+  "pull": true,
+  "push": true,
+  "padd": true,
+  "bp": $bp-sm,
+
+  "sizes": $dimension-utility-sizes
+);
+
+$dimension-utility-config-md: (
+  "name": "md",
+  "pull": true,
+  "push": true,
+  "padd": true,
+  "bp": $bp-md,
+
+  "sizes": $dimension-utility-sizes
+);
+
+$dimension-utility-config-lg: (
+  "name": "lg",
+  "pull": true,
+  "push": true,
+  "padd": true,
+  "bp": $bp-lg,
+
+  "sizes": $dimension-utility-sizes
+);
+
+
+// Paths
+//============================================
+
+// Sass
+$path-components:  "../../catalog/1-components";
+
