@@ -1,0 +1,172 @@
+//============================================
+// Filtered List with text
+//============================================
+
+.c-filteredListWithText
+    +mq($bp-sm-down)
+        margin-left: -$layout-gutter-xs
+        margin-right: -$layout-gutter-xs
+
+.c-filteredListWithText_bigWrapper
+    display: inline-block
+    width: 100%
+    border-bottom: 0.1rem solid $gray-rat
+
+     
+.c-filteredListWithText_Wrapper-text
+    +mq($bp-lg)
+        float: left
+
+    +mq($bp-lg-down)
+        +mq($bp-md)
+            float: left
+    
+    +mq($bp-sm-down)
+        padding-left: $layout-gutter-xs
+        padding-right: $layout-gutter-xs
+
+.c-filteredListWithText_Wrapper-description
+    color: $gray-rat
+
+    
+.c-filteredListWithText_Wrapper-filter
+    float: right
+    position: relative
+    color: $gray-rat
+
+    +mq($bp-lg)
+        width: 40.8rem
+
+    +mq($bp-lg-down)
+        +mq($bp-md)
+            width: 30rem
+
+    +mq($bp-md-down)
+        margin-top: 4.5rem
+        width: 100%
+        float: none
+    
+    +mq($bp-sm-down)
+        margin-top: 3.8rem
+
+.c-filteredListWithText_Wrapper-filterGutter
+
+// Header
+//============================================
+
+.c-filteredListWithText_btn
+    width: 100%
+    text-align: right
+    padding-bottom: 1rem
+    
+    +mq($bp-md-down)
+        text-align: left
+
+    +mq($bp-sm-down)
+        padding-left: $layout-gutter-xs
+        padding-right: $layout-gutter-xs
+
+.c-filteredListWithText_icon
+    
+    .c-filteredListWithText.is-visible &
+        transform: rotate(180deg)
+        transition: transform .5s
+
+    .c-filteredListWithText &
+        transition: transform .5s
+        transform: rotate(0deg)
+
+.c-filteredListWithText_title
+    color: $gray-rat
+    text-transform: uppercase
+    font-weight: bold
+    line-height: 0
+
+    +mq($bp-sm-down)
+        font-size: 2.4rem
+    
+    +mq($bp-lg)
+        font-size: 2.4rem
+    
+// List topic
+//============================================
+
+.c-filteredListWithText_listWrap
+    overflow: hidden
+
+    +mq($bp-md-down)
+        max-height: 0
+        transition: max-height $motion-duration
+
+        .c-filteredListWithText.is-visible &
+            max-height: 50rem
+
+    +mq($bp-md)
+        position: absolute
+        top: 100%
+        left: 0
+        width: 100%
+        z-index: 2
+        box-shadow: $box-shadow
+        transition: opacity $motion-duration, visibility $motion-duration
+        opacity: 0
+        visibility: hidden
+
+        .c-filteredListWithText.is-visible &
+            opacity: 1
+            visibility: visible
+
+    .c-filteredListWithText_listWrap-extended &
+        width: 43rem
+        right: 0
+        left: auto
+
+    .c-filteredListWithText_listWrap-extended\@lg &
+        +mq($bp-lg)
+            width: 43rem
+            right: 0
+            left: auto
+
+// List topic - list
+//============================================
+
+.c-filteredListWithText_list
+    background: $gray-bright
+
+
+.c-filteredListWithText_list-noPadd
+    padding: 0
+
+.c-filteredListWithText_listItem
+    position: relative
+    padding: $space-half $space-double $space-half $space
+    border-top: 0.1rem solid $gray-powder
+    font-size: $fs
+    color: $gray-mid
+
+    +mq($bp-md)
+        font-size: $fs
+
+    &:hover
+        background: $gray-wetDust
+        cursor: pointer
+        color: $gray-rat
+
+    &.is-active
+        color: $gray-rat
+
+
+.c-filteredListWithText_listItem_Checkmark
+    display: none
+    +position(1rem 1.4rem, top right)
+    fill: $gray-rat
+
+    .is-active &
+        display: block
+
+.c-filteredListWithText_icon
+    width: 1.8rem
+    height: 2.2rem
+    margin-left: 1.6rem
+    float: right
+

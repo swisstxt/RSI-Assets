@@ -1,0 +1,45 @@
+{
+	"title": "Image Badge",
+	"label": "c-imgBadge",
+	"status": "ready",
+	"context": {
+		"badge": "dolor sit"
+	},
+
+	"variants": [
+		{
+			"name": "grayRat",
+			"label": "c-imgBadge-grayRat",
+			"context": {
+				"class": "c-imgBadge-grayRat"
+			}
+		},
+
+		{
+			"name": "buzz",
+			"label": "c-imgBadge-buzz",
+			"context": {
+				"class": "c-imgBadge-buzz c-imgBadge-small",
+				"badge": "buzz"
+			}
+		},
+
+		{
+			"name": "live",
+			"label": "c-imgBadge-live",
+			"context": {
+				"class": "c-imgBadge-small c-imgBadge-poisBlink",
+				"badge": "live"
+			}
+		},
+
+		{
+			"name": "bgTransparent",
+			"label": "c-imgBadge-bgTransparent",
+			"context": {
+				"class": "c-imgBadge-small c-imgBadge-bgTransparent",
+				"badge": "Lorem"
+			}
+		}
+	]
+}

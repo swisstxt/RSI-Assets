@@ -1,0 +1,23 @@
+{
+	"title": "Go back button",
+	"label": "c-goBack",
+	"status": "ready",
+	"context": {
+		"c-iconClose": {
+			"icon": "angle-left",
+      "class": "c-goBack_icon"
+		},
+    "text": "Torna ai risultati"
+  },
+
+  "variants": [
+      {
+          "name": "light",
+          "label": "c-goBack-light",
+          "preview": "@preview-light",
+          "context": {
+            "class": "c-goBack-light"
+          }
+      }
+  ]
+}

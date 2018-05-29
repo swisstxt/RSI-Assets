@@ -1,0 +1,498 @@
+//============================================
+// Live ticker alert
+//============================================
+
+$fs-liveTicker-caption:               1.4rem
+$width-liveTicker-line:               0.5rem
+
+
+
+// Wrap
+//============================================
+
+.c-liveTicker
+  position: relative
+  overflow: hidden
+  //min-height: 10rem
+  color: $white
+  //background: $black
+
+  &.c-liveTicker-light
+    color: $gray-rat
+    //background: $white
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+
+// Img
+//============================================
+
+// Give the whole teaser the correct format
+.c-liveTicker_formatImg
+  position: relative
+  color: $white
+  overflow: hidden
+
+  +mq($bp-sm-down)
+    margin-left: -$layout-gutter-xs
+    margin-right: -$layout-gutter-xs
+
+  &::before
+    display: block
+    content: ""
+    padding-bottom: (7 / 16) * 100%
+
+// Image
+//============================================
+
+.c-liveTicker_imgWrap
+  display: block
+  +pos(0, all)
+
+  &::after
+    +pos(0, left right bottom)
+    content: ""
+    background-image: linear-gradient(to top, $color-bg, transparent)
+    height: 40%
+
+  // Variation content bottom 7rem
+  .c-liveTicker-contentFarGround &
+    height: 55%
+
+.c-liveTicker_img
+  +size(100%)
+  display: block
+
+  img
+    +size(100%, auto)
+
+.c-liveTicker_imgCaption
+  margin-top: $space-third
+  margin-left: $space-half
+  margin-right: $space-half
+  font-size: 1.3rem
+  text-align: left
+  color: $gray-silver
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  +mq($bp-sm)
+    font-size: 1.4rem
+    text-align: right
+
+  +mq($bp-md)
+
+  +mq($bp-lg)
+
+// Content
+//============================================
+
+.c-liveTicker_content
+  margin-top: $space-half
+
+  +mq($bp-sm)
+    margin-top: $space
+
+  +mq($bp-md)
+
+  +mq($bp-lg)
+
+.c-liveTicker_title
+  font-family: $font-alt
+  font-weight: bold
+  color: $gray-rat
+  font-size: 2.4rem
+  line-height: 1.4
+  margin: 0 $space-half
+
+  +mq($bp-sm)
+    margin: 0
+    font-size: $fs-article-title-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-title-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-title-lg
+
+.c-liveTicker_subtitle
+  margin-top: $space
+  font-family: $font
+  font-size: $fs-article-sub-title
+  line-height: $lh-article-sub-title
+  font-weight: normal
+  color: $gray-mid
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  line-height: 1.4
+  margin: $space-half $space-half $space
+
+  +mq($bp-sm)
+    margin: $space-half 0 $space
+    font-size: $fs-article-sub-title-sm
+    line-height: 1.4
+
+  +mq($bp-md)
+    font-size: $fs-article-sub-title-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-sub-title-lg
+
+.c-liveTicker_date
+  margin-top: 0.4rem
+  float: left
+  font-size: $fs-article-date
+  color: $gray-light
+
+  +mq($bp-sm)
+    font-size: $fs-article-date-sm
+
+  +mq($bp-md)
+    font-size: $fs-article-date-md
+
+  +mq($bp-lg)
+    font-size: $fs-article-date-lg
+
+.c-liveTicker_info
+  border-top: 1px solid $gray-powder
+  padding-top: $space-half
+  padding-bottom: $space
+  margin: $space $space-half 0
+
+  +mq($bp-sm)
+    margin: $space 0 0
+
+  +mq($bp-md)
+    border-bottom: 1px solid $gray-powder
+    margin: $space 0 $space-oneAndHalf
+
+  +mq($bp-lg)
+
+  .c-liveTicker_info_bar
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    padding-bottom: $space-oneAndHalf
+    color: $gray-silver
+
+    .c-liveTicker_info_bar_date
+      font-size: $fs-liveTicker-info-date
+      -webkit-font-smoothing: antialiased
+      -moz-osx-font-smoothing: grayscale
+
+      +mq($bp-sm)
+        font-size: $fs-liveTicker-info-date-sm
+
+      +mq($bp-md)
+        font-size: $fs-liveTicker-info-date-md
+
+      +mq($bp-lg)
+        font-size: $fs-liveTicker-info-date-lg
+
+    .c-liveTicker_info_bar_share
+      text-align: right
+
+  .c-liveTicker_info_share
+
+  .c-liveTicker_info_text
+
+// Mobile filter
+.c-liveTicker_mobileFilter
+  display: block;
+  margin-bottom: $space-half
+  padding: $space $space-half
+  background: $white
+
+  +mq($bp-md)
+    display: none
+
+  &.active
+    
+    .c-liveTicker_mobileFilter_link
+      background: $primary
+
+    .c-liveTicker_mobileFilter_icon
+
+      .c-liveTicker_mobileFilter_icon_on
+        display: block
+
+      .c-liveTicker_mobileFilter_icon_off
+        display: none
+    
+  .c-liveTicker_mobileFilter_link
+    position: relative
+    display: block
+    background: $black
+    padding: $space-threeQuarter $space-half
+    font-size: 1.6rem
+
+    &:after
+      content: ""
+      position: absolute
+
+  .c-liveTicker_mobileFilter_icon
+    position: absolute
+    right: 1.2rem
+    top: 1.7rem
+
+    .c-liveTicker_mobileFilter_icon_on
+      display: none
+
+    .c-liveTicker_mobileFilter_icon_off
+      display: block
+
+// Overview Timeline + Timeframe (item of timeline)
+.c-liveTicker_overviewBox
+  display: none
+
+  +mq($bp-md)
+    display: block
+    margin-top: 20px
+
+  .c-liveTicker_overview_sectionWrap
+    width: 100%
+    padding-bottom: 0
+    border-bottom: 1px solid $gray-powder
+    margin-bottom: $space
+
+  .c-liveTicker_overview_section
+    display: inline-block
+    +h3(false)
+    font-family: $font-alt
+    font-weight: bold
+    padding: 0.7rem 1.1rem
+    margin: 0
+    background: $gray-asphalt
+    color: $white
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    text-transform: uppercase
+
+  .c-liveTicker_overview
+    padding-top: $space-third
+    padding-bottom: $space-third
+
+  .c-liveTicker_overview_time
+    line-height: 1.1
+
+    .c-liveTicker_overview_time_icon
+      vertical-align: top
+      width: 1.8rem
+      height: 1.8rem
+      fill: $primary
+  
+    .c-liveTicker_overview_time_label
+      display: inline-block
+      padding-left: 0.5rem
+      color: $primary
+      font-size: $fs-liveTicker-overview-time
+
+      +mq($bp-sm)
+        font-size: $fs-liveTicker-overview-time-sm
+
+      +mq($bp-md)
+        font-size: $fs-liveTicker-overview-time-md
+
+      +mq($bp-lg)
+        font-size: $fs-liveTicker-overview-time-lg
+
+  .c-liveTicker_overview_title
+    margin-top: $space-half
+    margin-bottom: $space-half
+    font-family: $font-alt
+    margin-left: 1.1rem
+    border-left: 1px solid $gray-powder
+    padding-left: 1.6rem
+    padding-bottom: $space-half
+    color: $gray-rat
+    font-weight: bold
+    font-size: $fs-liveTicker-timeframe-title
+
+    +mq($bp-sm)
+      font-size: $fs-liveTicker_timeframe-title-sm
+
+    +mq($bp-md)
+      font-size: $fs-liveTicker_timeframe-title-md
+
+    +mq($bp-lg)
+      font-size: $fs-liveTicker_timeframe-title-lg
+
+// Time
+.c-liveTicker_time
+  font-family: $font
+  font-size: $fs-liveTicker-caption
+  font-weight: normal
+  //color: rgba($white, 0.5)
+  margin-left: $space-quarter
+
+// Icon
+.c-liveTicker_icon
+  fill: $white
+  opacity: 0.5
+  margin-top: -0.2rem
+
+// Paragraphs
+.c-liveTicker_paragraph
+  margin-top: $space
+  font-size: $fs-article-p
+  color: $gray-rat
+
+  &:first-child
+    margin-top: 0
+
+  +mq($bp-sm)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-article-p-sm
+
+  +mq($bp-md)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-article-p-md
+
+  +mq($bp-lg)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-article-p-lg
+
+.c-liveTicker_timeframe_paragraph
+  margin-top: $space
+  font-size: $fs-liveTicker-timeframe-p
+  color: $gray-rat
+
+  &:first-child
+    margin-top: 0
+
+  +mq($bp-sm)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-liveTicker-timeframe-p-sm
+
+  +mq($bp-md)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-liveTicker-timeframe-p-md
+
+  +mq($bp-lg)
+    margin-top: $space-oneAndHalf
+    font-size: $fs-liveTicker-timeframe-p-lg
+
+
+// Timeline + Timeframe (item of timeline)
+.c-liveTicker_timeline
+  position: relative
+
+  &::before
+    position: absolute
+    content: ""
+    top: 0
+    bottom: 0
+    left: $space + $width-liveTicker-line
+    width: 1px
+    height: 100%
+    background: $gray-powder
+    z-index: 0
+
+  &.has-milestone-filter
+
+    .c-liveTicker_timeframe
+
+      &.c-liveTicker_timeframe--milestone
+
+    +mq($bp-md)
+    
+      .c-liveTicker_timeframe
+        display: block !important
+
+  .c-liveTicker_timeline_title
+    position: relative
+    font-family: $font-alt
+    font-weight: bold
+    margin-bottom: $space
+    padding: 0.1rem
+
+  .c-liveTicker_timeframe
+    position: relative
+    border-left: $width-liveTicker-line solid $white
+    padding: $space $space $space-oneAndHalf
+    background: $white
+    margin-bottom: $space-half
+    z-index: 10
+    transform: all 0.2s ease-in-out
+
+    +mq($bp-sm)
+      padding: $space $space $space-oneAndHalf
+      margin-bottom: $space
+
+    +mq($bp-md)
+      padding: $space $space $space-oneAndHalf
+      margin-bottom: $space
+
+    +mq($bp-lg)
+      padding: $space $space $space-oneAndHalf
+      margin-bottom: $space
+
+    &.c-liveTicker_timeframe--milestone
+      border-left-color: $primary
+      
+      .c-liveTicker_timeframe_time
+
+        .c-liveTicker_timeframe_time_icon
+          fill: $primary
+
+        .c-liveTicker_timeframe_time_label
+          color: $primary
+
+    .c-liveTicker_timeframe_time
+      line-height: 1.1
+
+      .c-liveTicker_timeframe_time_icon
+        vertical-align: top
+        width: 1.8rem
+        height: 1.8rem
+        fill: $gray-mid
+
+      .c-liveTicker_timeframe_time_label
+        display: inline-block
+        padding-left: 0.5rem
+        color: $gray-mid
+
+    .c-liveTicker_timeframe_title
+      margin-top: $space-half
+      margin-bottom: $space
+      font-family: $font-alt
+      font-size: $fs-liveTicker-timeframe-title
+      font-weight: bold
+      color: $gray-rat
+
+      +mq($bp-sm)
+        font-size: $fs-liveTicker_timeframe-title-sm
+
+      +mq($bp-md)
+        font-size: $fs-liveTicker_timeframe-title-md
+
+      +mq($bp-lg)
+        font-size: $fs-liveTicker_timeframe-title-lg
+
+    .c-liveTicker_timeframe_content
+
+      .c-liveTicker_timeframe_content_embed
+
+        &.c-liveTicker_timeframe_content_embed--twitter
+          // ---8<---- Remove this
+          img
+            max-width: 512px // used only for simulated iframe
+          // ---8<---- End Remove this
+
+        &.c-liveTicker_timeframe_content_embed--youtube
+
+        // ---8<---- Remove this
+        img
+          +size(100%, auto)
+        // ---8<---- End Remove this
+
+      .c-liveTicker_timeframe_content_image
+
+        img
+          +size(100%, auto)
+
+        .c-liveTicker_timeframe_content_image_caption
+          margin-top: $space-half
+          color: $gray-rat
+          font-size: 1.4rem

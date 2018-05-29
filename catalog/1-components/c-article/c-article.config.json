@@ -1,0 +1,447 @@
+{
+  "title": "Article",
+  "label": "c-article",
+  "status": "ready",
+  "preview": "@preview-light",
+  "context": {
+    "openingImageDesktop": "../../images/16x9/default.jpg",
+    "openingImageSmartphone": "../../images/16x9/default.jpg",
+    "ContentImageHorz": "../../images/16x9/default.jpg",
+    "videoCover": "../../images/16x9/default.jpg",
+    "ContentImageVert": "../../images/3x4/default.jpg",
+    "openingImageCaption": "Un 21 maggio di votazioni ©Ti-Press",
+
+    "title": "Titolo notizia titolo notizia principale titolo notizia principale",
+    "subTitle": "Il Governo ticinese chiede un credito per garantire il servizio nel centro per migranti di Rancate",
+    "paragraph": "Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet, ut efficitur est eleifend. In facilisis ipsum ornare erat tincidunt, a aliquet metus mollis. Donec scelerisque massa eget tortor porta, aliquam semper nibh congue. Aliquam vel venenatis lacus, eget dictum elit.",
+    "quote-text": "La leadership si basa sull'ispirazione, non sulla capacità di dominare gli altri; sulla collaborazione, non sull'intimidazione",
+    "quote-author": "William Arthur Ward",
+
+
+    "c-labelCategory": {
+        "label": "svizzera",
+        "class": "c-label-small c-label-light c-label-round"
+    },
+
+    "c-labelTabellino": {
+        "label": "Tabellino",
+        "class": "c-label-small c-label-light c-label-round c-label-bgGrayDust"
+    },
+
+    "c-labelRisultati": {
+        "label": "Risultati e classifiche",
+        "class": "c-label-small c-label-light c-label-round c-label-bgGrayDust"
+    },
+
+    "c-heroImgOpeningVideo": {
+      "class": "c-heroImg-titleXxs c-heroImg-descAlwaysVisible c-heroImg-contentGround c-heroImg-playCenter c-heroImg-16:7 c-heroImg-noFull@sm",
+      "imageDesktop": "../../images/16x7/default.jpg",
+      "imageSmartphone": "../../images/5x4/default.jpg",
+      "c-imgActions": false,
+      "playIconAbsolute": true,
+
+      "c-playIcon": {
+        "size": "sm",
+        "class": "c-playIcon-rettangle c-playIcon-44@md c-playIcon-md@lg"
+      }
+    },
+
+    "c-btnPrint": {
+      "label": "Stampa",
+      "c-iconShare": {
+        "icon": "printer",
+        "class": "c-btnShare_icon"
+      }
+    },
+
+    "c-btnShare": {
+      "class": "c-btnShare-light c-btnShare-noBg c-btnShare-noLabel@xs",
+      "label": "Condividi",
+      "c-iconShare": {
+        "icon": "share-thin",
+        "class": "c-btnShare_icon"
+      }
+    },
+
+    "c-btnShareClosingInfo": {
+      "class": "c-btnShare-light c-btnShare-noBg",
+      "label": "Condividi",
+      "c-iconShare": {
+        "icon": "share-thin",
+        "class": "c-btnShare_icon"
+      }
+    },
+
+    "c-IconPlay": {
+      "size": "md"
+    },
+
+    "c-heroImgVideo": {
+      "class": "c-heroImg-titleXxs c-heroImg-descAlwaysVisible c-heroImg-contentGround c-heroImg-playCenter c-heroImg-16:9 c-heroImg-16:9@xs",
+      "imageDesktop": "../../images/16x9/default.jpg",
+      "imageSmartphone": "../../images/16x9/default.jpg",
+      "c-imgActions": false,
+
+      "c-playIcon": {
+        "size": "sm",
+        "class": "c-playIcon-rettangle"
+      }
+    },
+
+    "c-heroImgGalleryPhoto": {
+      "class": "c-heroImg-gallery c-heroImg-titleXxs c-heroImg-contentGround c-heroImg-16:9@xs",
+      "labelShow": false,
+
+      "c-imgActions": {
+        "items": [
+          {
+            "labelActions": "Apri galleria",
+            "numberActions": "5",
+            "c-icon": {
+              "icon": "pics",
+              "class": "c-imgActions_icon"
+            }
+          },
+          {"item":false},
+          {"item":false}
+        ]
+      }
+    },
+
+    "c-quoteSocial":{
+      "classSocialSource": "c-quote-social_facebook",
+      "c-icon": {
+        "icon": "f_facebook"
+      }      
+    },
+
+    "c-galleryVideosectionTitle": {
+      "class": "c-sectionTitle-light c-sectionTitle-noBorder@xs",
+      "title-short": "Gallery video"
+    },
+
+    "c-sliderGalleryVideo": {
+      "class": "c-slider-light c-slider-slick js-slider-slickFullWidth js-slider-slickDots c-slider-fixedContainer c-slider-itemW250@sm c-slider-controlTop70@sm c-slider-itemW250@md c-slider-controlTop70@md",
+      "slider-inner-class": "js-slider-slickCarousel",
+
+      "teaserShow": false,
+      "teaserSmartphoneSlickShow": true,
+      "c-moreBtn": false,
+      "teasers": [
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        },
+
+        {
+          "c-teaser": {
+            "class": "c-slider_item js-slider_item u-push-btm c-teaser-light c-teaser-titleXs c-teaser-titleIndented@xs",
+
+            "c-teaserImg": {
+              "c-imgActions": false,
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "sm",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-5px c-playIcon-36@sm c-playIcon-36@md"
+                }
+              }
+            },
+
+            "c-teaser-label": false,
+            "descriptionShow": false,
+            "shareShow": false
+          }
+        }
+      ]
+    },
+
+    "c-teaserListVert-TopTitle":{
+      "c-sectionTitle": {
+        "href": "#",
+        "title-short": "Correlati"
+      },
+
+      "class":"c-teaserListVert-light u-push-top-oneAndHalf",
+      "teasers": [
+          {
+            "c-teaserSmall": {
+              "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+              "title": "\"Diciamo no a Energia 2050\"",
+              "description-medium": "Ha preso il via la campagna del Comitato ambientale contro la legge sull'energia",
+
+              "c-embed": {
+                "showPlayIcon": true,
+
+                "c-playIcon": {
+                  "size": "24",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+                  "c-iconPlay": {
+                    "class": "c-playIcon_icon c-icon-pics",
+                    "icon": "pics"
+                  }
+                }
+              } 
+            }
+          },
+
+          {
+            "c-teaserSmall": {
+              "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+              "title": "La strategia energetica piace",
+              "description-medium": "Ha preso il via la compagna del Comitato ambientale contro la legge sull'energia",
+
+              "c-embed": {
+                "showPlayIcon": true,
+                
+                "c-playIcon": {
+                  "size": "24",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+                  "c-iconPlay": {
+                    "class": "c-playIcon_icon",
+                    "icon": "sound"
+                  }
+                }
+              } 
+            }
+          },
+
+          {
+            "c-teaserSmall": {
+              "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+              "title": "La tassa non finisce nel sacco",
+              "description-medium": "Il Ticino ha approvato la revisione della Legge sull'ambiente con il 58,2% di favorevoli - Le reazioni",
+              
+              "c-embed": {
+                "showPlayIcon": true,
+                
+                "c-playIcon": {
+                  "size": "24",
+                  "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+                  "c-iconPlay": {
+                    "class": "c-playIcon_icon c-icon-play",
+                    "icon": "play"
+                  }
+                }
+              }
+            }
+          }
+        ]
+    },
+
+    "c-teaserListVert-RightTitle":{
+      "class":"c-teaserListVert-light u-push-top-oneAndHalf u-push-btm-double c-sectionTitle-xs@md",
+        "c-sectionTitle": {
+          "href": "#",
+          "title-short": "In evidenza"
+        },
+        "teasers": [
+        {
+          "c-teaserSmall": {
+            "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+            "title": "\"Diciamo no a Energia 2050\"",
+            "description-medium": "6 Giugnio 2017",
+
+            "c-embed": {
+              "showPlayIcon": false
+            } 
+          }
+        },
+        {
+          "c-teaserSmall": {
+            "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+            "title": "La strategia energetica piace",
+            "description-medium": "7 Giugno 2017",
+
+            "c-embed": {
+              "showPlayIcon": false
+            } 
+          }
+        },
+        
+        {
+          "c-teaserSmall": {
+            "class": "c-teaserSmall-TopTitle c-teaserSmall-descriptionShow c-teaserSmall-light",
+            "title": "La tassa non finisce nel sacco",
+            "description-medium": "7 Giugno 2017",
+
+            "c-embed": {
+              "showPlayIcon": true,
+              
+              "c-playIcon": {
+                "size": "24",
+                "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+                "c-iconPlay": {
+                  "class": "c-playIcon_icon c-icon-play",
+                  "icon": "play"
+                }
+              }
+            } 
+          }
+        }
+      ]
+    }
+  }
+}

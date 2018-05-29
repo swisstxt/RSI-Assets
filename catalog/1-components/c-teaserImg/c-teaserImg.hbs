@@ -1,0 +1,18 @@
+<div class="c-teaserImg {{class}}">
+	{{render '@c-embed' c-embed merge=true}}
+
+	{{#if c-imgActions}}
+		{{render '@c-imgactions' c-imgActions merge=true}}
+	{{/if}}
+
+	{{#if c-imgBadgeShow}}
+		{{render '@c-imgbadge' c-imgBadge merge=true}}
+	{{/if}}
+
+	{{#if c-vectorLogoShow}}
+		<div class="c-teaserImg_vectorLogo">
+			{{render '@c-vectorlogo' c-vectorLogo merge=true}}
+		</div>
+	{{/if}}
+
+</div>

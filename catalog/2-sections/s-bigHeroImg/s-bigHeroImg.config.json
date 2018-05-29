@@ -1,0 +1,10 @@
+{
+  "title": "bigHeroImg",
+  "label": "s-bigHeroImg",
+  "status": "ready",
+  "context": {
+  	"c-heroImg-bigHero": {
+
+  	}
+  }
+}

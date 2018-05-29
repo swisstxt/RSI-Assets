@@ -1,0 +1,89 @@
+{
+  "title": "Live ticker",
+  "label": "c-liveTicker",
+  "status": "ready",
+  "preview": "@preview-light",
+  "context": {
+    "c-iconClock-overview": {
+      "icon": "clock",
+      "class": "c-liveTicker_overview_time_icon"
+    },
+
+    "c-iconClock-timeframe": {
+      "icon": "clock",
+      "class": "c-liveTicker_timeframe_time_icon"
+    },
+
+    "photoCaption": "Foto: Ti-Press",
+    "title": "Titolo notizia titolo notizia principale titolo notizia principale",
+    "subtitle": "Il Governo ticinese chiede un credito per garantire il servizio nel centro per migranti di Rancate",
+    "date": "venerdì 10/03/17 16:02",
+    "infoText": [
+      "Pee in the shoe. My slave human didn't give me any food so i pooped on the floor. Eats owners hair then claws head lay on arms while you're using the keyboard eat from dog's food flop over sweet beast catch mouse and gave it as a present.",
+      "With tail in the air chase imaginary bugs then cats take over the world or rub face on owner mrow kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.",
+      "Ears back wide eyed sit by the fire or plan steps for world domination chew foot, or swat at dog purr when being pet."
+    ],
+    "milestoneTitle": "Momenti chiave",
+
+    "nTimeline": [
+      {
+        "title": "Evento solo testo",
+        "time": "5 minuti fa",
+        "milestone": false,
+        "type": "text",
+        "content": [
+          "Find empty spot in cupboard and sleep all day rub face on everything, and annoy owner until he gives you food say meow repeatedly until belly rubs, feels good i cry and cry and cry unless you pet me, and then maybe i cry just for fun."
+        ]
+      },
+      {
+        "title": "Evento liveticker milestone solo testo",
+        "time": "10 minuti fa",
+        "milestone": true,
+        "type": "text",
+        "content": [
+          "Curl up and sleep on the freshly laundered towels. Need to chase tail hide from vacuum cleaner pelt around the house and up and down stairs chasing phantoms.",
+          "Wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again rub whiskers on bare skin act innocent attack feet, yet meowwww, paw at beetle and eat it before it gets away."
+        ]
+      },
+      {
+        "title": "Evento milestone con embed escenic",
+        "time": "2 ore fa",
+        "milestone": true,
+        "type": "teaser",
+        "content": {
+          "embedShow": true,
+          "showLabelRgt": false,
+          "showLiveMark": false,
+          "descriptionShort" : true,
+          "descriptionMediumShow": true
+        }
+      },
+      {
+        "title": "Evento milestone con embed twitter",
+        "time": "5 ore fa",
+        "milestone": true,
+        "type": "embed",
+        "embed_type": "twitter",
+        "content": "<img src=\"../../images/dev/liveticker_twitter.jpg\">"
+      },
+      {
+        "title": "Evento con embed youtube",
+        "time": "5 ore fa",
+        "milestone": false,
+        "type": "embed",
+        "embed_type": "youtube",
+        "content": "<img src=\"../../images/dev/liveticker_youtube.jpg\">"
+      },
+      {
+        "title": "Evento con foto",
+        "time": "Ieri ore 12.14",
+        "milestone": false,
+        "type": "image",
+        "content": {
+          "url": "../../images/dev/liveticker_photo.jpg",
+          "caption": "Didascalia della foto (Ti-Press)"
+        }
+      }
+    ]
+  }
+}

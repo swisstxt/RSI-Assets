@@ -1,0 +1,32 @@
+[
+  {
+    "src": "../../images/16x9/1.jpg",
+    "title": "Titolo1",
+    "description": "Descrizione",
+    "type":"image"
+  },
+  {
+    "src": "../../images/16x9/3.jpg",
+    "title": "Titolo2",
+    "description": "Descrizione",
+    "type":"image"
+  },
+  {
+    "src": "../../images/16x9/4.jpg",
+    "title": "Titolo3",
+    "description": "Descrizione",
+    "type":"image"
+  },
+  {
+    "src": "../../images/16x9/5.jpg",
+    "title": "Titolo4",
+    "description": "Descrizione",
+    "type":"image"
+  },
+  {
+    "src": "//tp.srgssr.ch/p/rsi/embed?urn=urn:rsi:video:8970967&autoplay=true&hideendscreen=1",
+    "title": "video",
+    "description": "Descrizione",
+    "type":"iframe"
+  }
+]

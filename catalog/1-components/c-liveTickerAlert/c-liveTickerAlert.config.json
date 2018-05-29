@@ -1,0 +1,28 @@
+{
+  "title": "Live ticker alert",
+  "label": "c-liveTickerAlert",
+  "status": "ready",
+  "context": {
+    "c-sectionTitle": {
+      "title-short": "In diretta"
+    },
+
+    "c-iconClock": {
+		"icon": "clock",
+		"class": "c-liveTickerAlert_icon"
+	},
+
+    "title": "Terremoto di magnitudo 6.5 Crolli in 100 comuni",
+    "time": "23 min. fa"
+  },
+
+  "variants": [
+      {
+          "name": "small",
+          "label": "c-liveTickerAlert-small",
+          "context": {
+            "class": "c-liveTickerAlert-small"
+          }
+      }
+  ]
+}

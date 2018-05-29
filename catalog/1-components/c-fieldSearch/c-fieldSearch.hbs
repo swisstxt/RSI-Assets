@@ -1,0 +1,17 @@
+<div class="c-fieldSearch js-fieldSearch {{class}}">
+	{{#if label-description}}
+		<span class="c-fieldSearch_labelDescription">{{label-description}}</span>
+	{{/if}}
+
+	<div class="c-fieldSearch_wrpInput">
+		<input type="text" name="" placeholder="{{placeholder}}" class="c-fieldSearch_input js-fieldSearch_input" />
+
+		<div class="c-fieldSearch_btnClose js-fieldSearch_btnClose">
+			{{render '@c-icon' c-iconClose}}
+		</div> 
+
+		<div class="c-fieldSearch_btn">
+			{{render '@c-icon' c-iconSearch}}
+		</div>
+	</div> 
+</div>

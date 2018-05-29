@@ -1,0 +1,23 @@
+{
+  "title": "Ricerca",
+  "label": "Ricerca",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "s-fieldSearch": {
+      "class-layout": "u-padd-top-tripleAndHalf u-padd-btm-double"
+    },
+    "s-carouselTeaserSmall": {
+      "c-sectionTitle": {
+        "title-short": "Dai programmi"
+      }
+    },
+    "s-filteredTeasersWithRelated":{
+      
+      "c-filteredListWithText":{
+        "description": true,
+        "label": "Tutti i contenuti"
+      }
+    }
+  }
+}

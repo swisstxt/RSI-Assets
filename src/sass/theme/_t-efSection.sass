@@ -1,0 +1,90 @@
+//============================================
+// Euro France theme section
+//============================================
+
+// Disposable theme styles for the Euro France
+// event. After their use these styles can be
+// safely deleted.
+
+
+// Wrap
+//============================================
+
+// 1. Extends `.section`
+
+.t-efSection // 1.
+  background-position: $efSection-bgPosition-xs
+  background-repeat: $efSection-bgRepeat
+  background-size: $efSection-bgSize-xs
+  background-color: $efSection-bgColor
+  border-top: 0.1rem solid $gray-rat
+
+  +mq($bp-sm)
+    +mq($bp-md-down)
+      background-position: $efSection-bgPosition-sm
+      background-size: $efSection-bgSize-sm
+
+  +mq($bp-md)
+    +mq($bp-lg-down)
+      background-position: $efSection-bgPosition-md
+      background-size: $efSection-bgSize-md
+
+  +mq($bp-lg)
+    background-position: $efSection-bgPosition-lg
+    background-size: $efSection-bgSize-lg
+
+// Logo
+//============================================
+
+.t-efSection_logo
+  width: $efSection-logoWidth-xs
+  margin-left: auto
+  margin-right: auto
+  margin-top: $efSection-logoTop-xs
+  margin-bottom: $efSection-logoBtm-xs
+
+  +mq($bp-sm)
+    +mq($bp-md-down)
+      width: $efSection-logoWidth-sm
+      margin-top: $efSection-logoTop-sm
+      margin-bottom: $efSection-logoBtm-sm
+
+  +mq($bp-md)
+    +mq($bp-lg-down)
+      width: $efSection-logoWidth-md
+      margin-top: $efSection-logoTop-md
+      margin-bottom: $efSection-logoBtm-md
+
+  +mq($bp-lg)
+    width: $efSection-logoWidth-lg
+    margin-top: $efSection-logoTop-lg
+    margin-bottom: $efSection-logoBtm-lg
+
+
+// CTA
+//============================================
+
+// 1. Extends `.btn`
+
+.t-efSection_cta
+  text-align: right
+  margin-bottom: $space
+
+.t-efSection_ctaBtn // 1.
+  background-color: transparent
+  border-color: $white
+  transition: opacity 0.2s
+  opacity: 0.6
+
+  &:hover,
+  &:focus,
+  &:active
+    opacity: 1
+    background-color: transparent
+    border-color: $white
+
+.t-efSection_ctaBtnIcon
+  +iscale("angle-right", 1.2rem)
+  fill: $white
+  margin-left: $space-third
+  margin-top: -0.2rem

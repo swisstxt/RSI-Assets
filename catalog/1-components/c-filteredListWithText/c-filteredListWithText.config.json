@@ -1,0 +1,26 @@
+{
+  "title": "Filtered list with text",
+  "label": "c-filteredListWithText",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "class": "",
+    "description": false,
+    "title": true,
+
+    "c-sectionTitle": {
+      "class-layout": "c-sectionTitle-light c-sectionTitle-noBorder@lg c-sectionTitle-noBorder@md c-sectionTitle-w100perCent c-sectionTitle-w450@lg c-sectionTitle-w340@md c-sectionTitle-w370sm",
+      "title-short": "Lorem ipsum"
+    },
+
+    "labelDefault": "Lorem ipsum",
+
+    "c-iconFilter":{
+        "icon": "angle-down",
+        "class": "c-filteredListWithText_icon c-icon-grayrat"
+    },
+    "c-iconCheckmark": {
+      "icon": "checkmark"
+    }
+  }
+}

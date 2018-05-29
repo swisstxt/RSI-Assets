@@ -1,0 +1,149 @@
+//============================================
+// Label
+//============================================
+
+// Generic label. Usually a link.
+
+// Truncate variation 
+//.c-label-truncate\@md
+
+
+// Base
+//============================================
+
+.c-label
+  background-color: $black
+  border: 0.1rem solid $gray-rat
+  text-transform: uppercase
+  padding: 0.2em 0.6em
+  display: inline-block
+  vertical-align: middle
+  color: $gray-silver
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s
+
+  // Variation add padding right
+  &-addPaddRgt
+    padding-right: $space-half
+
+  // Variation active & hover
+  &.is-active, &-active, &:hover
+    background-color: $primary
+    color: $white
+    border-color: $primary
+
+  // Variation light
+  &-light
+    background-color: transparent
+    border: 0.1rem solid $gray-mid
+    color: $gray-mid
+
+  // Variation bg grayDust
+  &-bgGrayDust
+    background-color: $gray-dust
+
+  // Variation bg gray-rat alpha
+  &-bgGrayRatAlpha
+    background-color: rgba($gray-rat, 0.7)
+
+    // Variation active & hover
+    &.is-active, &-active, &:hover
+      background-color: $primary
+      color: $white
+      border-color: $primary
+
+  // Variation bg black alpha
+  &-bgBlackAlpha
+    background-color: rgba($black, 0.7)
+    color: $white
+    border-color: $black
+
+    // Variation active & hover variation
+    &.is-active, &-active, &:hover
+      background-color: rgba($black, 0.7)
+      border: 0.1rem solid $black
+
+  // Variation pois blink
+  &-poisBlink
+    display: inline-block
+    position: relative
+    padding-left: 2rem
+
+    &::before
+      +pos(0.7rem, top left)
+      display: block
+      content: ""
+      width: 0.8rem
+      height: 0.8rem
+      border-radius: 50%
+      background: $white
+      animation: blinker 2.5s linear infinite;
+
+  // Variation bg rsi
+  &-bgRsi
+    background: $color-rsi
+    border-color: $color-rsi
+
+    // Variation active & hover variation
+    &.is-active, &-active, &:hover
+      background-color: $color-rsi
+      border: 0.1rem solid $color-rsi
+
+// Variation truncate 
+.c-label-truncate
+  +truncate
+
+// Variation width 150 to md
+.c-label-150\@md
+  +mq($bp-lg-down)
+    +mq($bp-md)
+      max-width: 15rem
+
+// Variation width 330 to lg
+.c-label-330\@lg
+  +mq($bp-lg)
+    max-width: 33rem
+
+@keyframes blinker
+  50% 
+    opacity: 0
+     
+// Alternative style
+//============================================
+
+// 1. Reset padding beacuse the custom font
+//    has a different baseline than the
+//    system font.
+
+.c-label-alt
+  font-family: $font-alt
+  padding: 0.25em 0.6em 0.2em // 1.
+  font-weight: 600
+  border: 0
+  color: $gray-powder
+  background-color: $gray-rat
+
+  // Variation bg gray-rat alpha
+  &.c-label-bgGrayRatAlpha
+    background-color: rgba($gray-rat, 0.7)
+
+    // Variation active & hover
+    &.is-active, &-active, &:hover
+      background-color: $primary
+      color: $white
+      border-color: $primary
+
+
+// Rounded
+//============================================
+
+.c-label-round
+  border-radius: 0.2rem
+
+
+// Small
+//============================================
+
+.c-label-small
+  font-size: 81%
+
+

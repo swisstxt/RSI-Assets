@@ -1,0 +1,137 @@
+{
+  "title": "Slider short news",
+  "label": "s-sliderShortNews",
+  "status": "ready",
+  "context": {
+    "teaserImage": false,
+    "internal-section": "section-dark section-border",
+
+  	"c-sectionTitle": {
+    	"class": "f",
+    	"title-short": "In breve"
+    },
+
+    "c-modalArticle": {
+      "class": "zoom-anim-dialog mfp-hide",
+      "id": "modale-1",
+
+      "c-articleSkinny": {
+        "subTitleShow": false
+      }
+    },
+
+    "c-sliderTeaserSmall": {
+    	"class": "c-slider-controlTop c-slider-itemXs c-slider-bgGrayVoid u-pull-top-twoThirds@sm u-pull-btm-twoThirds@sm c-slider-reducedList@xs",
+
+      "smallTeasers": [
+        {
+          "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "Gorsuch ha giurato",
+            "description-medium": "Venerdì 14 Feb 2017, ore 10:29",
+            
+            "c-label": {
+              "label": "mondo"
+            }
+          }
+        },
+
+        {
+          "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "Primo treno diretto da Londra alla Cina",
+            "description-medium": "Venerdì 14 Feb 2017, ore 9:29",
+
+            "c-label": {
+              "label": "mondo"
+            }
+          }            
+        },
+
+        {
+          "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "Vallese, arrestati otto svaligiatori",
+            "description-medium": "Giovedì 13 Feb 2017, ore 17:02",
+
+            "c-label": {
+              "label": "svizzera"
+            }
+          }              
+        },
+
+        {
+           "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "Lesionata una condotta principale",
+            "description-medium": "Giovedì 13 Feb 2017, ore 12:23",
+
+            "c-label": {
+              "label": "Ticino, Grigioni e Insubria"
+            }
+          }                         
+        },
+
+        {
+           "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "Tampona la coda, è grave",
+            "description-medium": "Mercoledì 12 Feb 2017, ore 09:43",
+
+            "c-label": {
+              "label": "Ticino, Grigioni e Insubria"
+            }
+          }             
+        },
+
+        {
+         
+           "c-teaserSmall-descXxs": {
+            "href": "#modale-1",
+            "classTitleLink": "js-popup-html",
+            "title": "In tre lasciano l'ISS",
+            "description-medium": "Martedì 11 Feb 2017, ore 22:40",
+            "c-label": {
+              "label": "Ticino, Grigioni e Insubria"
+            }
+          }            
+        },
+
+        {
+          
+        },
+
+        {
+          
+        }
+      ]
+    }
+  },
+
+  "variants": [
+      {
+          "name": "light",
+          "label": "s-sliderShortNews-light",
+          "preview": "@preview-light",
+          "context": {
+            "slider-grayBright": true,
+            "class": "u-pull-btm section-light",
+            "internal-section": "section-grayBright section-border-grayPowder"
+          }
+      },
+
+      {
+          "name": "Slider short news with img",
+          "label": "s-sliderShortNewsWithImg",
+          "context": {
+            "teaserImage": true,
+            "class": "u-pull-btm"
+          }
+      }
+  ]
+}

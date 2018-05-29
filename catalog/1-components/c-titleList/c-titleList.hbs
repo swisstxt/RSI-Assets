@@ -1,0 +1,24 @@
+<div class="c-titleList {{class}}">
+
+{{#if section-title}}
+	<div class="c-titleList_titleHead">
+		{{render '@c-sectiontitle--noborder' c-sectionTitle merge=true}}
+	</div>
+{{/if}}
+
+<ul class="c-titleList_items">
+	{{#each nTitle}}
+		{{#if title}}
+			<li class="c-titleList_item">
+				<h3 class="c-titleList_itemTitle">
+					{{#if c-playIcon}}<a href="#" class="c-titleList_playIcon">{{render '@c-playicon' c-playIcon merge=true}}</a>{{/if}}
+					<a href="#" class="c-titleList_link">{{title}}</a>
+					{{#if c-iconType}}<a href="#">{{render '@c-icon' c-iconType merge=true}}</a>{{/if}}
+					{{#if type}}<a href="#" class="c-titleList_type">{{type}}</a>{{/if}}
+				</h3>
+			</li>
+		{{/if}}
+	{{/each}}
+</ul>
+
+</div>

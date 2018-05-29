@@ -1,0 +1,14 @@
+{
+  "title": "Slider jumbotron",
+  "label": "s-sliderJumbotron",
+  "status": "ready",
+  "context": {
+  	"class-layout": "u-padd-btm-none@sm",
+  	
+  	"c-sectionTitle": {
+      "href": false,
+      "class-layout": "u-push-btm u-push-btm-none@sm",
+  		"title-short": "Le serie in prima tv"
+  	}
+  }
+}

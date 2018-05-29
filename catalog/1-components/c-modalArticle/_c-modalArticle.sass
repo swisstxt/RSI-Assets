@@ -1,0 +1,41 @@
+//============================================
+// Modal Article
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-modalArticle
+  position: relative
+  margin: $space-double + $space-half
+  margin-left: -0.8rem
+  margin-right: -0.8rem
+  padding: $space $layout-gutter-xs
+  background: $gray-dust
+
+  +mq($bp-sm)
+    max-width: $modal-width-sm
+    margin: 0 auto
+    padding: $space
+
+  +mq($bp-md)
+    max-width: $modal-width-md
+
+  +mq($bp-lg)
+    max-width: $modal-width-lg
+    padding: $space-oneAndHalf
+
+
+// Button close
+//============================================
+
+.mfp-close
+
+  .c-modalArticle &
+    margin-top: -4.9rem
+    margin-right: 1rem
+    color: $gray-dust
+
+    +mq($bp-sm)
+      margin-right: -1.3rem

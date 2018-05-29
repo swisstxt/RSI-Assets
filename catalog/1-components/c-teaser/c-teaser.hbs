@@ -1,0 +1,62 @@
+<div class="c-teaser {{class}}">
+  {{render '@c-teaserimg' c-teaserImg merge=true}}
+
+    {{#if c-sportResult}}
+      <a href="#" class="c-teaser_sportResult">
+        {{render '@c-sportresult' c-sportResult merge=true}}
+      </a>
+    {{/if}}
+
+    {{#if c-sportResult-race}}
+      <a href="#" class="c-teaser_sportResult">
+        {{render '@c-sportresult--race' c-sportResult-race merge=true}}
+      </a>
+    {{/if}}
+
+    {{#if c-sportResult-set}}
+      <a href="#" class="c-teaser_sportResult">
+        {{render '@c-sportresult--set' c-sportResult-set merge=true}}
+      </a>
+    {{/if}}
+
+    {{#if c-teaser-label}}
+      <p class="c-teaser_label">
+        {{render '@c-label' c-label merge=true}}
+      </p>
+    {{/if}}
+
+    {{#if noTitleLinkShow}}
+      <h3 class="c-teaser_title">
+        {{title}}
+      </h3>
+      {{else}}
+      {{#if noTitleShow}}
+        {{else}}
+        <h3 class="c-teaser_title">
+          <a href="{{href}}" class="c-teaser_titleLink">
+          {{title}}
+          </a>
+        </h3>
+      {{/if}}
+    {{/if}}
+
+    {{#if descriptionShow}}
+      <p class="c-teaser_desc">
+        {{description}}
+      </p>
+    {{/if}}
+
+    {{#if secondaryInfo}}
+      <div class="c-teaser_secondaryInfo">
+        <a href="#" class="c-teaser_secondaryInfo_text">{{secondaryInfo}}</a>
+      </div>
+    {{/if}}
+
+    {{#if shareShow}}
+      <p class="c-teaser_share">
+        <a class="c-teaser_shareLink js-popup-share" data-share-title="{{shareTitle}}" data-share-url="{{shareUrl}}" href="#">
+          {{render '@c-icon' c-iconShare merge=true}} Share
+        </a>
+      </p>
+    {{/if}}
+</div>

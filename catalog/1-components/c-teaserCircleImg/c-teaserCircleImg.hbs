@@ -1,0 +1,9 @@
+<div class="c-teaser-circleImg {{class}}">
+    <div class="c-teaser-circleImg_wrapper {{circleWrapper}}">
+  {{#each teasers}}
+        <div class="c-teaser-circleImg_wrapper-subRules {{circleWrapper-subrules}}">
+          {{render '@c-teaser' c-teaser merge=true}}
+        </div>
+  {{/each}}
+    </div>
+</div>

@@ -1,0 +1,131 @@
+{
+  "title": "Teaser small",
+  "label": "c-teaserSmall",
+  "status": "ready",
+  "context": {
+    "showHeader": true,
+    "embedShow": true,
+    "showLabelLft": true,
+    "showLabelRgt": false,
+    "showLiveMark": false,
+    "descriptionShort": true,
+    "descriptionMediumShow": true,
+    "rightTitle": true,
+    "topTitle": false,
+    "description-short": "ticino",
+
+    "c-label-rgt": {
+      "class": "c-label-active c-label-small u-float-rgt"
+    },
+
+    "c-embed": {
+      "showPlayIcon": false,
+      "class": "c-embed-16:9"
+    },
+
+    "c-liveMark": {
+      "c-playIcon": {
+        "size": "xs"
+      }
+    },
+
+    "c-liveMark-horz": {
+      "class": "c-liveMark-horz"
+    }
+  },
+
+  "variants": [{
+      "name": "light",
+      "label": "c-teaserSmall-light",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-teaserSmall-light",
+
+        "c-label": {
+          "class": "c-label-light c-label-small c-label-round"
+        }
+      }
+    },
+
+    {
+      "name": "live",
+      "label": "c-teaserSmall-live",
+      "context": {
+        "class": "c-teaserSmall-live",
+        "showLiveMark": true
+      }
+    },
+
+    {
+      "name": "imgBig__md",
+      "label": "c-teaserSmall-imgBig@md",
+      "context": {
+        "class": "c-teaserSmall-imgBig@md"
+      }
+    },
+
+    {
+      "name": "imgBig__md-light",
+      "label": "c-teaserSmall-imgBig@md-light",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-teaserSmall-imgBig@md c-teaserSmall-light",
+
+        "c-label": {
+          "class": "c-label-light c-label-small c-label-round"
+        }
+      }
+    },
+
+    {
+      "name": "descXxs",
+      "label": "c-teaserSmall-descXxs",
+      "context": {
+        "class": "c-teaserSmall-descXxs c-teaserSmall-descriptionShow c-teaserSmall-titleWhite",
+        "descriptionShort": false,
+        "embedShow": false,
+        "description-medium": "Venerdì 14 Feb 2017, ore 10:29"
+      }
+    },
+    {
+      "name": "status",
+      "label": "c-teaserSmall-status",
+      "context": {
+        "class": "c-teaserSmall-status",
+        "descriptionShort": false,
+        "teaserStatus": true,
+        "teaserStatus-text": "online",
+        "teaserStatus-time": "5 giorni",
+        "c-icon": {
+          "class": "c-teaserSmall_teaserStatus_icon",
+          "sizeClass": "c-icon-xs",
+          "icon": "hourglass"
+        }
+
+      }
+    },
+    {
+      "name": "imgRgt",
+      "label": "c-teaserSmall-imgRgt",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+        "c-label": {
+          "class": "c-label-light c-label-small c-label-round"
+        },
+
+        "descriptionShort": false,
+
+        "secondaryInfo": false,
+        "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+
+        "embedShow": false,
+        "teaserImgShow": true,
+        "c-teaserImg": {
+          "c-imgBadgeShow": false,
+          "c-imgActions": false
+        }
+      }
+    }
+  ]
+}

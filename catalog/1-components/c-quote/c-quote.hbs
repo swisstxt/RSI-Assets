@@ -1,0 +1,27 @@
+<div class="c-quote {{class}}">
+	{{#if href}}
+		<a href="{{href}}" class="c-quote_linkBox {{classSocialWrap}}">
+	{{else}}
+		<span>
+	{{/if}}
+		
+
+	<span class="c-quote_text">
+		{{quote-text}}
+	</span>
+				
+	{{#if c-quote-social}}
+		<span class="c-quote_socialIconWrap">
+			{{render '@c-icon' c-icon merge=true}}
+		</span>
+	{{/if}}
+
+	<span class="c-quote_author">{{quote-author}}</span>
+
+			
+	{{#if href}}
+		</a>
+	{{else}}
+		</span>
+	{{/if}}
+</div>

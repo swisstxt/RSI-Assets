@@ -1,0 +1,1083 @@
+//============================================
+// Header
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-header
+  position: relative
+  transition: padding-top $motion-duration
+
+  +mq($bp-md-down)
+    padding-top: $header-inneWrap-height
+
+    @if $header-subSection
+      padding-top: 9.7rem
+
+    // Variation sub site
+    //&-subSection // Da rimuovere
+      //height: 9.7rem
+  
+    //+mq($bp-sm)
+      // Variation visual exist // Da rimuovere
+      //&-visual
+        //height: 22.1rem
+
+    @if $header-visual
+      +mq($bp-sm)
+        height: auto
+
+  // Variation visual active to xs
+  //&-visualActive\@xs // Da rimuovere
+    //+mq($bp-sm-down)
+      //height: 22.1rem
+
+  @if $header-visualToXs
+    +mq($bp-sm-down)
+      height: auto
+
+  +mq($bp-md)
+    background-image: linear-gradient(to bottom, $gray-space, $gray-rat)
+    padding-top: 3.4rem
+    margin-bottom: $space-double
+
+  +mq($bp-lg)
+    padding-top: $space-double + $space-quarter
+    padding-top: 4.2rem
+
+  &.js-header-hiddenMenuIsOpen
+
+    +mq($bp-md)
+      padding-top: 3.4rem + $header-hiddenMenu-height-md
+
+    +mq($bp-lg)
+      padding-top: 4.2rem + $header-hiddenMenu-height-lg
+
+
+// Inner Wrap
+//============================================
+
+.c-header_innerWrap
+  +mq($bp-md-down)
+    +pos(0, top left right, fixed)
+    z-index: $z-header
+    background-image: linear-gradient(to bottom, $gray-space, $gray-rat)
+    height: $header-inneWrap-height
+
+  +mq($bp-md)
+    display: flex
+    align-items: center
+    max-width: $layout-width-md
+    height: $header-inneWrap-height-md
+    padding: 0 $layout-gutter-md
+    margin: 0 auto
+
+  +mq($bp-lg)
+    max-width: $layout-width-lg
+    height: $header-inneWrap-height-lg
+    padding: 0 $layout-gutter-lg
+
+
+// Brand
+//============================================
+
+.c-header_brand
+  +mq($bp-md-down)
+    width: $header-brand-width
+    margin: 0 auto
+    padding: 1.7rem 0
+    transition: top $motion-duration, opacity $motion-duration
+
+    @if $header-subSection
+      +pos(0, top left right)
+
+      .c-header.is-compact &
+        opacity: 0
+        top: -100%
+
+  +mq($bp-md)
+    width: $header-brand-width-md
+    padding: 0
+    
+    @if $header-brandText
+      width: auto
+      max-width: 40rem
+
+  +mq($bp-lg)
+    width: $header-brand-width-lg
+
+    @if $header-brandText
+      width: auto
+      max-width: 65rem
+
+.c-header_brandImg
+  +size(100%, auto)
+  display: none
+
+  +mq($bp-md)
+    display: block
+
+  &-toMobile
+    display: none
+
+    +mq($bp-md-down)
+      display: block
+
+  //&-standard // Da rimuovere
+    //display: none
+
+
+.c-header_brandText
+  font-family: $font-alt
+  font-size: $fs-header-logo
+  line-height: 3.184rem
+  color: $white
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+  display: none
+
+  +mq($bp-md-down)
+    position: absolute
+    top: 1.6rem
+    left: 50%
+    width: 55rem
+    transform: translateX(-50%)
+    text-align: center
+
+  +mq($bp-sm-down)
+    width: 18rem
+
+  +mq($bp-md)
+    display: block
+    font-size: $fs-header-logo-md
+    line-height: 5.394rem
+
+  +mq($bp-lg)
+    font-size: $fs-header-logo-lg
+
+
+// Title sub site
+//============================================
+
+.c-header_wrapTitleSubSite
+  +pos(100% 0 0, top left right)
+  padding: 0 $space-twoThirds $space-half $space-twoThirds
+  font-size: $fs-lg
+  font-family: $font-alt
+  font-weight: normal
+  color: $white
+  text-align: center
+  background-color: $gray-rat
+  transition: top $motion-duration, background-color $motion-duration
+
+  +mq($bp-md)
+    display: none
+
+  @if $header-subSection
+    // Header compact to device
+    .c-header.is-compact &
+      top: $space
+      background-color: transparent
+      pointer-events: none
+
+.c-header_titleSubSite
+  display: block
+  margin: 0 auto
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+  transition: width $motion-duration
+
+  @if $header-subSection
+    // Header compact do device
+    .c-header.is-compact &
+      width: 20rem
+
+      +mq($bp-sm)
+        width: 45rem
+
+// Toggler
+//============================================
+
+.c-header_toggler
+  +pos(0, left top bottom)
+  width: 6.2rem
+  //background-color: $primary
+
+  +mq($bp-md)
+    display: none
+
+.c-header_togglerIcon
+  +size(2.8rem, 0.3rem)
+  display: inline-block
+  position: relative
+  background-color: $gray-powder
+  vertical-align: middle
+  transition: background-color 0.2s
+
+  &::after,
+  &::before
+    +pos(0, left)
+    +size(2.8rem, 0.3rem)
+    background-color: $gray-powder
+    content: ""
+    transition: transform 0.2s
+
+  &::before
+    transform: translate(0, -0.8rem)
+
+  &::after
+    transform: translate(0, 0.8rem)
+
+  // Active state
+  .c-header.is-open &
+    background-color: transparent
+
+    &::before
+      transform: rotate(-45deg) translate(0, 0)
+
+    &::after
+      transform: rotate(45deg) translate(0, 0)
+
+  +mq($bp-md)
+    display: none
+
+
+// Meta
+//============================================
+
+// List
+.c-header_meta
+  display: flex
+  align-items: center
+  font-size: 1.3rem
+
+  +mq($bp-md-down)
+    +pos(0, top bottom right)
+
+  +mq($bp-md)
+    margin-left: auto
+
+  +mq($bp-lg)
+    font-size: 1.5rem
+
+// Item
+.c-header_metaItem
+  display: flex
+  align-items: center
+
+  &:not(:first-child)
+    margin-left: $space-twoThirds
+    display: none
+
+    &::before
+      +size(0.1rem, 2.4rem)
+      content: ""
+      background-color: $gray-concrete
+      margin-right: $space-twoThirds
+
+    +mq($bp-md)
+      display: flex
+
+//.c-header_metaItem-traffic
+.c-header_metaItem-search
+
+  +mq($bp-md-down)
+    order: 3
+      
+.c-header_metaItem-meteo
+  transition: margin-top $motion-duration, opacity $motion-duration
+
+  +mq($bp-sm-down)
+
+    @if $header-subSection
+      // Header compact to device
+      .c-header.is-compact &
+        opacity: 0
+        margin-top: -10rem
+
+  +mq($bp-md-down)
+    order: 1
+
+    @if $header-meteoVisibleToXs
+      display: flex !important
+      margin-left: 0
+
+      &::before
+        display: none
+
+// Label
+.c-header_metaLabel
+
+  +mq($bp-md-down)
+    display: none
+
+// Link
+.c-header_metaLink
+  display: flex
+  align-items: center
+  height: 100%
+  color: $gray-silver
+  transition: color 0.2s
+
+  &:hover
+    color: $gray-dust
+
+// Item
+.c-header_metaIcon
+  fill: $gray-silver
+  margin-right: $space-quarter
+  transition: fill 0.2s
+
+  .c-header_metaLink:hover &
+    fill: $gray-dust
+
+  +mq($bp-lg)
+    margin-right: $space-half
+
+// Form Toggler
+.c-header_metaFormToggler
+  +mq($bp-md-down)
+    padding: $space-twoThirds
+    padding-left: $space-half
+
+  +mq($bp-md)
+    cursor: default
+
+// Form
+.c-header_metaForm
+  +mq($bp-md-down)
+    +pos(100% 0, top right)
+    width: 100vw
+    border-bottom: 0.1rem solid $gray-concrete
+    background-color: $color-bg
+    transition: opacity 0.2s, visibility 0.2s
+    visibility: hidden
+    opacity: 0
+
+    &.is-open
+      visibility: visible
+      opacity: 1
+
+
+.c-header_metaInput
+  background-color: transparent
+  outline: 0
+  border: 0
+  color: $white
+
+  &::placeholder
+    color: $gray-silver
+    opacity: 1
+
+  +mq($bp-md-down)
+    padding: $space
+    font-size: $fs
+    width: 100%
+
+  +mq($bp-md)
+    padding: 0
+    width: $header-searchWidth-md
+    font-size: inherit
+    transition: width 0.2s, color 0.2s
+
+    &:focus
+      width: $header-searchWidth-expanded
+
+  +mq($bp-lg)
+    width: $header-searchWidth-lg
+
+
+// Social
+//============================================
+
+// List
+.c-header_social
+  display: flex
+  align-items: center
+  font-size: 1.3rem
+  border-left: 0.1rem solid $gray-concrete
+
+  +mq($bp-md-down)
+    display: none
+
+  +mq($bp-md)
+    margin-left: $space
+
+// Item
+.c-header_socialItem
+  display: flex
+  align-items: center
+  margin-left: $space
+
+// Icon
+.c-header_socialIcon
+  fill: $gray-mid
+  transition: fill 0.2s
+
+  .c-header_socialItem:hover &
+    fill: $gray-dust
+
+  &-fb
+    width: 2.4rem
+    height: 2.4rem
+
+  &-inst
+    width: 2.6rem
+    height: 2.6rem
+
+  &-tw
+    width: 2.77rem
+    height: 2.3rem
+
+  &-wt
+    width: 2.4rem
+    height: 2.4rem
+
+
+// Social to device
+//============================================
+
+// list
+.c-header_socialToDevice
+  background-color: $gray-void
+  display: flex
+
+  +mq($bp-md)
+    display: none
+
+// Item
+.c-header_socialToDeviceItem
+  display: flex
+  align-items: center
+  margin-left: $space
+  padding: $space-threeQuarter 0
+
+  &-borderLeft
+    &::before
+      +size(0.1rem, 2.4rem)
+      content: ""
+      background-color: $gray-concrete
+      margin-right: $space
+
+// Icon
+.c-header_socialToDeviceIcon
+  fill: $gray-light
+  transition: fill 0.2s
+
+  .c-header_socialToDeviceItem:hover &
+    fill: $white
+
+  &-fb
+    width: 2.4rem
+    height: 2.4rem
+
+  &-inst
+    width: 2.6rem
+    height: 2.6rem
+
+  &-tw
+    width: 2.77rem
+    height: 2.3rem
+
+  &-wt
+    width: 2.4rem
+    height: 2.4rem
+
+  &-podcast
+    width: 2.4rem
+    height: 2.4rem
+
+// Label
+.c-header_socialToDeviceLabel
+  margin-left: $space-quarter
+  font-size: 1.3rem
+  color: $gray-light
+
+  .c-header_socialToDeviceItem:hover &
+    color: $white
+
+// App
+//============================================
+
+.c-header_app
+  display: block
+  float: left
+  margin-left: $space
+
+  &::before
+    float: left
+    +size(0.1rem, 2.4rem)
+    content: ""
+    background-color: $gray-concrete
+    margin-right: $space
+    margin-top: 0.8rem
+
+  +mq($bp-md-down)
+    display: none
+
+.c-header_appImg
+  float: left
+  height: 4rem
+  border-radius: 0.3rem
+  box-shadow: 0.2rem 0.1rem 1rem 0.2rem rgba(0,0,0,0.5)
+
+  // Variation icon no shadow
+  &-noShadow
+    box-shadow: none
+
+.c-header_appDescription
+  float: left
+  margin-left: $space-half
+
+.c-header_appDescLine
+  margin-top: 0.3rem
+  display: block
+  font-family: $font-alt
+  font-size: $fs-sm
+  transition: color 0.2s
+
+  .c-header_app:hover &
+    color: $gray-dust
+
+.c-header_appDescSecondLine
+  margin-top: -0.3rem
+  font-size: $fs
+  font-weight: bold
+
+
+// RSI play
+//============================================
+
+.c-header_rsiPlay
+  padding: 0.9rem 0.9rem 0.9rem 1.3rem
+  margin-left: $space-twoThirds
+  background-color: $gray-wetAsphalt
+  border: 0.1rem solid $gray-rat
+  border-radius: 0.2rem
+  box-shadow: 0.1rem 0.1rem 0.4rem rgba($black, 0.2)
+  transition: border 0.2s
+
+  &:hover
+    border: 0.1rem solid $gray-mid
+
+.c-header_rsiPlaySlogan
+  margin-right: $space-third
+  padding-bottom: 0.2rem
+  display: inline-block
+  font-family: $font-alt
+  font-size: 1.3rem
+  color: $gray-silver
+  transition: color 0.2s
+
+  +mq($bp-lg)
+    font-size: 1.5rem
+    padding-bottom: 0rem
+
+  .c-header_rsiPlay:hover &
+    color: $gray-dust
+
+.c-header_rsiPlay_logo
+  width: 6.4rem
+
+  +mq($bp-lg)
+    width: 7.2rem
+
+
+// Nav Wrap
+//============================================
+
+.c-header_navWarp
+  +mq($bp-md-down)
+    +pos($header-inneWrap-height 0 0 0, top left right bottom, fixed)
+    z-index: $z-header
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s, visibility 0.2s
+    background-color: $black
+    color: $white
+
+    .c-header.is-open &
+      +overflow-scroll
+      visibility: visible
+      opacity: 1
+
+
+// Main Nav
+//============================================
+
+// Wrapper
+.c-header_mainNav
+  +mq($bp-md)
+    max-width: $layout-width-md
+    padding: 0 $layout-gutter-md
+    margin: 0 auto
+
+  +mq($bp-lg)
+    max-width: $layout-width-lg
+    padding: 0 $layout-gutter-lg
+
+// List
+.c-header_mainNavList
+  +mq($bp-md)
+    +cf
+    background-color: $gray-void
+    position: relative
+
+// Items
+.c-header_mainNavItem
+  +mq($bp-md-down)
+    border-bottom: 0.1rem solid $black
+    position: relative
+
+  +mq($bp-md)
+    float: left
+
+    &:hover
+      color: $white
+      background-color: $gray-rat
+
+// Links
+// 1. Use fixed line-height to account for
+//    changing font size from md to lg.
+
+.c-header_mainNavLink
+  font-family: $font-alt
+  text-transform: uppercase
+  display: block
+
+  +mq($bp-md-down)
+    line-height: 1.2
+    font-weight: bold
+    font-size: 1.7rem
+    padding: $space-threeQuarter $space
+    background-color: $gray-void
+
+    &.is-current,
+    &.is-section
+      background-color: $primary
+
+  +mq($bp-md)
+    color: $gray-powder
+    padding: 1.25rem
+    transition: color 0.2s
+    font-weight: 600
+    font-size: 1.2rem
+    line-height: 1.5rem // 1.
+
+    &:hover
+      color: $white
+
+    &.is-current,
+    &.is-section
+      color: $white
+      background-color: $primary
+
+  +mq($bp-lg)
+    padding: 1.5rem
+    font-size: 1.5rem
+
+// Sub menu toggler (mobile only)
+.c-header_mainNavToggler
+  +pos(0, top right)
+  padding: $space-twoThirds $space
+
+  +mq($bp-md)
+    display: none
+
+.c-header_mainNavTogglerIcon
+  +iscale("angle-down", 2rem)
+  fill: $gray-concrete
+  transition: transform 0.2s
+
+  .c-header_mainNavToggler.is-section &,
+  .c-header_mainNavToggler.is-current &
+    fill: $white
+
+  .c-header_mainNavToggler.is-open &
+    transform: rotate(180deg)
+
+
+// Main Nav - Sub
+//============================================
+
+// List
+.c-header_mainNavSubList
+  z-index: 1
+
+  +mq($bp-md-down)
+    overflow: hidden
+    max-height: 0
+    transition: max-height 0.2s
+
+    &.is-open
+      max-height: $header-mainNavSubList-height
+
+  +mq($bp-md)
+    +pos(100% 0 0, top left right)
+    background-color: $gray-rat
+    transition: opacity 0.2s, visibility 0.2s
+    opacity: 0
+    visibility: hidden
+
+    .c-header_mainNavItem.is-open &
+      background-color: $primary
+      opacity: 1
+      visibility: visible
+
+    .c-header_mainNavItem:hover &
+      opacity: 1
+      visibility: visible
+      z-index: 2
+
+// Items
+.c-header_mainNavSubItem
+  +mq($bp-md)
+    float: left
+
+    // Items right
+    &-right
+      float: right
+      margin-right: 0.8rem
+
+// Placeholder
+.c-header_mainNavSubListPlaceholder
+  display: none
+
+  +mq($bp-md)
+    +pos(100% 0 0, top left right)
+    height: 4.1rem
+    background-color: $gray-wetAsphalt
+
+    @if $header-subMenuEmpty
+      display: block
+
+  +mq($bp-lg)
+    height: 4.5rem
+
+// Links
+// 1. Keep height consisten with main menu.
+
+.c-header_mainNavSubLink
+  display: block
+  font-size: 1.5rem
+
+  +mq($bp-md-down)
+    background-color: $gray-void
+    font-family: $font-alt
+    line-height: 1.2
+    text-transform: uppercase
+    padding: $space-half $space
+
+    &.is-current,
+    &.is-section
+      background-color: shade($primary, 25%)
+
+    .c-header_mainNavLink.is-section ~ .c-header_mainNavSubList &
+      background-color: $primary
+
+      &.is-current,
+      &.is-section
+        background-color: shade($primary, 25%)
+
+  +mq($bp-md)
+    color: $white
+    font-size: 1.3rem
+    line-height: 1.5rem // 1.
+    padding: 1.3rem
+    transition: background-color 0.2s
+
+    &:hover
+      background-color: rgba($black, 0.15)
+
+    &.is-current,
+    &.is-section
+      background-color: rgba($black, 0.3)
+
+  +mq($bp-lg)
+    font-size: 1.4rem
+    padding: $space-twoThirds
+
+  // Link style button
+  .c-header_mainNavSubItem-btm &
+    +mq($bp-md)
+      margin-top: 0.5rem
+      padding: 0.8rem 1rem
+      font-size: 1.1rem
+      line-height: 1.3rem
+      text-transform: uppercase
+      font-family: $font-alt
+      background-color: rgba($black, 0.2)
+      border: 0.1rem solid rgba($black, 0.1)
+      border-radius: 0.4rem
+
+      &.is-current
+        background-color: rgba($black, 0.5)
+        border: 0.1rem solid rgba($black, 0)
+
+      &:hover
+        background-color: rgba($black, 0.35)
+        border: 0.1rem solid rgba($black, 0)
+
+    +mq($bp-lg)      
+      margin-top: 0.6rem
+      padding: 0.9rem 1rem
+      font-size: 1.2rem
+
+
+// Main Nav
+//============================================
+
+// Wrap
+.c-header_secondaryNav
+  +mq($bp-md)
+    +pos(0, top left right)
+    border-bottom: 0.1rem solid $gray-rat
+
+  +mq($bp-md-down)
+    margin-top: $space-half
+
+// List
+.c-header_secondaryNavList
+  +mq($bp-md)
+    max-width: $layout-width-md
+    padding: 0 $layout-gutter-md
+    margin: 0 auto
+
+  +mq($bp-lg)
+    max-width: $layout-width-lg
+    padding: 0 $layout-gutter-lg
+
+
+// Items
+.c-header_secondaryNavItem
+  position: relative 
+
+  +mq($bp-md-down)
+    border-bottom: 0.1rem solid $black
+
+    &-right
+      background-color: $gray-wetAsphalt
+      color: $gray-silver
+
+    &-left-first
+      margin-top: $space-half
+
+    &-left
+      background-color: $gray-wetAsphalt
+      color: $gray-silver
+
+    &-moreItems
+      display: none
+
+  +mq($bp-md)
+    border-right: 0.1rem solid $gray-rat
+
+    .c-header_secondaryNavList_hiddenLink &
+      border: none
+
+    &-left-first,
+    &-right-last
+      border-left: 0.1rem solid $gray-rat
+
+    &-push
+      margin-left: auto
+      border-left: 0.1rem solid $gray-rat
+
+    &-right
+      float: right
+
+    &-left
+      float: left
+      
+
+// Links
+.c-header_secondaryNavLink
+  display: inline-block
+
+  &-action
+    background-color: $gray-rat
+
+  +mq($bp-md-down)
+    font-family: $font-alt
+    line-height: 1.2
+    font-weight: bold
+    font-size: 1.7rem
+    text-transform: uppercase
+    padding: $space-half ($space - 1rem) $space-half $space
+    width: 100%
+  
+  +mq($bp-md)
+    transition: color 0.2s
+    color: $gray-silver
+    padding: 0.9rem ($space-half + 0.2rem)
+    font-size: 1.2rem
+
+    .c-header_secondaryNavList_hiddenLink &
+      padding: $space ($space-half + 0.2rem)
+      font-size: 1.2rem
+
+    &:hover
+      color: $white
+
+  +mq($bp-lg)
+    font-size: 1.4rem
+    padding: $space-half ($space-half + 0.4rem)
+
+    .c-header_secondaryNavList_hiddenLink &
+      padding: 2.8rem ($space-half + 0.4rem)
+      font-size: 1.4rem
+
+  &-moreItems
+
+    &.is-active
+      background-color: $gray-void
+
+    &::before
+      opacity: 0
+      content: ""
+      position: absolute
+      left: 0
+      bottom: -0.1rem
+      width: 100%
+      height: 0.1rem
+      background-color: $gray-void  
+      margin-top: 0.1rem
+      transition: opacity $motion-duration
+
+    &.is-active::before
+      opacity: 1
+
+    &:hover
+      cursor: pointer
+  
+.c-header_secondaryNavLink_iconMore
+  fill: $gray-mid
+
+  .c-header_secondaryNavLink-moreItems:hover &
+    fill: $white
+
+  .c-header_secondaryNavLink-moreItems.is-active &
+    fill: $white
+
+.c-header_secondaryNavLink_iconPlay
+  margin-top: -0.6rem
+  margin-bottom: -0.3rem
+
+// Hidden list
+.c-header_secondaryNavList_hiddenLink
+
+  +mq($bp-md-down)
+    margin-top: -$space-half
+
+  +mq($bp-md)
+    overflow: hidden
+    max-height: 0
+    margin-top: 0.1rem
+    transition: max-height $motion-duration
+    +pos(100% 0 0, top left right)
+    background-color: $gray-void    
+    
+  &.is-open
+
+    +mq($bp-md)
+      max-height: $header-hiddenMenu-height-md
+      border-bottom: 0.1rem solid $gray-rat
+
+    +mq($bp-lg)
+      max-height: $header-hiddenMenu-height-lg
+
+
+// Live Notification
+//============================================
+
+.c-header_live_notification
+  position: relative
+  margin-left: 0.2em
+  background-color: $color-rsi
+  color: $white
+  text-transform: uppercase
+  padding: 0.2em 0.5em
+  font-size: 1.6rem
+  font-weight: bold
+  letter-spacing: 0.05em
+
+  +mq($bp-md)
+    font-size: 1.1rem
+    font-weight: normal
+    padding: 0.4em 0.6em
+
+.c-header_live_notification_numberContainer
+  +pos(50% 13rem, top left)
+  transform: translate(50%, -50%)
+  color: $black
+  font-weight: bold
+  font-size: 0.8em
+  border-radius: 0.4rem
+  border: none
+  background: $white
+  padding: 0.2em 0.6em
+
+  +mq($bp-md)
+    +pos(50% 0 auto, top right left)
+
+  &::before
+    content: ""
+    +pos(50% -0.25rem, top left)
+    transform: translateY(-50%)
+    border-top: 0.40em solid transparent
+    border-bottom: 0.40em solid transparent
+    border-right: 0.40em solid $white
+
+
+// Visual
+//============================================
+.c-header_visual
+  height: $header-visualHeight-sm
+  background-size: auto 100%
+  background-position: center center
+  background-repeat: no-repeat
+  background-color: $header-visualBgColor
+
+  @if $header-visualToXs
+    background-image: url(#{$header-visualBgImage-xs})
+
+  @if $header-subSection
+    +mq($bp-md-down)
+      //margin-top: 3.5rem
+
+  +mq($bp-sm-down)
+    display: none
+
+    @if $header-visualToXs
+      display: block
+
+  +mq($bp-sm)
+    height: $header-visualHeight-sm
+    
+    @if $header-visual
+      background-image: url(#{$header-visualBgImage-sm})
+    @else
+      background-image: url("../images/c-header/visual-sm.jpg")
+
+  +mq($bp-md)
+    height: $header-visualHeight-md
+
+    @if $header-visual
+      background-image: url(#{$header-visualBgImage-md})
+    @else
+      background-image: url("../images/c-header/visual-md.jpg")
+
+  +mq($bp-lg)
+    height: $header-visualHeight-lg
+
+    @if $header-visual
+      background-image: url(#{$header-visualBgImage-lg})
+    @else
+      background-image: url("../images/c-header/visual-lg.jpg")
+
+
+

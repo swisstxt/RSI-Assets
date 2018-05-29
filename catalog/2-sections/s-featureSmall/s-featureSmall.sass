@@ -1,0 +1,55 @@
+//============================================
+// Section title page 
+//============================================
+
+
+// Wrap
+//============================================
+
+.s-featureSmall_bg // 1.
+  background-position: $featureSmall-bgPosition-xs
+  background-repeat: $featureSmall-bgRepeat
+  background-size: $featureSmall-bgSize-xs
+  background-color: $featureSmall-bgColor
+  border-top: 0.1rem solid $gray-rat
+
+  +mq($bp-sm)
+    +mq($bp-md-down)
+      background-position: $featureSmall-bgPosition-sm
+      background-size: $featureSmall-bgSize-sm
+
+  +mq($bp-md)
+    +mq($bp-lg-down)
+      background-position: $featureSmall-bgPosition-md
+      background-size: $featureSmall-bgSize-md
+
+  +mq($bp-lg)
+    background-position: $featureSmall-bgPosition-lg
+    background-size: $featureSmall-bgSize-lg
+
+// Logo
+//============================================
+
+.s-featureSmall_logo
+  width: $featureSmall-logoWidth-xs
+  margin-left: auto
+  margin-right: auto
+  margin-top: $featureSmall-logoTop-xs
+  margin-bottom: $featureSmall-logoBtm-xs
+
+  +mq($bp-sm)
+    +mq($bp-md-down)
+      width: $featureSmall-logoWidth-sm
+      margin-top: $featureSmall-logoTop-sm
+      margin-bottom: $featureSmall-logoBtm-sm
+
+  +mq($bp-md)
+    +mq($bp-lg-down)
+      width: $featureSmall-logoWidth-md
+      margin-top: $featureSmall-logoTop-md
+      margin-bottom: $featureSmall-logoBtm-md
+
+  +mq($bp-lg)
+    width: $featureSmall-logoWidth-lg
+    margin-top: $featureSmall-logoTop-lg
+    margin-bottom: $featureSmall-logoBtm-lg

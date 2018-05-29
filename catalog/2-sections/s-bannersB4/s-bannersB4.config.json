@@ -1,0 +1,24 @@
+{
+  "title": "Section banners B4",
+  "label": "s-bannersB4",
+  "status": "ready",
+  "context": {
+    "class": "section-border section-dark",
+
+    "s-banner-items": [
+      {},
+      {},
+      {}
+    ]
+  },
+
+  "variants": [
+      {
+          "name": "light",
+          "label": "s-bannersB4-light",
+          "context": {
+            "class": "section-light"
+          }
+      }
+  ]
+}

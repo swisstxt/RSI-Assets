@@ -1,0 +1,55 @@
+{
+  "title": "Main teasers",
+  "label": "s-mainTeasers",
+  "status": "ready",
+  "context": {    
+  },
+
+  "variants": [
+    {
+      "name": "light",
+      "label": "s-mainTeasers-light",
+      "context": {   
+        "class-layout": "section-light",
+        "c-teaserListVertLight":{}
+      }
+    },
+
+    {
+      "name": "status",
+      "label": "s-mainTeasers-status",
+      "context": {
+        "c-heroImg":{
+          "imageDesktop": "../../images/16x9/9.jpg",
+          "imageSmartphone": "../../images/5x4/9.jpg",
+
+          "badgeShow": true,
+          "c-imgBadge": {
+            "badge": "Lorem ipsum"
+          }, 
+          
+          "c-label": {
+            "label": "Lorem"
+          },
+  
+          "title": "Lorem ipsum dolor sit amet",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget",
+          "secondaryInfo": "Lorem ipsum dolor sit amet",
+
+          "playIconShow": false,
+          "shareShow": true,
+  
+          "titleShow": true,
+          "descriptionShow": true,
+  
+          "c-imgActions": {
+            "name": "c-heroImg_imgActions"
+          }
+        },
+
+        "teaserListVert-status": true       
+        
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<div class="c-tabTwoChoices js-tabTwoChoices {{class}}">
+    <div class="c-tabTwoChoices_labels">
+		<div class="c-tabTwoChoices_label col-xs-6 js-tabTwoChoices_label {{#if firstTabActive}}is-active{{/if}}" data-label="tab-1">
+			<span class="c-tabTwoChoices_labelText">i più letti</span>
+		</div>
+
+		<div class="c-tabTwoChoices_label col-xs-6 js-tabTwoChoices_label {{#if secondTabActive}}is-active{{/if}}" data-label="tab-2">
+			<span class="c-tabTwoChoices_labelText">i più visti {{render '@c-icon' c-iconCamera}}</span>
+		</div>
+    </div>
+
+	<div class="c-tabTwoChoices_contents">
+		<div class="c-tabTwoChoices_content js-tabTwoChoices_content {{#if firstTabActive}}is-active{{/if}}" id="tab-1">
+			{{render '@c-teaserlistvert--ranking' c-teaserListVert merge=true}}
+		</div>
+
+		<div class="c-tabTwoChoices_content js-tabTwoChoices_content {{#if secondTabActive}}is-active{{/if}}" id="tab-2">
+			{{render '@c-teaserlistvert--ranking' c-teaserListVertVideo merge=true}}
+		</div>
+    </div>
+</div>

@@ -1,0 +1,425 @@
+{
+  "title": "Carousel",
+  "label": "c-carousel",
+  "status": "ready",
+  "context": {
+  	"class": "c-carousel-fullWidth@xs",
+  	"data-slick": "{\"responsive\": [ { \"breakpoint\": 768, \"settings\": { \"arrows\": \"false\",  \"dots\": true } } ] }",
+
+	"items": [
+	  {
+		"c-heroImg-gallery": {
+			"class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs c-heroImg-noFull@sm",
+			"classTitleLink": "js-popup-gallery",
+			"id":"1111",
+			
+			"c-imgActions": {
+				"items": [
+				  {
+					"labelActions" : "Apri galleria",
+					"numberActions": "1",
+					"c-icon": {
+					  "icon": "pics",
+					  "class": "c-imgActions_icon"
+					}
+				  },
+
+				  {"item": false},
+				  {"item": false}
+				]
+		  	}
+		}
+	  },
+
+	  {
+		"c-heroImg-gallery": {
+		  "class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs c-heroImg-noFull@sm",
+		  "classTitleLink": "js-popup-gallery",
+		  "id":"1111",
+			"c-imgActions": {
+				"items": [
+				  {
+					"labelActions" : "Apri galleria",
+					"numberActions": "2",
+					"c-icon": {
+					  "icon": "pics",
+					  "class": "c-imgActions_icon"
+					}
+				  },
+
+				  {"item": false},
+				  {"item": false}
+				]
+		  	}
+		}
+	  },
+
+	  {
+		"c-heroImg-gallery": {
+		  "class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs c-heroImg-noFull@sm",
+		  "classTitleLink": "js-popup-gallery",
+		  "id":"1111",
+			"c-imgActions": {
+				"items": [
+				  {
+					"labelActions" : "Apri galleria",
+					"numberActions": "3",
+					"c-icon": {
+					  "icon": "pics",
+					  "class": "c-imgActions_icon"
+					}
+				  },
+
+				  {"item": false},
+				  {"item": false}
+				]
+		  	}
+		}
+	  },
+
+	  {
+		"c-heroImg-gallery": {
+		  "class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs c-heroImg-noFull@sm",
+		  "classTitleLink": "js-popup-gallery",
+		  "id":"1111",
+			"c-imgActions": {
+				"items": [
+				  {
+					"labelActions" : "Apri galleria",
+					"numberActions": "4",
+					"c-icon": {
+					  "icon": "pics",
+					  "class": "c-imgActions_icon"
+					}
+				  },
+
+				  {"item": false},
+				  {"item": false}
+				]
+		  	}
+		}
+	  },
+
+	  {
+		"c-heroImg-gallery": {
+		  "class": "c-heroImg-gallery c-heroImg-titleXs c-heroImg-contentGround c-heroImg-16:9@xs c-heroImg-noFull@sm",
+		  "classTitleLink": "js-popup-gallery",
+		  "id":"1111",
+			"c-imgActions": {
+				"items": [
+				  {
+					"labelActions" : "Immagini",
+					"numberActions": "5",
+					"c-icon": {
+					  "icon": "pics",
+					  "class": "c-imgActions_icon"
+					}
+				  },
+
+				  {"item": false},
+				  {"item": false}
+				]
+		  	}
+		}
+	  }
+	]
+  },
+
+	"variants": [
+		{
+			"name": "teaser small",
+			"label": "c-carousel-teasersSmall-light",
+			"preview": "@preview-light",
+			"context": {
+				"class": "c-carousel-light c-carousel-lateralGradient c-carousel-itemMarginRgt c-carousel-paddBtmTop11 c-carousel-paddBtmSpace@xs",
+			  	"data-slick": "{\"variableWidth\": false, \"autoplaySpeed\": 5000, \"autoplay\": false, \"centerMode\": false, \"focusOnSelect\": false, \"infinite\": false, \"slidesToShow\": 3, \"slidesToScroll\": 1, \"responsive\": [ { \"breakpoint\": 1018, \"settings\": {\"slidesToShow\": 2, \"dots\": true, \"arrows\": false } }, { \"breakpoint\": 768, \"settings\": {\"variableWidth\": false, \"centerMode\": false, \"focusOnSelect\": false, \"autoplay\": false, \"dots\": true, \"arrows\": false, \"slidesToShow\": 1, \"slidesToScroll\": 1 } } ] }",
+
+				"items": [
+				  {
+					"c-teaserSmall": {
+	              		
+	            	} 
+				  },
+
+				  {
+					"c-teaserSmall": {					
+	              		
+	            	}
+				  },
+
+				  {
+					"c-teaserSmall": {					
+	              		
+	            	}
+				  },
+
+				  {
+					"c-teaserSmall": {					
+	              		
+	            	}
+				  },
+
+				  {
+					"c-teaserSmall": {					
+	              		
+	            	}
+				  }, 
+
+				  {
+				  	"c-moreBtn": {
+				  		"class": "c-moreBtn-alwaysVisible c-moreBtn-light",
+				  		"label": "Mostra altro"
+				  	}
+				  }
+				]
+			}
+		},
+
+		{
+			"name": "HeroSquare",
+			"label": "c-carousel-heroSquare",
+			"context": {
+			  	"class": "c-carousel-lateralGradient c-carousel-fullWidth@xs c-carousel-itemMarginRgt c-carousel-itemMarginRgtHalf@xs c-carousel-itemsW260@xs c-carousel-paddBtmSpace@xs",
+			  	"data-slick": "{\"infinite\": false, \"slidesToShow\": 4, \"slidesToScroll\": 1, \"responsive\": [ { \"breakpoint\": 1520, \"settings\": {\"slidesToShow\": 3} }, { \"breakpoint\": 1018, \"settings\": {\"slidesToShow\": 3, \"dots\": true, \"arrows\": false } }, { \"breakpoint\": 768, \"settings\": { \"slidesToShow\": 1, \"arrows\": \"false\",  \"dots\": true, \"variableWidth\": true, \"centerMode\": true } } ] }",
+
+				"items": [
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  }, 
+
+				  {
+				  	"c-moreBtn": {
+				  		"class": "c-moreBtn-alwaysVisible",
+				  		"label": "Mostra altro"
+				  	}
+				  }
+				]
+			}
+		},
+
+		{
+			"name": "HeroSquareLight",
+			"label": "c-carousel-heroSquare-light",
+			"preview": "@preview-light",
+			"context": {
+			  	"class": "c-carousel-light c-carousel-lateralGradient c-carousel-fullWidth@xs c-carousel-itemMarginRgt c-carousel-itemMarginRgtHalf@xs c-carousel-itemsW260@xs c-carousel-paddBtmSpace@xs",
+			  	"data-slick": "{\"infinite\": false, \"slidesToShow\": 4, \"slidesToScroll\": 1, \"responsive\": [ { \"breakpoint\": 1520, \"settings\": {\"slidesToShow\": 3} }, { \"breakpoint\": 1018, \"settings\": {\"slidesToShow\": 3, \"dots\": true, \"arrows\": false } }, { \"breakpoint\": 768, \"settings\": { \"slidesToShow\": 1, \"arrows\": \"false\",  \"dots\": true, \"variableWidth\": true, \"centerMode\": true } } ] }",
+
+				"items": [
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  },
+
+				  {
+					"c-heroImg-gallery": {
+						"class": "c-heroImg-titleXs c-heroImg-contentGround c-heroImg-1:1 c-heroImg-noFull@sm",
+				        "imageDesktop": "../../images/1x1/default.jpg",
+				        "imageSmartphone": "../../images/1x1/default.jpg",
+
+				        "imgLink": true,
+				        "c-imgActions": false,
+				        "shareShow": false,
+				        "labelShow": false,
+				        "descriptionShow": false,
+				        "playIconShow": false,
+				        "playIconAbsolute": true,
+				        
+				        "c-playIcon": {
+				          "size": "xs",
+				          "class": "c-playIcon-rettangle c-playIcon-xs@sm c-playIcon-36@md c-playIcon-sm@lg" 
+				        }
+					}
+				  }, 
+
+				  {
+				  	"c-moreBtn": {
+				  		"class": "c-moreBtn-alwaysVisible c-moreBtn-light",
+				  		"label": "Mostra altro"
+				  	}
+				  }
+				]
+			}
+		}
+	]
+}

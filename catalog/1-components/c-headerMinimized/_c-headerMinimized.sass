@@ -1,0 +1,106 @@
+//============================================
+// Header minimized
+//============================================
+
+
+// Wrapper
+//============================================
+
+//.c-headerMinimized
+
+
+// Top
+//============================================
+
+.c-headerMinimized_top
+  height: $header-inneWrap-height
+  position: relative
+  background-image: linear-gradient(to bottom, $gray-space, $gray-rat)
+
+
+// Back
+//============================================
+
+.c-headerMinimized_back
+  display: block
+  padding: 1.9rem
+  +position(0, top left)
+
+.c-headerMinimized_iconBack
+  fill: $gray-ash
+  transition: fill 0.2s
+
+  .c-headerMinimized_back:hover &
+    fill: $white
+
+
+// Brand
+//============================================
+
+.c-headerMinimized_brands
+  +center-transform
+  overflow: hidden
+  padding: 1.8rem 0
+
+  +mq($bp-sm)
+    padding-right: 4.7rem
+
+// Logo rsi
+.c-headerMinimized_wrapperLogoRsi
+  display: block
+  margin: 0 auto
+  width: 3.5rem
+
+  +mq($bp-sm)
+    position: absolute
+    top: 50%
+    right: 0rem
+    transform: translate(0, -50%) 
+    margin: 0
+
+.c-headerMinimized_logoRsi
+  width: 3.538rem
+
+// Text product
+.c-headerMinimized_brandProduct
+  display: none
+  min-height: 2.6rem
+  padding-right: $space-half
+  border-right: 0.1rem solid $gray-light
+  padding-top: 0.3rem
+  text-align: right
+  font-family: $font-alt
+  font-size: $fs
+  color: $white
+
+  +mq($bp-sm)
+    display: block
+    overflow: hidden
+
+  +mq($bp-md)
+    font-size: $fs-lg
+
+
+// Share
+//============================================
+
+.c-headerMinimized_share
+  +position(2rem, top right)
+
+
+// Product name
+//============================================
+
+.c-headerMinimized_productName
+  display: block
+  padding: $space-twoThirds
+  font-family: $font-alt
+  font-size: $fs
+  text-align: center
+  color: $white
+  background-color: $gray-rat
+  border-top: 0.1rem solid $gray-concrete
+
+  +mq($bp-sm)
+    display: none
+

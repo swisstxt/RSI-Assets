@@ -1,0 +1,108 @@
+{
+  "title": "Icon Play",
+  "label": "c-playIcon",
+  "status": "ready",
+  "context": {
+  	"size": "xs",
+    "c-iconPlay": {
+    	"icon": "play",
+    	"class": "c-playIcon_icon"
+    }
+  },
+
+  "variants": [
+    {
+      "name": "light",
+      "label": "c-playIcon-light",
+      "preview": "@preview-light",
+      "context": {
+        "class": "c-playIcon-light",
+        "c-iconPlay": {
+        "class": "c-playIcon_icon",
+          "icon": "sound"
+         }
+      }
+    },
+
+    {
+      "name": "rettangle xxs",
+      "label": "c-playIcon-rettangle-xxs",
+      "context": {
+        "size": "xxs",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+
+    {
+      "name": "rettangle 24",
+      "label": "c-playIcon-rettangle-24",
+      "context": {
+        "size": "24",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+
+    {
+      "name": "rettangle xs",
+      "label": "c-playIcon-rettangle xs",
+      "context": {
+        "size": "xs",
+        "class": "c-playIcon-rettangle"
+      }
+    },
+    
+    {
+      "name": "rettangle 34",
+      "label": "c-playIcon-rettangle-34",
+      "context": {
+        "size": "34",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+    
+    {
+      "name": "rettangle 36",
+      "label": "c-playIcon-rettangle-36",
+      "context": {
+        "size": "36",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+    
+    {
+      "name": "rettangle sm",
+      "label": "c-playIcon-rettangle-sm",
+      "context": {
+        "size": "sm",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+
+    {
+      "name": "rettangle 44",
+      "label": "c-playIcon-rettangle-44",
+      "context": {
+        "size": "44",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+    
+    {
+      "name": "rettangle md",
+      "label": "c-playIcon-rettangle-md",
+      "context": {
+        "size": "md",  
+        "class": "c-playIcon-rettangle"
+      }
+    },
+    
+    {
+      "name": "rettangle lg",
+      "label": "c-playIcon-rettangle-lg",
+      "context": {
+        "size": "lg",  
+        "class": "c-playIcon-rettangle"
+      }
+    }
+  ] 
+}

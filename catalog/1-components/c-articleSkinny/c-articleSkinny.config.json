@@ -1,0 +1,12 @@
+{
+	"title": "Article",
+	"label": "c-articleSkinny",
+	"preview": "@preview-light",
+	"status": "ready",
+	"context": {
+		"subTitleShow": true,
+		"btnShareShow": true,
+		"title": "Titolo notizia titolo notizia principale titolo notizia principale",
+		"sub-title": "Il Governo ticinese chiede un credito per garantire il servizio nel centro per migranti di Rancate"
+	}
+}

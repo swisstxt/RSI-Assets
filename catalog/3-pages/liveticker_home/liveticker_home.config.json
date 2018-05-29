@@ -1,0 +1,10 @@
+{
+  "title": "Live ticker home",
+  "label": "Live ticker home",
+  "status": "ready",
+  "context": {
+    "s-liveTicker": {
+    	"class": "u-padd-top-triple@sm u-pull-top-double@sm"
+    }
+  }
+}

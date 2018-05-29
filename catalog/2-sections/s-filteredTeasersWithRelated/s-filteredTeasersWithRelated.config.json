@@ -1,0 +1,120 @@
+{
+  "title": "Filtered teasers w. related",
+  "label": "s-filteredTeasersWithRelated",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "class": "section-grayBright",
+    "moreBtShow": true,
+    "c-moreBtn":{
+      "class": "c-moreBtn-light u-d-blk u-push-top u-push-btm",
+      "label": "show more"                 
+    },
+    "c-filteredListWithText":{
+      "description": true,
+      "title": false
+    },
+    "teasers":[
+      {
+        "c-teaserSmall":{
+          "class": "u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          },
+          "c-embed": {
+            "showPlayIcon": true,
+            
+            "c-playIcon": {
+              "size": "24",
+              "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+              "c-iconPlay": {
+                "class": "c-playIcon_icon c-icon-pics",
+                "icon": "pics"
+              }
+            }
+          }
+        }
+      },
+      {
+        "c-teaserSmall":{
+          "class": "c-teaserSmall-border u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          },
+          "c-embed": {
+            "showPlayIcon": true,
+            
+            "c-playIcon": {
+              "size": "24",
+              "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+
+              "c-iconPlay": {
+                "class": "c-playIcon_icon",
+                "icon": "play"
+              }
+            }
+          } 
+        }
+      },
+      {
+        "c-teaserSmall":{
+          "class": "c-teaserSmall-border u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          },
+          "c-embed": {
+            "showPlayIcon": true,
+            
+            "c-playIcon": {
+              "class": "c-playIcon-rettangle c-playIcon-topRgt-3px",
+              "size": "24"
+            }
+          } 
+        }
+      },
+      {
+        "c-teaserSmall":{
+          "class": "c-teaserSmall-border u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          }
+        }
+      },
+      {
+        "c-teaserSmall":{
+          "class": "c-teaserSmall-border u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          }
+        }
+      },
+      {
+        "c-teaserSmall":{
+          "class": "c-teaserSmall-border u-padd-top c-teaserSmall-light c-teaserSmall_imgRgt c-teaserSmall_img-w205 c-teaserSmall_img-w205@lg c-teaserSmall_img-w144@md c-teaserSmall_img-w110@sm c-teaserSmall_img-noMargin c-teaserSmall_secondaryInfo_paddTop c-teaserSmall_secondaryInfo-noMargin c-teaserSmall_title-h25p@lg c-teaserSmall_title-h22p@md c-teaserSmall_title-h19p@sm  c-teaserSmall_secondaryInfo_text-noHover c-teaserSmall_secondaryInfo_text-xs c-teaserSmall-descriptionShow c-teaserSmall_descriptionHidden@sm",
+          "title": "Oltre la porta, il giardino odoroso",
+          "descriptionShort": false,
+          "secondaryInfoNoLink": "5 Maggio 2017, ore 14:23",
+          "c-label":{
+            "class": "c-label-light c-label-small"
+          }
+        }
+      }
+    ]
+  }
+}

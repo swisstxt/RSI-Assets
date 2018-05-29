@@ -1,0 +1,548 @@
+{
+  "title": "Cultura video",
+  "label": "Cultura video",
+  "status": "ready",
+  "context": {
+    "s-header": {
+      "c-header": {
+        "subSectionText": "Video",
+        "class-appImg": "c-header_appImg-noShadow",
+        "path-iconApp": "/images/app/icon-app-news.jpg",
+        "slogan-play": false,
+
+        "c-header-socialItems": [
+          {
+            "c-iconSocial": {
+              "icon": "facebook",
+              "class": "c-header_socialIcon c-header_socialIcon-fb"
+            }
+          },
+
+          {
+            "c-iconSocial": {
+              "icon": "twitter",
+              "class": "c-header_socialIcon c-header_socialIcon-tw"
+            }
+          },
+
+          {
+            "c-iconSocial": false
+          }
+        ],
+
+        "c-header-metaItems": [
+          {},
+          {},
+          {},
+          {}
+        ],
+
+        "c-header-mainNavItems": [
+          {},
+          {},
+          {
+            "id": 3,
+            "title": "Cultura",
+            "link-mode": "section",
+            "items": [
+              {
+                "title": "Arte e Architettura",
+                "link-mode": "link"
+              },
+              {
+                "title": "Cinema e teatro",
+                "link-mode": "link"
+              },
+              {
+                "title": "Musica",
+                "link-mode": "link"
+              },
+              {
+                "title": "Lettera e Filosofia",
+                "link-mode": "link"
+              },
+              {
+                "title": "Scienza Storia e Società",
+                "link-mode": "link"
+              },
+              {
+                "title": "Web series",
+                "link-mode": "link"
+              },
+              {
+                "title": "Video",
+                "link-mode": "current"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    "s-teasersGallery-infiniteList":{
+      "class-layout": "u-push-top-none u-padd-top-twoThirds u-padd-top-half@sm"
+    }, 
+
+    "s-sliderConcertiRSI": {
+      "c-sectionTitle-light": {
+        "title-short": "Concerti rsi"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/news/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/news/4.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/news/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/news/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/4.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderArteArchitettura": {
+      "c-sectionTitle-light": {
+        "title-short": "Arte e architettura"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/cultura/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/cultura/4.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/cultura/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/sport/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/4.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLettereFilosofia": {
+      "c-sectionTitle-light": {
+        "title-short": "Lettere e filosofia"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/sport/7.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/sport/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/4.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "descriptionShow": false,
+              "c-teaser-label": false,              
+              "shareShow": false,
+
+              "c-teaserImg": {
+                "c-imgBadge": {
+                  "badge": "rete due"
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/scienza/4.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }  
+}

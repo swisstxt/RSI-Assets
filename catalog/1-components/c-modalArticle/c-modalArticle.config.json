@@ -1,0 +1,10 @@
+{
+	"title": "Modal article",
+	"label": "c-modalArticle",
+	"status": "ready",
+	"context": {
+		"c-articleSkinny": {
+			"btnShareShow": false
+		}
+	}
+}

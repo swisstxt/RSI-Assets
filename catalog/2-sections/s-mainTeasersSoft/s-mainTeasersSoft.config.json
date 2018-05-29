@@ -1,0 +1,58 @@
+{
+  "title": "Main teasers soft",
+  "label": "s-mainTeasersSoft",
+  "status": "ready",
+  "context": {
+    "heroImgShow": true,
+
+  	"c-heroImg": {      
+  		"class": "c-heroImg-4:3 c-heroImg-contentGround",
+  		"imageDesktop": "../../images/4x3/default.jpg",
+
+  		"playIconShow": false
+  	},
+
+  	"teasers": [
+        {},
+        {}
+    ]	
+  },
+
+  "variants": [
+    {
+      "name": "light",
+      "label": "s-mainTeasersSoft-light",
+      "context": {
+        "class": "section-light",
+
+        "teasers": [
+          {
+            "c-teaser": {
+              "class": "c-teaser-light",
+              "c-label": {
+                "class": "c-label-small c-label-round c-label-light"
+              }
+            }
+          },
+          {
+            "c-teaser": {
+              "class": "c-teaser-light",
+              "c-label": {
+                "class": "c-label-small c-label-round c-label-light"
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "related",
+      "label": "s-mainTeasersSoft-related",
+      "context": {
+        "heroImgShow": false,
+        "heroImgRelatedShow": true
+      }
+    }
+  ]
+}

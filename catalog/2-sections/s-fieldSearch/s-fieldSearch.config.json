@@ -1,0 +1,8 @@
+{
+  "title": "Field search",
+  "label": "s-fieldSearch",
+  "status": "ready",
+  "context": {
+    "class": "section-light"
+  }
+}

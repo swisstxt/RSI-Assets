@@ -1,0 +1,15 @@
+{
+  "title": "Section banners",
+  "label": "s-banners",
+  "status": "ready",
+  "context": {
+    "s-banner-items": [
+      {
+        "img": "../../images/banners/default.jpg"
+      },
+      {
+        "img": "../../images/banners/default.jpg"
+      }
+    ]
+  }
+}

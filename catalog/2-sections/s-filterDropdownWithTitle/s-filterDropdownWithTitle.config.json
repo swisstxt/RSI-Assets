@@ -1,0 +1,16 @@
+{
+  "title": "Filter dropdown with title",
+  "label": "s-filterDropdownWithTitle",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+
+    "c-sectionTitle":{
+      "class": "c-sectionTitle-light"
+    },
+    "c-filterTopic": {
+      "class": "c-filterTopic-light c-fiterTopic-title"
+    }
+
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Main teasers double",
+  "label": "s-mainTeasers-double",
+  "status": "ready",
+  "context": {
+    "c-heroImg": {
+    	"class": "c-heroImg-playCenter",
+    	"playIconShow": false,
+      "c-imgActions": false,
+      "playIconAbsolute": true,
+
+      "c-playIcon": {
+        "size": "44",
+        "class": "c-playIcon-rettangle c-playIcon-sm@xs" 
+      }
+    },
+
+    "c-teaser": {
+      "c-teaserImg": {
+        "c-imgActions": false,
+        
+        "c-embed": {
+          "showPlayIcon": true,
+
+          "c-playIcon": {
+            "size": "sm",
+            "class": "c-playIcon-rettangle c-playIcon-topRgt-7px c-playIcon-44@sm c-playIcon-34@md c-playIcon-34@lg"
+          }
+        }
+      }
+    }
+  },
+
+  "variants": [
+    {
+      "name": "light",
+      "label": "s-mainTeasersDouble-light",
+      "context": {
+        "class": "section-light",
+
+        "c-teaser": {
+          "class": "c-teaser-light",
+
+          "c-label": {
+            "class": "c-label-small c-label-round c-label-light"
+          }
+        }
+      }
+    }
+  ]
+}

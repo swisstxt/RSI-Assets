@@ -1,0 +1,259 @@
+//============================================
+// Jumbotron
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-jumbotron
+  overflow: hidden
+
+  +mq($bp-sm)
+    padding-left: calc(50% - #{($layout-width-sm / 2) - $layout-gutter-sm})
+    padding-right: calc(50% - #{($layout-width-sm / 2) - $layout-gutter-sm})
+
+  +mq($bp-md)
+    padding-left: calc(50% - #{($layout-width-md / 2) - $layout-gutter-md})
+    padding-right: calc(50% - #{($layout-width-md / 2) - $layout-gutter-md})
+
+  +mq($bp-lg)
+    padding-left: calc(50% - #{($layout-width-lg / 2) - $layout-gutter-lg})
+    padding-right: calc(50% - #{($layout-width-lg / 2) - $layout-gutter-lg})
+
+
+// Wrap
+//============================================
+
+.c-jumbotron_wrap
+  outline: 0
+  position: relative
+
+  +mq($bp-sm)
+    height: 32rem
+
+  +mq($bp-md)
+    height: 38rem
+
+  +mq($bp-lg)
+    height: 50rem
+
+
+// Images
+//============================================
+
+.c-jumbotron_imgWrap
+  overflow: hidden
+  position: relative
+  outline: 0
+  z-index: -1
+
+  +mq($bp-sm)
+    float: right
+    width: 57rem
+    margin-right: -$space-triple
+
+  +mq($bp-md)
+    width: 67.7rem
+    margin-right: 0
+    margin-right: -$space-double
+    transform: scale(1.09)
+    transform-origin: top center
+
+  +mq($bp-lg)
+    width: 89rem
+    margin-right: -$space-doubleAndHalf
+    transform: scale(1.1)
+
+  &::before
+    display: block
+    content: ""
+    padding-bottom: (4.1 / 5) * 100%
+
+    +mq($bp-xs)
+      padding-bottom: (9 / 16) * 100%
+    
+
+  &::after
+  
+    +mq($bp-sm)
+      content: ""
+      +pos(-0.1rem, top bottom left)
+      background-image: linear-gradient(to left, rgba($gray-space, 0), $gray-space)
+      z-index: 1
+      width: 30rem
+    
+    +mq($bp-md)
+      width: 30rem
+
+    +mq($bp-lg)
+      width: 30rem
+
+.c-jumbotron_imgAfter // div in html
+
+    +mq($bp-sm)
+      content: ""
+      +pos(-0.1rem, top bottom right)
+      background-image: linear-gradient(to right, rgba($gray-space, 0), $gray-space)
+      width: 15rem
+    
+    +mq($bp-md)
+      width: 40rem
+
+    +mq($bp-lg)
+      width: 50rem
+
+.c-jumbotron_imgBefore // div in html
+    background-image: linear-gradient(to bottom, rgba($gray-space, 0), $gray-space)
+
+    +mq($bp-sm-down)
+      +pos(0 -0.1rem 0 0, top bottom right left)
+
+    +mq($bp-sm)
+      +pos(-0.1rem 0 0, bottom right left)
+      height: 12rem
+
+    +mq($bp-md)
+      height: 15rem
+
+    +mq($bp-lg)
+      +pos(4rem 0 0, bottom right left)
+      height: 25rem
+
+.c-jumbotron_img
+  +pos(0, top right)
+  +size(100%)
+  display: block
+  z-index: -1
+
+  img
+    +size(100%, auto)
+
+
+// Content
+//============================================
+.c-jumbotron_content
+  margin-top: -$space-oneAndHalf
+  margin-left: $layout-gutter-xs
+  margin-right: $layout-gutter-xs
+  z-index: 99
+
+  +mq($bp-sm)
+    +pos($space 0, bottom left)
+    margin-top: 0
+    margin-left: 0
+    margin-right: 0
+
+  +mq($bp-md)
+    +pos($space-double 0, bottom left)
+
+.c-jumbotron_info
+
+  +mq($bp-sm)
+    width: 38rem
+
+  +mq($bp-md)
+    width: 40rem
+
+  +mq($bp-lg)
+    width: 42rem
+
+
+// Title
+.c-jumbotron_title
+  color: $white
+  font-size: 3.2rem
+
+  +mq($bp-sm)
+    margin-top: 0
+
+  +mq($bp-md)
+    font-size: 3.8rem
+
+  +mq($bp-lg)
+    font-size: 4.2rem
+
+// Description
+.c-jumbotron_description
+  margin-top: $space-half
+  font-size: $fs
+  color: $gray-ash
+  display: none
+
+  +mq($bp-sm)
+    display: block
+
+// Additional text
+.c-jumbotron_additionalText
+  display: block
+  margin-top: $space-quarter
+  font-size: $fs-xs
+  font-weight: bold
+  color: $gray-silver
+
+  +mq($bp-sm)
+    margin-top: $space-threeQuarter
+
+// Interactions
+.c-jumbotron_interactions
+  margin-top: $space-half
+
+  +mq($bp-sm)
+    margin-top: $space-threeQuarter
+
+.c-jumbotron_interactionsEl
+  
+  +mq($bp-sm)
+    float: left
+
+  &:not(:first-child)
+    margin-top: $space-half
+
+    +mq($bp-sm)
+      margin-top: 0
+      margin-left: $space-half
+
+.c-jumbotron_interactionsElChild
+  float: left
+
+  &:not(:first-child)
+   margin-left: $space-third
+
+// Scheduling
+.c-jumbotron_scheduling
+  +pos(0 $layout-gutter-xs, top right)
+  +size(11rem)
+  background-color: rgba($black, 0.7)
+
+  +mq($bp-sm)
+    +size(14rem)
+    +pos(0 0, top right)
+
+  +mq($bp-md)
+    +size(16.2rem)
+
+  &-la1
+    background-color: rgba($color-la1, 0.8)
+
+  &-la2
+    background-color: rgba($color-la2, 0.8)
+
+.c-jumbotron_schedulingText
+  +pos(0, bottom left right)
+  padding: $space-half $space-twoThirds
+
+.c-jumbotron_schedulingText_line
+  display: block
+  font-size: 1.4rem
+  font-family: $font-alt
+  font-weight: bold
+  line-height: 1.2
+  color: $white
+
+  +mq($bp-sm)
+    font-size: 1.8rem
+
+  +mq($bp-md)
+    line-height: 1.1
+    font-size: 2.4rem
+

@@ -1,0 +1,105 @@
+//============================================
+// Magnific popup CSS
+//============================================
+
+@import "../../node_modules/magnific-popup/dist/magnific-popup.css"
+
+
+// Fade FX
+//============================================
+
+.mfp-fade.mfp-bg
+  opacity: 0
+  transition: opacity 0.2s ease-out
+
+  &.mfp-ready
+    opacity: 0.95
+
+  &.mfp-removing
+    opacity: 0
+
+.mfp-fade.mfp-wrap
+  opacity: 0
+  transition: opacity 0.2s ease-out
+
+  &.mfp-ready
+    opacity: 1
+
+  &.mfp-removing
+    opacity: 0
+
+
+// Overwrite - Close
+//============================================
+
+.mfp-close
+  font-size: 4.4rem
+
+  .mfp-has-dialog &
+    top: $space-half
+    right: $space-half
+
+  .mfp-iframe-holder &
+    top: -4.4rem
+
+
+// Overwrite - bottom bar info
+//============================================
+
+.mfp-bottom-bar
+  .mfp-figure &
+    margin-top: -2.8rem
+
+  .mfp-iframe-scaler &
+    margin-top: 4.6rem
+
+// Overwrite - Title on iframe popups
+//============================================
+
+.mfp-title
+  .mfp-iframe-scaler &
+    +pos(100% 0 4.4rem, bottom left right)
+    +truncate
+    +h3(true)
+    padding: $space-half 0
+
+
+// Custom - Description on iframe popups
+//============================================
+
+.mfp-desc
+  +pos(100% 0 0, top left right)
+  +truncate
+  color: $gray-silver
+  padding: $space-threeQuarter 0 $space-quarter
+  line-height: 1.2
+
+.mfp-description
+  .mfp-figure &
+    margin-top: 0.9rem
+    margin-bottom: $space-half
+    line-height: 1.2
+
+  .mfp-iframe-scaler &
+    line-height: 1.2
+
+
+// Custom - counter
+//============================================
+
+.mfp-counter
+  .mfp-iframe-scaler &
+    margin-top: -3.4rem
+
+
+// Custom - Dialog
+//============================================
+
+// This is a custom class that warps the share dialog.
+// It is rendered inside `.mfp-content`.
+
+.mfp-dialog
+  max-width: 60rem
+  margin: 0 auto
+  position: relative
+  padding: $space 0

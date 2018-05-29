@@ -1,0 +1,34 @@
+{
+  "title": "Carousel teaser small",
+  "label": "s-carouselTeaserSmall",
+  "status": "ready",
+  "context": {
+  	"class": "section-light",
+    "class-layout": "u-padd-btm-double",
+
+    "c-sectionTitle": {
+    	"class": "c-sectionTitle-light"
+    }
+  },
+
+  "variants": [
+      {
+          "name": "titleOut-light",
+          "label": "s-carouselTeaserSmall-titleOut-light",
+          "preview": "@preview-light",
+          "context": {
+            "class-layout": "u-padd-btm-double",
+            "internal-section": "section-grayBright section-border-grayPowder",
+
+            "c-sectionTitle": {
+              "class": "c-sectionTitle-light",
+              "class-layout": ""
+            },
+
+            "c-carouselTeaserSmall": {
+              "class-layout": "c-carousel-grayBright"
+            }
+          }
+      }
+  ]
+}

@@ -1,0 +1,529 @@
+//============================================
+// Slider
+//============================================
+
+// These styles are quite messy as the slider
+// is a complicated widget. The slider spans the
+// full width of the page and to create the
+// "illusion" of a `.container` a lot of styles
+// are necessary. Read the comments below to get
+// further information on the structure.
+//
+// Key features:
+// - Spans the full width
+// - Is only active from tablet onward.
+// - The slider works with an actual scrolling
+//   element using `overflow: auto`
+
+
+// Wrap
+//============================================
+
+// 1. Add a gutter to mimic `.container` on mobile
+// 2. Remove padding form tablet onward to span the
+//    full width of the page.
+
+.c-slider
+  position: relative
+  overflow: hidden
+  padding: 0 $layout-gutter-xs // 1.
+
+  +mq($bp-sm)
+    padding: 0 // .2
+
+  // Variation smartphone slick
+  &-slick
+
+    +mq($bp-sm-down)
+      margin-left: -$layout-gutter-xs
+      margin-right: -$layout-gutter-xs
+
+
+// Variation light
+//.c-slider-light
+
+// Variation grayBright
+//.c-slider-grayBright
+
+// Variation control top
+//.c-slider-controlTop
+
+// Variation magnify el to hover
+//.c-slider-hoverMagnify
+
+// Variation control top
+// .c-slider-controlTop
+
+// Variation control top 70px to md
+//.c-slider-controlTop70\@md
+
+// Variation control top 70px to sm
+//.c-slider-controlTop70\@sm
+
+// Variation bg gray void
+//.c-slider-bgGrayVoid
+
+// Variation item margin xs
+//.c-slider-itemMarginXs
+
+// Variation control xs
+//.c-slider-controlXs
+
+// Variation control center
+//.c-slider-controlCenter
+
+// Variation teaser streaming
+//.c-slider-teaserStreaming
+
+// Variation slick width full device
+//.js-slider-slickFullWidth
+
+// Variation in a fixed container
+//.c-slider-fixedContainer
+
+// Variation item xs
+// .c-slider-itemXs
+
+// Variation item width to md
+//.c-slider-itemW250\@md
+
+// Variation item width to sm
+//.c-slider-itemW250\@sm
+
+// Variation reduced list to xs
+//.c-slider-reducedList\@xs
+
+// Variation item width 260
+//.c-slider-itemW260
+
+// Variation item width 300
+//.c-slider-itemW300
+
+// Variation item width 450
+//.c-slider-itemW450
+
+// Variation hover item selected
+//.c-slider-hoverItemSelected
+
+
+// Covers
+//============================================
+
+// Covers that make the slides "disappear into
+// the void" on the screen edges. Composed of a
+// solid cover + a gradient inside a pseudo element.
+
+// 1. Do not show on mobile.
+// 2. Calculate the width to make sure that the
+//    slides disappear on the edges of the screen.
+// 3. Hide the covers respectively when the slider
+//    is on the first or last slide.
+
+// Basic Styles
+.c-slider_cover
+  +pos(0, top bottom)
+  display: none // 1.
+  content: ""
+  transition: transform 0.5s
+  z-index: 2
+  background-color: $color-bg
+
+  +mq($bp-sm)
+    display: block
+    width: calc(50% - #{($layout-width-sm / 2) + $space * 3}) // 2.
+
+  +mq($bp-md)
+    width: calc(50% - #{($layout-width-md / 2) + $space * 3})
+
+  +mq($bp-lg)
+    width: calc(50% - #{($layout-width-lg / 2) + $space * 3})
+
+.c-slider_cover
+
+  // Light variation
+  .c-slider-light &
+    background-color: $color-bg-light
+
+  // Bg gray void variation
+  .c-slider-bgGrayVoid &
+    background-color: $gray-void
+
+  // Variation grayBright
+  .c-slider-grayBright &
+    background-color: $gray-bright
+
+  // Left right variations
+  &-left
+    left: 0
+
+  &-right
+    right: 0
+
+// Gradients
+.c-slider_cover
+  &::before
+    +pos(0, top bottom)
+    pointer-events: none
+    content: ""
+    width: $space * 10
+
+  &-left::before
+    left: 100%
+    background: linear-gradient(to right, $color-bg $space, rgba($color-bg, 0) 100%)
+
+    .c-slider-light &
+      background: linear-gradient(to right, $color-bg-light $space, rgba($color-bg-light, 0) 100%)
+
+    // Bg gray void variation
+    .c-slider-bgGrayVoid &
+      background: linear-gradient(to right, $gray-void $space, rgba($gray-void, 0) 100%)
+
+    // Variation grayBright
+    .c-slider-grayBright &
+      background: linear-gradient(to right, $gray-bright $space, rgba($gray-bright, 0) 100%)
+
+  &-right::before
+    right: 100%
+    background: linear-gradient(to left, $color-bg $space, rgba($color-bg, 0) 100%)
+
+    .c-slider-light &
+      background: linear-gradient(to left, $color-bg-light $space, rgba($color-bg-light, 0) 100%)
+
+    // Bg gray void variation
+    .c-slider-bgGrayVoid &
+      background: linear-gradient(to left, $gray-void $space, rgba($gray-void, 0) 100%)
+
+    // Variation grayBright
+    .c-slider-grayBright &
+      background: linear-gradient(to left, $gray-bright $space, rgba($gray-bright, 0) 100%)
+    
+// Handle first / last
+.c-slider_cover // 3.
+  .is-onFirst &-left
+    transform: translate(calc(-100% - #{$space * 10}), 0)
+    display: none;
+
+  .is-onLast &-right
+    transform: translate(calc(100% + #{$space * 10}), 0)
+
+
+// Controls
+//============================================
+
+// The controls are positioned to look like
+// they are inside a `.container` this requires
+// to change their margin value on each breakpoint.
+
+.c-slider_control
+  +size(4rem, 8rem)
+  +pos(12rem, top)
+  background-color: rgba($black, 0.7)
+  z-index: 4
+  transition: opacity 0.5s, visibility 0.5s, background-color 0.2s
+  opacity: 0
+  visibility: hidden
+  display: none
+  border-radius: 0
+  
+  // Variation control top
+  .c-slider-controlTop &
+    +pos(3.5rem, top)
+
+  // Variation control top 70px to sm
+  .c-slider-controlTop70\@sm &
+    +mq($bp-md-down)
+      +mq($bp-sm)
+        +pos(7rem, top)
+
+  // Variation control top 70px to md
+  .c-slider-controlTop70\@md &
+    +mq($bp-lg-down)
+      +mq($bp-md)
+        +pos(7rem, top)
+
+  // Variation control center
+  .c-slider-controlCenter &
+    +pos(50%, top)
+    transform: translateY(-50%)
+
+  // Variation control xs
+  .c-slider-controlXs &
+    +size(2.5rem, 5rem)
+
+  +mq($bp-sm)
+    display: block
+
+  &.is-visible
+    opacity: 1
+    visibility: visible
+
+  &:hover
+    background-color: $primary
+
+  &[disabled]
+    opacity: 0
+    visibility: hidden
+
+  &-prev
+    left: 0
+    padding-right: $space-eigth
+
+  &-next
+    right: 0
+    padding-left: $space-eigth
+
+  +mq($bp-sm)
+    &-prev
+      left: 50%
+      margin-left: -($layout-width-sm / 2) + $layout-gutter-sm
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        left: 0
+        margin-left: 0
+
+    &-next
+      right: 50%
+      margin-right: -($layout-width-sm / 2) + $layout-gutter-sm
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        right: 0
+        margin-right: 0
+
+  +mq($bp-md)
+    &-prev
+      margin-left: -($layout-width-md / 2) + $layout-gutter-md
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        margin-left: 0
+
+    &-next
+      margin-right: -($layout-width-md / 2) + $layout-gutter-md
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        margin-right: 0
+
+  +mq($bp-lg)
+    &-prev
+      margin-left: -($layout-width-lg / 2) + $layout-gutter-lg
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        margin-left: 0
+
+    &-next
+      margin-right: -($layout-width-lg / 2) + $layout-gutter-lg
+
+      // Variation in a fixed container
+      .c-slider-fixedContainer &
+        margin-right: 0
+
+// Icon
+.c-slider_controlIcon
+
+  // Variation control xs
+  .c-slider-controlXs &
+    +size(1.1rem, 1.7rem)
+
+
+// Inner & Scroller
+//============================================
+
+// 1. Hide the scrollbar using overflow.
+// 2. The actual scrolling element.
+// 3. Wrapper to measure the full with of the chart in JS.
+// 4. Add some padding to prevent shadow of inner
+//    elements to be cut off.
+// 5. Add padding to the left and right that equals the
+//    distance of a `.container` element to the edge
+//    of the screen.
+
+.c-slider_viewport // 1.
+  +mq($bp-sm)
+    overflow: hidden
+
+  // Variation smartphone slick
+  .c-slider-slick &
+    +mq($bp-sm-down)
+      margin-left: -$layout-gutter-xs
+      margin-right: -$layout-gutter-xs
+
+.c-slider_scroller // 2.
+  +mq($bp-sm)
+    +overflow-scroll
+    overflow-y: hidden
+    padding-bottom: $space
+    margin-bottom: -$space
+
+.c-slider_inner // 3.
+  +mq($bp-sm)
+    display: inline-block
+    vertical-align: middle
+    white-space: nowrap
+    padding-top: $space // 4.
+    padding-left: calc(50% - #{($layout-width-sm / 2) - $layout-gutter-sm}) // 5.
+    padding-right: calc(50% - #{($layout-width-sm / 2) + $space - $layout-gutter-sm}) // 5.
+
+  +mq($bp-md)
+    padding-left: calc(50% - #{($layout-width-md / 2) - $layout-gutter-md})
+    padding-right: calc(50% - #{($layout-width-md / 2) + $space - $layout-gutter-md})
+
+  +mq($bp-lg)
+    padding-left: calc(50% - #{($layout-width-lg / 2) - $layout-gutter-lg})
+    padding-right: calc(50% - #{($layout-width-lg / 2) + $space - $layout-gutter-lg})
+
+
+// Items
+//============================================
+
+.c-slider_item
+
+  +mq($bp-sm)
+    display: inline-block
+    vertical-align: top
+    position: relative
+    margin-right: $space - 0.3
+    white-space: normal
+    width: $slider-item-width-small
+    margin-bottom: $space
+
+    // Variation item xs
+    .c-slider-itemXs &
+      width: $slider-item-width-xSmall
+  
+    // Variation item margin xs
+    .c-slider-itemMarginXs &
+      margin-right: $space-half
+
+    // Variation item width 260
+    .c-slider-itemW260 &
+      width: 26rem
+
+    // Variation item width 300
+    .c-slider-itemW300 &
+      width: 30rem
+
+    // Variation teaser streaming
+    .c-slider-teaserStreaming &:not(:first-child)
+      margin-left: -0.4rem
+
+  // Variation item width 450 to lg
+  .c-slider-itemW450\@lg &
+    +mq($bp-lg)
+      width: 45rem
+
+  // Variation item width to sm
+  .c-slider-itemW250\@sm &
+    +mq($bp-md-down)
+      +mq($bp-sm)
+        width: 25rem    
+
+  // Variation item width to md
+  .c-slider-itemW250\@md &
+    +mq($bp-lg-down)
+      +mq($bp-md)
+        width: 25rem
+
+  // Variation hover item selected
+  .c-slider-hoverItemSelected &
+    opacity: 0.3
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out, border 0.2s ease-out
+
+  &.is-active
+
+    // Variation hover item selected
+    .c-slider-hoverItemSelected &
+      opacity: 1
+      border: 0.1rem solid $gray-rat
+      border-bottom: 0.2rem solid $primary
+      transform: scale(1.05)
+
+  +mq($bp-md)
+    width: $slider-item-width-large
+
+    // Variation magnify el to hover
+    .c-slider-hoverMagnify &
+      transition: all 0.2s
+
+    .c-slider-hoverMagnify &:hover
+      transform: scale(1.03)
+      opacity: 1
+      z-index: 1
+
+    .c-slider-hoverMagnify &.is-disabled
+      transform: scale(0.9)
+      opacity: 0.3
+
+  // Variation teaser streaming
+  .c-slider-teaserStreaming &
+    width: 26rem
+
+  // Variation smartphone slick
+  .c-slider-slick &
+
+    +mq($bp-sm-down)
+      margin-right: $space-quarter
+
+  // Variation slick width full device
+  .js-slider-slickFullWidth &
+
+    +mq($bp-sm-down)
+      margin-right: 0
+
+  // Exclude firs 3 item
+  &:nth-child(n+4)
+
+    // Variation reduced list to xs
+    .c-slider-reducedList\@xs &
+      +mq($bp-sm-down)
+        display: none
+
+    // Variation reduced list to xs
+    .c-slider.is-allItemVisible &
+      +mq($bp-sm-down)
+        display: block
+
+
+// Button show more items to smartphone
+//============================================
+
+.c-slider_btnShowMore
+  cursor: pointer
+
+  +mq($bp-sm)
+    display: none
+
+  // Variation reduced list to xs
+  .c-slider.is-allItemVisible &
+    display: none
+
+
+// Variation items slider with images
+//============================================
+
+.c-teaserSmall-image
+
+  .c-slider_item
+    +mq($bp-lg)
+      width: 45rem
+
+    +mq($bp-lg-down)
+      width: 30rem
+
+    +mq($bp-sm-down)
+      width: 100%
+
+
+// Slide slicker
+//============================================
+
+// Slick dots
+.c-slider-slick
+  
+  & .slick-dots
+
+    li
+      margin: 0

@@ -1,0 +1,180 @@
+{
+  "title": "Ricerca Programs",
+  "label": "Ricerca Programs",
+  "preview": "@preview-light",
+  "status": "ready",
+  "context": {
+    "s-fieldSearch": {
+      "class-layout": "u-padd-top-tripleAndHalf u-padd-btm-double"
+    },
+    "s-filterDropdownWithTitle":{
+      "class-layout": "section-grayBright",
+      "columns": "col-lg-12 col-md-12 col-sm-12",
+      
+      "c-filteredListWithText":{
+        "label": "Tutti i contenuti",
+
+        "c-sectionTitle":{
+          "title-short": "Dai programmi"
+        }
+      }
+    },
+    "s-teasersInfiniteList": {
+      "class": "section-grayBright u-padd-top-none",
+      "c-sectionTitle": false,
+      "teasers": [
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        },
+        {
+          "c-teaser": {
+            "class": "c-teaser-light",
+            "secondaryInfo": "Oggi, Ore 20:40",
+            "descriptionShow": false,
+            "c-teaser-label": true,
+            "c-label":{
+              "class": "c-label-light c-label-small"
+            },
+            "c-teaserImg":{
+              "c-imgBadgeShow": false,                                    
+              "c-imgActions": {
+                "gallery": false,
+                "video": true,
+                "audio": false
+              }
+            }
+          }              
+        }
+      ]
+    }
+  }
+}

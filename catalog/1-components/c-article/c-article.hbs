@@ -1,0 +1,319 @@
+<article class="c-article js-article {{class}}">
+	<div class="row">
+		<div class="col-md-1 u-d-none@print">
+
+		</div>
+
+		<header class="c-article_header col-md-10">
+			<div class="c-article_openingImage">
+				<div class="c-article_openingImageWrapper">
+					{{#if c-heroImgOpeningVideo}}
+						{{render '@c-heroimg--video16x9' c-heroImgOpeningVideo merge=true}}
+					{{else}}
+						<picture class="c-article_openingImage_img">
+							<source srcset="{{openingImageDesktop}}" media="(min-width: 26em)">
+							<img src="{{openingImageSmartphone}}" alt="">
+						</picture>
+					{{/if}}								
+				</div>
+
+				<div class="c-article_openingImage_caption">
+					<span>{{openingImageCaption}}</span>
+				</div>
+			</div>
+
+			{{#if sportResults}}
+				<div class="c-article_sportsResults">				
+					<div class="c-article_sportsResults_wrapper">
+						{{#if c-sportResultsMatch}}{{render '@c-sportresult--match-centred' c-sportResultsMatch merge=true}}{{/if}}
+						{{#if c-sportResultsSet}}{{render '@c-sportresult--set-light' c-sportResultsSet merge=true}}{{/if}}
+						{{#if c-sportResultsRace}}{{render '@c-sportresult--race-light' c-sportResultsRace merge=true}}{{/if}}
+
+						<div class="c-article_sportsResults_button">
+							{{render '@c-label' c-labelTabellino merge=true}}
+							{{render '@c-label' c-labelRisultati merge=true}}
+						</div>
+					</div>
+				</div>
+			{{/if}}
+
+			<div class="c-article_category">
+				{{render '@c-label' c-labelCategory merge=true}}
+			</div>
+
+			<hgroup class="c-article_hGroup">
+				<h1 class="c-article_title">{{title}}</h1>
+				{{#if subTitle}}
+					<h2 class="c-article_subTitle">{{subTitle}}</h2>
+				{{/if}}
+			</hgroup>
+
+			<div class="c-article_service">
+				<p class="c-article_date">
+					<time datetime="2017-02-14T9:29:00" pubdate>
+						<span class="c-article_dateLabel">Ultima modifica:</span>  5 Maggio 2017, ore 14:23
+					</time>
+				</p>
+
+				<ul class="c-article_service_options">
+					<li class="c-article_service_option c-article_service_option-btPrint">
+						{{render '@c-btnshare--light' c-btnPrint merge=true}}
+					</li>
+
+					<li class="c-article_service_option c-article_service_option-btnShare">
+						{{render '@c-btnshare--light' c-btnShare merge=true}}
+					</li>				
+
+					<li class="c-article_service_option c-article_service_option-fontSize">
+						<span class="c-article_option_smallerFont js-article_option_smallerFont">a</span> 
+						<span class="c-article_option_biggerFont js-article_option_biggerFont">A</span>
+					</li>
+				</ul>		
+			</div>
+		</header>
+
+		<div class="col-md-1 u-d-none@print">
+
+		</div>
+
+	</div>
+	<div class="row" data-sticky_parent>
+		<div class="col-md-1 u-d-none@print">
+
+		</div>
+
+		<div class="c-article_colContent col-md-8">
+			<div class="c-article_content">
+				<p class="c-article_paragraph">
+					<b>LUGANO -</b> {{paragraph}} <a href="#" class="c-article_link">questo è un link</a> {{paragraph}}
+				</p>
+
+				<div class="c-article_standardWrapper">
+					{{render '@c-listlink--single' c-listLinkSingle merge=true}}
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<div class="c-article_standardWrapper c-article_galleryPhoto">
+					{{render '@c-heroimg--gallery' c-heroImgGalleryPhoto merge=true}}
+				</div>
+
+				<h1 class="c-article_h1">Titolo h1</h1>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<h2 class="c-article_h2">Titolo h2</h2>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<h3 class="c-article_h3">Titolo h3</h3>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<h4 class="c-article_h4">Titolo h4</h4>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<h5 class="c-article_h5">Titolo h5</h5>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}} {{paragraph}} {{paragraph}} 
+				</p>		
+
+				<p class="c-article_paragraph c-article_quote c-article_quote-indented">
+					<span class="c-article_quoteText">{{quote-text}}</span>
+					<span class="c-article_quoteAuthor">{{quote-author}}</span>
+				</p>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}} <strong>{{paragraph}}</strong>
+				</p>
+
+				<p class="c-article_paragraph c-article_quote">
+					<span class="c-article_quoteText">{{quote-text}}</span>
+					<span class="c-article_quoteAuthor">{{quote-author}}</span>
+				</p>
+	
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<div class="c-article_quote">
+					{{render '@c-quote--social' c-quoteSocial merge=true}}
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<ul class="c-article_list c-article_standardWrapper">
+					<li>Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet.</li>
+					<li>Pippo e franco</li>
+					<li>Phasellus ultrices turpis felis.</li>
+					<li>Voce 4</li>
+				</ul>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} <i>{{paragraph}}</i> {{paragraph}}
+				</p>
+
+				<ol class="c-article_list c-article_numberedList c-article_standardWrapper">
+					<li>Phasellus ultrices turpis felis. Donec laoreet purus quis erat imperdiet.</li>
+					<li>Pippo e franco</li>
+					<li>Phasellus ultrices turpis felis.</li>
+					<li>Voce 4</li>
+				</ol>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<div class="c-article_contentImage c-article_contentImage-vert">
+					<div class="c-article_contentImage_img">
+						<img src="{{ContentImageVert}}">
+					</div>
+
+					<div class="c-article_contentImage_caption">
+						<span>{{openingImageCaption}}</span>
+					</div>
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}} {{paragraph}}
+				</p>
+
+				<div class="c-article_contentImage">
+					<div class="c-article_contentImage_img">
+						<img src="{{ContentImageHorz}}">
+					</div>
+
+					<div class="c-article_contentImage_caption">
+						<span>{{openingImageCaption}}</span>
+					</div>
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}} {{paragraph}}
+				</p>
+
+				<div class="c-article_contentImage c-article_contentImage-indented">
+					<div class="c-article_contentImage_img">
+						<img src="{{ContentImageHorz}}">
+					</div>
+
+					<div class="c-article_contentImage_caption">
+						<span>{{openingImageCaption}}</span>
+					</div>
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}} {{paragraph}}
+				</p>
+				
+				<div class="c-article_contentImage c-article_contentImage-vert c-article_contentImage-indented">
+					<div class="c-article_contentImage_img">
+						<img src="{{ContentImageVert}}">
+					</div>
+
+					<div class="c-article_contentImage_caption">
+						<span>{{openingImageCaption}}</span>
+					</div>
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}}
+				</p>
+
+				<div class="c-article_standardWrapper">
+					{{render '@c-listlink--audio' c-listLinkAudio merge=true}}
+				</div>				
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}}
+				</p>
+
+				<div class="c-article_questionAnswer c-article_standardWrapper">
+					<p class="c-article_question">
+						{{paragraph}}
+					</p>
+
+					<p class="c-article_answer">
+						{{paragraph}}
+					</p>
+				</div>
+
+				<div class="c-article_questionAnswer c-article_standardWrapper">
+					<p class="c-article_question">
+						{{paragraph}}
+					</p>
+
+					<p class="c-article_answer">
+						{{paragraph}}
+					</p>
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+				
+				<div class="c-article_standardWrapper c-article_singleVideo">
+					{{render '@c-heroimg--video16x9' c-heroImgVideo merge=true}}
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}}
+				</p>
+
+				<div class="c-article_galleryVideo c-article_standardWrapper">
+					{{render '@c-sectiontitle--light' c-galleryVideosectionTitle merge=true}}
+					{{render '@c-slider' c-sliderGalleryVideo merge=true}}
+				</div>
+
+				<p class="c-article_paragraph">
+					{{paragraph}} {{paragraph}}
+				</p>
+
+				<p class="c-article_paragraph">
+					{{paragraph}}
+				</p>
+
+				<div class="c-article_standardWrapper">
+					{{render '@c-listlink' c-listLink merge=true}}
+				</div>
+
+				<div class="c-article_closingInfo">
+					<span class="c-article_closingInfo_author">ATS/dg</span>
+
+					<div class="c-article_closingInfo_share">
+						{{render '@c-btnshare--light' c-btnShareClosingInfo merge=true}}
+					</div>
+
+					<div class="c-article_closingInfo_dates">
+						<time class="c-article_closingInfo_pubDate" datetime="2017-02-2T9:29:00" pubdate>
+							<span class="c-article_closingInfo_dateLabel">Pubblicato il:</span> 2 febbraio 2017
+						</time>
+
+						<time class="c-article_closingInfo_pubDate" datetime="2017-05-14T14:23:00" pubdate>
+							<span class="c-article_closingInfo_dateLabel">Ultima modifica il:</span> 14 Maggio 2017, ore 14:23
+						</time>
+					</div>					
+				</div>				
+			</div>
+		</div>
+
+		<div class="col-md-3 u-d-none@print" id="sidebar-sticky" data-sticky_column>
+			{{render '@c-teaserlistvert--toptitle' c-teaserListVert-TopTitle merge=true}}
+			{{render '@c-teaserlistvert--righttitle' c-teaserListVert-RightTitle merge=true}}
+		</div>
+	</div>
+</article>

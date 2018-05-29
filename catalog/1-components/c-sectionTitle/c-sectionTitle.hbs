@@ -1,0 +1,25 @@
+<div class="c-sectionTitle {{class}} {{class-layout}}">
+  <h3 class="c-sectionTitle_heading">
+    {{#if href}}
+      <a class="c-sectionTitle_label" href="{{href}}">
+        {{title-short}}
+      </a>
+    {{else}}
+      <span class="c-sectionTitle_label">
+        {{title-short}}
+      </span>
+    {{/if}}
+  </h3>
+
+  {{#if secondary-label}}
+    {{#if secondary-label-href}}
+      <a href="#" class="c-sectionTitle_secondaryLabel">
+        {{secondary-label}}
+      </a>
+    {{else}}
+      <span class="c-sectionTitle_secondaryLabel">
+        {{secondary-label}}
+      </span>
+    {{/if}}
+  {{/if}}
+</div>

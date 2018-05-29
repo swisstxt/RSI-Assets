@@ -1,0 +1,29 @@
+<section class="section {{class}}">
+	<div class="container u-pull-btm-1">
+	    {{render '@c-sectiontitle' c-sectionTitle merge=true}}
+	</div>
+	<div class="section {{internal-section}}">
+		<div class="container">
+		    
+			{{#if teaserImage}}			
+				{{#if slider-light}}
+					Creare versione BIANCA ed importarla qui!
+				{{else if slider-grayBright}}
+					Creare versione GRIGIA ed importarla qui!
+				{{else}}
+					{{render '@c-slider--teasersmall-image' c-sliderTeaserSmallImage merge=true}}
+				{{/if}}
+			{{else}}
+				{{#if slider-light}}
+					Creare versione bianca ed importarla qui!
+				{{else if slider-grayBright}}
+					{{render '@c-slider--teasersmall-graybright' c-sliderTeaserSmallGrayBright merge=true}}
+				{{else}}
+					{{render '@c-slider--teasersmall' c-sliderTeaserSmall merge=true}}
+				{{/if}}				
+			{{/if}}
+
+		    {{render '@c-modalarticle' c-modalArticle merge=true}}
+		</div>
+	</div>
+</section>

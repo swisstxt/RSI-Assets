@@ -1,0 +1,78 @@
+//============================================
+// Button
+//============================================
+
+
+// Wrapper
+//============================================
+
+.c-button
+  position: relative
+  display: inline-block
+
+  // Variation circle icon
+  &-circleIcon
+    margin-top: -0.2rem
+    padding-top: 0.2rem
+    padding-right: 1.6rem
+    padding-bottom: 0.2rem
+
+// Variation uppercase
+//.c-button-noUppercase
+
+// Variation circle icon
+//.c-button-circleIcon
+
+// Variation color rsi
+//.c-button-colorRsi
+
+
+// Wrap
+//============================================
+.c-button_wrap
+  position: relative
+  border-radius: 0.3rem
+  border-width: 0.1rem
+  border-style: solid
+  border-color: $gray-mid
+  padding: 0.4rem 0.9rem
+  transition: all 0.2s ease-out
+
+  // Variation circle icon
+  .c-button-circleIcon &
+    padding-right: 2.2rem
+
+  // Variation color rsi
+  .c-button-colorRsi &
+    background-color: $color-rsi
+    border-color: lighten($color-rsi, 10%)
+
+  &:hover
+    border-color: $gray-dust
+
+    // Variation color rsi
+    .c-button-colorRsi &
+      background-color: lighten($color-rsi, 10%)
+      border-color: lighten($color-rsi, 10%)
+
+// Label
+.c-button_label
+  color: $gray-silver
+  font-size: $fs-sm
+  text-transform: uppercase
+
+  // Variation uppercase
+  .c-button-noUppercase &
+    text-transform: none
+
+  // Variation color rsi
+  .c-button-colorRsi &
+    color: $white
+
+  .c-button_wrap:hover &
+    color: $gray-dust
+
+// Icon
+.c-button_icon
+  +pos(50% 0, top right)
+  transform: translate(50%, -50%)

@@ -1,0 +1,11 @@
+<div class="c-layerLoading {{class}}">
+	<div class="c-layerLoading_loader">
+		{{#if loadingLightShow}}
+			{{render '@c-circularloading--light' merge=true}}
+		{{/if}}
+
+		{{#if loadingBlackShow}}
+			{{render '@c-circularloading' merge=true}}
+		{{/if}}
+	</div>
+</div>

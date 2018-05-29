@@ -1,0 +1,15 @@
+{{setTheme 'sport_streaming'}}
+{{render '@s-header' s-header merge=true}}
+{{render '@s-titlepagestripe' s-titlePageStripe merge=true}}
+
+{{#if n-sliders-error}}
+	Errore nei dati, riprova tra due minuti.
+{{else}}
+	{{#each n-sliders}}
+		{{render '@s-sliderteaserstreaming--light' s-sliderTeaserStreaming-light merge=true}}
+	{{else}}
+		Non sono presenti streaming nei prossimi giorni (parte grafica da realizzare)
+	{{/each}}
+{{/if}}
+
+{{render '@c-backtotop'}}

@@ -1,0 +1,38 @@
+{
+  "title": "Scheduling Simple",
+  "label": "c-schedulingSimple",
+  "status": "ready",
+  "context": {
+    "n-cell": [
+      {
+        "class-cell": "c-schedulingSimple_cell-active",
+        "day": "Lu",
+        "hour": "20:40"
+      },
+
+      {
+        "day": "Ma"
+      },
+
+      {
+        "day": "Me"
+      },
+
+      {
+        "day": "Gi"
+      },
+
+      {
+        "day": "Ve"
+      },
+
+      {
+        "day": "Sa"
+      },
+
+      {
+        "day": "Do"
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+//============================================
+// More Btn
+//============================================
+
+// Create a show more button on mobile. If the element
+// has a format modifier it will also be shown on desktop.
+
+// @TODO Showing it only on mobile is a bis assumption
+// to make, this should, depending on the needs be changed.
+
+
+// Wrap
+//============================================
+
+// 1. If the component has a format class, show
+//    it on tablet and onward. Otherwise hide.
+
+.c-moreBtn
+  display: block
+  position: relative
+
+  // The normal moreBt visible to sm
+  &.c-moreBtn-visible\@sm
+    +mq($bp-md-down)
+      display: block
+
+  // Variation always visible
+  &.c-moreBtn-alwaysVisible
+    display: block
+
++mq($bp-sm)
+  .c-moreBtn
+    display: none
+
+  .c-moreBtn-3\:2,
+  .c-moreBtn-16\:9,
+  .c-moreBtn-16\:9\@xs,
+  .c-moreBtn-8\:3,
+  .c-moreBtn-16\:8\@md, // 1.
+  .c-moreBtn-8\:2\@lg,
+    display: block
+
+  .c-moreBtn-3\:2::before,
+  .c-moreBtn-16\:9::before,
+  .c-moreBtn-16\:9\@xs::before,
+  .c-moreBtn-8\:3::before,
+  .c-moreBtn-16\:8\@md::before,
+  .c-moreBtn-8\:2\@lg::before
+    content: ""
+    display: block
+
+  // Variation 16:9
+  .c-moreBtn-16\:9::before
+    padding-bottom: (9 / 16) * 100%
+
+  // Variation 2:3
+  .c-moreBtn-3\:2::before
+    padding-bottom: (2 / 3) * 100%
+
+  // Variation 8:3
+  .c-moreBtn-8\:3::before
+    padding-bottom: (3 / 8) * 100%
+
+  // Variation 16:8 for md
+  .c-moreBtn-16\:8\@md::before
+    +mq($bp-lg-down)
+      +mq($bp-md)
+        padding-bottom: (8 / 16) * 100%
+
+  // Variation 8:2 for lg
+  .c-moreBtn-8\:2\@lg::before
+    +mq($bp-lg)
+      padding-bottom: (2 / 8) * 100%
+
+  // Variation 16:9 for xs
+  .c-moreBtn-16\:9\@xs::before
+    +mq($bp-sm-down)
+      padding-bottom: (9 / 16) * 100%
+
+// Light variation
+//.c-moreBtn-light
+
+// Text small variation
+//.c-moreBtn-textSmall
+
+
+// Link
+//============================================
+
+.c-moreBtn_link
+  background-color: $black
+  font-family: $font-alt
+  text-align: center
+  font-size: $fs-lg
+  font-weight: 600
+  display: block
+  border: 0.1rem solid $gray-rat
+  padding: $space-twoThirds
+  color: $gray-dust
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s
+  cursor: pointer
+
+  .c-moreBtn-light &
+    background-color: $white
+    border-color: $gray-powder
+    color: $gray-light
+
+  .c-moreBtn:hover &
+    color: $white
+    background-color: $primary
+    border-color: $primary
+
+  .c-moreBtn-3\:2 &,
+  .c-moreBtn-16\:9 &,
+  .c-moreBtn-16\:8 &,
+  .c-moreBtn-8\:3 &
+    +mq($bp-sm)
+      +pos(0, all)
+
+  // Variation 16:9 for xs
+  .c-moreBtn-16\:9\@xs &
+    +mq($bp-sm-down)
+      +pos(0, all)
+
+  // Variation 8:2 for xs
+  .c-moreBtn-8\:2\@lg &
+    +mq($bp-lg)
+      +pos(0, all)
+
+
+// Label
+//============================================
+
+.c-moreBtn_label
+
+  .c-moreBtn-3\:2 &,
+  .c-moreBtn-16\:9 &,
+  .c-moreBtn-16\:8 &,
+  .c-moreBtn-8\:3 &
+    +mq($bp-sm)
+      +center-transform
+      font-size: $fs-lg + 0.4rem
+      text-transform: uppercase
+
+      // Create the dots
+      &::after
+        +size(0.8rem)
+        content: ""
+        display: block
+        margin: 0.8rem auto 0
+        background-color: currentColor
+        border-radius: 50%
+        box-shadow: -2rem 0 0 currentColor, 2rem 0 0 currentColor
+
+  // Variation 16:9 for xs
+  .c-moreBtn-16\:9\@xs &
+    +mq($bp-sm-down)
+      +center-transform
+      font-size: $fs-lg + 0.4rem
+      text-transform: uppercase
+
+      // Create the dots
+      &::after
+        +size(0.8rem)
+        content: ""
+        display: block
+        margin: 0.8rem auto 0
+        background-color: currentColor
+        border-radius: 50%
+        box-shadow: -2rem 0 0 currentColor, 2rem 0 0 currentColor
+
+  // Variation 8:2 for lg
+  .c-moreBtn-8\:2\@lg &
+    +mq($bp-lg)
+      +center-transform
+      font-size: $fs-lg + 0.4rem
+      text-transform: uppercase
+
+      // Create the dots
+      &::after
+        +size(0.8rem)
+        content: ""
+        display: block
+        margin: 0.8rem auto 0
+        background-color: currentColor
+        border-radius: 50%
+        box-shadow: -2rem 0 0 currentColor, 2rem 0 0 currentColor
+
+  // Text small variation
+  .c-moreBtn-textSmall &
+    font-size: $fs-lg
+

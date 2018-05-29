@@ -1,0 +1,25 @@
+<div class="c-headerMinimized {{class}}">
+	<div class="c-headerMinimized_top">
+		<a href="#" class="c-headerMinimized_back">
+			{{render '@c-icon' c-iconBack merge=true}}
+		</a>
+
+		<div class="c-headerMinimized_brands">
+			<a href="#" class="c-headerMinimized_wrapperLogoRsi">
+				<img src="{{path-logo-rsi}}" class="c-headerMinimized_logoRsi" />
+			</a>
+
+			<a href="#" class="c-headerMinimized_brandProduct">
+				{{product-name}}
+			</a>
+		</div>
+
+		<div class="c-headerMinimized_share">
+			{{render '@c-btnshare--nolabel__xs' merge=true}}
+		</div>
+	</div>
+
+	<a href="#" class="c-headerMinimized_productName">
+		{{product-name}}
+	</a>
+</div>

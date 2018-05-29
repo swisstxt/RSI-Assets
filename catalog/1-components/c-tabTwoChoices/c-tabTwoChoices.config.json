@@ -1,0 +1,117 @@
+{
+  "title": "Tab two choices",
+  "label": "c-tabTwoChoices",
+  "status": "ready",
+  "context": {
+  	"firstTabActive": true,
+
+	"c-iconCamera": {
+		"icon": "camera",
+		"class": "c-tabTwoChoices_labelIcon"
+	},
+
+	"c-teaserListVert": {
+		"teasers": [
+		  {
+		    "c-teaserSmall": {
+		      "title": "PLR, scelta resta in stand-by",
+
+		      "c-label": {
+		        "label": "Ticino, Grigioni e Insubria"
+		      }
+		    }
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "La Francia sarà più sicura",
+
+		      "c-label": {
+		        "label": "Mondo"
+		      }
+		    }            
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "Syngenta-ChemChina, sì ma...",
+
+		      "c-label": {
+		        "label": "Economia"
+		      }
+		    }  
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "Noto pedagogista sotto accusa",
+
+		      "c-label": {
+		        "label": "Svizzera"
+		      }
+		    }  
+		  }
+		]
+	},
+
+	"c-teaserListVertVideo": {
+		"teasers": [
+		  {
+		    "c-teaserSmall": {
+		      "title": "Attentatore identificato",
+		      "href":"//tp.srgssr.ch/p/rsi/embed?urn=urn:rsi:video:8970967&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",		      
+
+		      "c-label": {
+		        "label": "Mondo"
+		      }
+		    }
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "Harrison Ford vola ancora",
+		      "href":"//tp.srgssr.ch/p/rsi/embed?urn=urn:rsi:video:8970967&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",	
+
+		      "c-label": {
+		        "label": "People"
+		      }
+		    }            
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "Nuovo video dei Rocky Wood",
+		      "href":"//tp.srgssr.ch/p/rsi/embed?urn=urn:rsi:video:8970967&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",	
+
+		      "c-label": {
+		        "label": "Ticino, Grigioni e Insubria"
+		      }
+		    }  
+		  },
+
+		  {
+		    "c-teaserSmall": {
+		      "title": "Saturno, ultime missioni",
+		      "href":"//tp.srgssr.ch/p/rsi/embed?urn=urn:rsi:video:8970967&autoplay=true&hideendscreen=1",
+              "classTitleLink" : "js-popup-video",
+              "modalTitle" : "Titolo finestra modale",
+              "modalDescription" : "Descrizione finestra modale",	
+
+		      "c-label": {
+		        "label": "Tech&Scienza"
+		      }
+		    }  
+		  }
+		]
+	}
+  }
+}

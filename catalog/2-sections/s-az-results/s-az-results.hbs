@@ -1,0 +1,26 @@
+<section class="section section-light u-p-rel">
+  <div class="container u-pull-top-oneAndHalf u-pull-top-none@sm" id="js-container-resultsAZ">
+    {{render "@c-emptypage--light" emptyPage merge=true}}
+
+    {{#each results as |result resultKey|}}
+      {{render '@c-sectiontitle' c-sectionTitle merge=true}}
+      <div class="row row-sm-clear-2 u-push-btm-double">
+        {{#each result.items}}
+          <div class="col-md-6">
+            {{#unless @first}}
+              {{#ifIndex @index 2}}
+                <hr class="u-d-none@md u-push-vert-half">
+              {{else}}
+                <hr class="u-push-vert-half">
+              {{/ifIndex}}
+            {{/unless}}
+            {{render '@c-teasersmall--imgbig__md-light' c-teaserSmall merge=true}}
+          </div>
+        {{/each}}
+      </div>
+    {{/each}}
+
+    {{render '@c-morebtn' moreBtn merge=true}}
+    {{render '@c-layerloading--top-light' merge=true}}
+  </div>
+</section>

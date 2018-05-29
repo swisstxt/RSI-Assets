@@ -1,0 +1,2090 @@
+{
+  "title": "Scienza Home",
+  "label": "Scienza Home",
+  "status": "ready",
+  "context": {
+    "mainTeaserShow": true,
+
+    "s-header": {
+      "c-header": {
+        "socialShow": true,
+        
+        "appIconShow": false,
+
+        "slogan-play": false,
+
+        "c-header-socialItems": [
+          {
+            "c-iconSocial": {
+              "icon": "facebook",
+              "class": "c-header_socialIcon c-header_socialIcon-fb"
+            }
+          },
+
+          {
+            "c-iconSocial": {
+              "icon": "twitter",
+              "class": "c-header_socialIcon c-header_socialIcon-tw"
+            }
+          },
+
+          {
+            "c-iconSocial": false
+          }
+        ],
+
+        "c-header-mainNavItems": [
+          {
+            "link-mode": false,
+            "items": [
+            ]
+          },
+
+          {
+            "link-mode": false,
+            "items": [
+              {},
+              {
+                "link-mode": "link"
+              }
+            ]
+          },
+
+          {
+            "link-mode": false,
+            "items": [
+              {},
+              {
+                "link-mode": "link"
+              }
+            ]
+          },
+
+          {
+            "link-mode": "section",
+            "items": [
+              {},
+              {
+                "link-mode": "link"
+              }
+            ]
+          },
+
+          {
+            "link-mode": false
+          }
+        ]
+      }
+    },
+
+    "s-bigHeroImg": {
+      "class": "u-push-top-half u-pull-top-double@md",
+      "c-heroImg-bigHero": {
+        "class": "c-heroImg-firstPosition c-heroImg-bigHeroImg c-heroImg-gradientGraySpace"
+      }
+    },
+
+    "s-mainTeasersDouble": {
+      "c-heroImg": {
+        "imageDesktop": "../../images/16x9/scienza/2.jpg",
+        "imageSmartphone": "../../images/5x4/scienza/2.jpg",
+
+        "c-label": {
+          "label": "Tecnologia"      
+        },
+
+        "playIconShow": false,
+        "playIconAbsolute": false,
+
+        "c-imgActions": {
+          "gallery": false,
+          "video": true,
+          "audio": false
+        }
+        
+      },
+
+      "c-teaser":{
+
+        "c-teaserImg": {
+          "c-imgBadgeShow": true,
+          "badgeShow": true,
+          "c-imgBadge": {
+            "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+            "badge": "edu"
+          },
+
+          "c-imgActions": {
+            "gallery": false,
+            "video": true,
+            "audio": false
+          },
+
+          "c-embed": {
+            "src": "../../images/16x9/scienza/5.jpg"
+          }
+        },
+        "c-label": {
+          "label": "Ambiente"              
+        },
+
+        "title": "Il giro del Polo Sud in 88 giorni",
+        "description":"Nella nuova puntata de \"Il Giardino di Albert\" viaggeremo fino alla fine del mondo",
+
+        "infoShow": true,
+        "dataShow": false,
+        "sourceShow": true,
+        "textBeforeSource":"da",
+        "sectionSource":true,
+        "source":"il giardino di Albert"       
+
+      }      
+    },
+
+    "s-teasers": {
+      "class": "u-pull-btm u-pull-btm-none@sm",
+      "moreBtShow": false,
+      "c-sectionTitle": false,
+      "teasersGridClear": "row-sm-clear-3 row-md-clear-3",
+
+      "teasers": [
+        {
+          "teasersGrid": "col-sm-4",
+          "c-teaser":{
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "badgeShow": false,
+
+              "c-imgBadge": {
+                "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                "badge": ""
+              },
+
+              "c-imgActions": false,
+
+              "c-embed": {
+                "src": "../../images/16x9/1.jpg"
+              }
+            },
+
+            "c-label": {
+              "label": "Salute"              
+            },
+
+            "title": "Il primo cuore... stampato",
+            "description":"L'organo artificiale realizzato in 3D al Politecnico di Zurigo batte solo per mezz'ora",
+
+            "secondaryInfo": "da News"      
+          }      
+        },
+
+        {
+          "teasersGrid": "col-sm-4",
+          "c-teaser":{
+            "c-teaserImg": {
+              "c-imgBadgeShow": true,
+              "badgeShow": true,
+
+              "c-imgBadge": {
+                "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                "badge": "edu"
+              },
+
+              "c-imgActions": false,
+
+              "c-embed": {
+                "src": "../../images/16x9/2.jpg"
+              }
+            },
+
+            "c-label": {
+              "label": "Ambiente"              
+            },
+
+            "title": "Caldo, le meduse ci sguazzano",
+            "description":"Caldo, e meduse ci sguazzano",
+
+            "secondaryInfo": "da News"
+          }       
+        },
+
+        {
+          "teasersGrid": "col-sm-4",
+          "c-teaser":{
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "badgeShow": false,
+
+              "c-imgBadge": {
+                "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                "badge": ""
+              },
+
+              "c-imgActions": false,
+
+              "c-embed": {
+                "src": "../../images/16x9/4.jpg"
+              }
+            },
+
+            "c-label": {
+              "label": "Salute"              
+            },
+
+            "title": "Lunga vita per chi beve caffè",
+            "description":"Chi ne sorseggia tre tazzine al giorno vive più a lungo: protegge il fegato, lo rivela uno studio su mezzo milione di individui",
+           
+            "secondaryInfo": "da Il Giardino di Albert"
+          }  
+        },
+
+        {
+          "c-teaser": false
+        }
+      ]
+    },
+
+    "s-teasersDefault":{
+      "class": "u-pull-btm u-padd-top-none u-pull-btm-none@sm",
+      "moreBtShow": false,
+      "c-sectionTitle": false,
+      "teasersGridClear": "row-sm-clear-2 row-md-clear-4"
+    },
+
+    "s-feature": {
+      "class": "section-dark",
+      "Go-to-section": "Vai allo speciale",
+      "logoImage": "images/t-efSection/logo.png",
+      "backgroundImage": true,
+      "s-feature-backgroundImage": "/images/t-efSection/bg.jpg",
+      "teasers": [
+        {
+          "c-teaserHorzVert": {
+            "title": "Il genio della natura",
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/default.jpg"
+              },
+              
+              "c-imgActions": false
+            },
+
+            "c-teaser-label": true,
+            "c-label":{
+              "label": "Natura"                
+            },
+
+            "descriptionShow": false,
+            "secondaryInfo": "da News"
+          }
+        },
+
+        {
+          "c-teaserHorzVert": {
+            "title": "Le forze della natura 3",
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/default.jpg"
+              },
+
+              "c-imgActions": false              
+            },
+
+            "c-teaser-label": true,
+            "c-label":{
+              "label": "Natura"                
+            },
+
+            "descriptionShow": false,
+            "secondaryInfo": "da Il Giardino di Albert"
+          }
+        },
+
+        {
+          "c-teaserHorzVert": {
+            "title": "Le forze della natura 2",
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/default.jpg"
+              },
+
+              "c-imgActions": false
+            },
+
+            "c-teaser-label": true,
+            "c-label":{
+              "label": "Natura"                
+            },
+
+            "descriptionShow": false,
+            "secondaryInfo": "da Il Giardino di Albert"
+          }
+        },
+
+        {
+          "c-teaserHorzVert": {
+            "title": "Le forze della natura 1",
+            "shareShow": false,
+            "c-teaserImg": {
+              "c-imgBadgeShow": false,
+              "c-embed": {
+                "src": "../../images/16x9/default.jpg"
+              },
+
+              "c-imgActions": false
+            },
+
+            "c-teaser-label": true,
+            "c-label":{
+              "label": "Natura"                
+            },
+
+            "descriptionShow": false,
+            "secondaryInfo": "da News"
+          }
+        }
+      ]
+    },
+
+    "s-nouvoTeasers": {
+    },
+
+    "s-sliderShortNews": {
+
+      "c-sectionTitle": {
+        "class": "c-sectionTitle-noSecondaryLabel@xs",
+        "title-short": "Puntate radio",
+        "secondary-label-href": true,
+        "secondary-label": "da Il Giardino di Albert"
+      }
+    },
+
+    "s-sliderLight-1": {
+      "c-sectionTitle-light": {
+        "title-short": "Natura"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLight-2": {
+      "c-sectionTitle-light": {
+        "title-short": "Ambiente"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLight-3": {
+      "c-sectionTitle-light": {
+        "title-short": "Archeologia"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLight-4": {
+      "c-sectionTitle-light": {
+        "title-short": "Astronomia"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLight-5": {
+      "c-sectionTitle-light": {
+        "title-short": "Tecnologia"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-sliderLight-6": {
+      "c-sectionTitle-light": {
+        "title-short": "Salute"
+      },
+
+      "c-slider-light": {
+        "teasers": [
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/2.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/3.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg"
+                }
+              }
+            }
+          },
+
+          {
+            "c-teaser": {
+              "c-teaser-label": false,
+
+              "title": "Avere la corazza non basta",
+              "description": "La tartaruga verde è a rischio d'estinzione a causa dei tumori provocati da un virus. A Zurigo si cerca una cura",              
+              "shareShow": false,
+              "secondaryInfo": "da News",
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+                "c-imgActions": false,
+                "c-imgBadgeShow": false,
+                "badgeShow": false,
+
+                "c-imgBadge": {
+                  "class": "c-imgBadge-topLft c-imgBadge-small c-imgBadge-weightNormal",
+                  "badge": ""
+                },
+
+                "c-embed": {
+                  "src": "../../images/16x9/8.jpg"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "s-slider": {
+
+      "c-sectionTitle": {
+        "title-short": "Potrebbe interessarti anche"
+      },
+
+      "c-slider": {
+        "teasers": [
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Storia degli aromi",
+              "description": "Viaggio nel mondo delle spezie",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Salute"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Swissmade",
+              "description": "Svizzeri popolo di inventori?",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Tecnologia"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/2.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Energia",
+              "description": "Quale il futuro? Quali le risorse?",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Tecnologia"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/3.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Val Piora",
+              "description": "Un paradiso di biodiversità",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Ambiente"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/4.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Storia degli aromi",
+              "description": "Viaggio nel mondo delle spezie",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Salute"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/5.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Storia degli aromi",
+              "description": "Viaggio nel mondo delle spezie",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Salute"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/6.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Storia degli aromi",
+              "description": "Viaggio nel mondo delle spezie",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Salute"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/7.jpg"
+                }
+              }
+              
+            }
+          },
+
+          {
+            "c-teaser": {
+
+              "c-teaser-label": false,
+
+              "title": "Storia degli aromi",
+              "description": "Viaggio nel mondo delle spezie",
+
+              "infoShow": false,
+              "shareShow": false,
+
+              "c-teaser-gridClass-img": "col-xs-4 col-sm-12",
+              "c-teaser-gridClass-content": "col-xs-8 col-sm-12",
+
+              "c-teaserImg": {
+
+                "c-imgBadgeShow": true,
+                "badgeShow": true,
+                "c-imgBadge": {
+                  "badge": "Salute"
+                },
+
+                "c-imgActions": false,
+
+                "c-embed": {
+                  "src": "../../images/16x9/1.jpg"
+                }
+              }
+              
+            }
+          }
+        ]
+      }
+    },
+
+    "s-teasersGallery":{}
+
+  }
+}

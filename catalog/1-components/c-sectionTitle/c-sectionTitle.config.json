@@ -1,0 +1,82 @@
+{
+	"title": "Section title",
+	"label": "c-sectionTitle",
+	"status": "ready",
+	"context": {
+		
+	},
+
+	"variants": [
+		{
+			"name": "light",
+			"label": "c-sectionTitle-light",
+			"preview": "@preview-light",
+			"context": {
+				"class": "c-sectionTitle-light"
+			}
+		},
+		
+		{
+			"name": "stripe__xs",
+			"title": "Section title Stripe @media xs",
+			"label": "c-sectionTitle-stripe@xs",
+			"status": "ready",
+			"context": {
+				"class": "c-sectionTitle-stripe@xs"
+			}
+		},
+
+		{
+			"name": "noBorder",
+			"title": "Section title no border",
+			"label": "c-sectionTitle-noBorder",
+			"status": "ready",
+			"context": {
+				"class": "c-sectionTitle-noBorder"
+			}
+		},
+
+		{
+			"name": "xs",
+			"title": "Section title xs",
+			"label": "c-sectionTitle-xs",
+			"status": "ready",
+			"context": {
+				"class": "c-sectionTitle-xs"
+			}
+		},
+
+		{
+			"name": "live",
+			"title": "Section title live",
+			"label": "c-sectionTitle-live",
+			"status": "ready",
+			"context": {
+				"class": "c-sectionTitle-live c-sectionTitle-noBorder c-sectionTitle-xs"
+			}
+		},
+
+		{
+			"name": "Secondary label",
+			"title": "Secondary label",
+			"label": "c-sectionTitle-secondaryLabel",
+			"status": "ready",
+			"context": {
+				"secondary-label": "lorem ipsum"
+			}
+		},
+		
+		{
+			"name": "Secondary label light",
+			"title": "Secondary label light",
+			"label": "c-sectionTitle-secondaryLabel-light",
+			"status": "ready",
+			"preview": "@preview-light",
+			"context": {
+				"class": "c-sectionTitle-light",
+				"secondary-label": "lorem ipsum"
+			}
+		}
+
+	]
+}

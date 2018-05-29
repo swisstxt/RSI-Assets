@@ -1,0 +1,104 @@
+//============================================
+// Layout
+//============================================
+
+
+// Section
+//============================================
+
+// Generic section containers to create vertical rhythm.
+
+// 1. Declare side specific paddings to avoid
+//    conflicts when weaker styles try to apply
+//    top & bottom margins or paddings.
+
+.section
+  padding-top: $space-oneAndHalf // 1.
+  padding-bottom: $space // 1.
+
+// Variations
+.section-large
+  padding-top: $space-double
+  padding-bottom: $space-oneAndHalf
+
+.section-small
+  padding-top: $space
+  padding-bottom: $space-half
+
+.section-spaceless
+  padding-top: 0
+  padding-bottom: 0
+
+.section-border
+  border-top: 0.1rem solid $gray-rat
+  border-bottom: 0.1rem solid $gray-rat
+
+.section-border-grayPowder
+  border-top: 0.1rem solid $gray-powder
+  border-bottom: 0.1rem solid $gray-powder
+
+.section-top-border-grayPowder
+  border-top: 0.1rem solid $gray-powder
+
+.section-top-noBorder
+  border-top: none
+
+.section-btm-noBorder
+  border-bottom: none
+
+.section-dark
+  background-color: $gray-void
+
+.section-light
+  background-color: $gray-dust
+
+.section-grayBright
+  background-color: $gray-bright
+
+.section-bg
+  background-repeat: no-repeat
+  background-position: 50% 0
+  background-size: cover
+
+  &-contain
+    background-size: contain
+
+  &-posHalfTop
+    background-position: 0 50%
+
+
+// Container
+//============================================
+
+// Generic container to center content on screen.
+
+// 1. Make text truncation work inside containers.
+// 2. Declare side specific margins & paddings
+//    to avoid conflicts when weaker styles try
+//    to apply top & bottom margins or paddings.
+
+.container
+  width: 100% // 1.
+  padding-left: $layout-gutter-xs // 2.
+  padding-right: $layout-gutter-xs // 2.
+  margin-left: auto // 2.
+  margin-right: auto // 2.
+
++mq($bp-sm)
+  .container
+    max-width: $layout-width-sm
+    padding-left: $layout-gutter-sm
+    padding-right: $layout-gutter-sm
+
++mq($bp-md)
+  .container
+    max-width: $layout-width-md
+    padding-left: $layout-gutter-md
+    padding-right: $layout-gutter-md
+
++mq($bp-lg)
+  .container
+    max-width: $layout-width-lg
+    padding-left: $layout-gutter-lg
+    padding-right: $layout-gutter-lg
+

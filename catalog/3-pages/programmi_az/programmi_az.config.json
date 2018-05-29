@@ -1,0 +1,147 @@
+{
+  "title": "Programmi A-Z",
+  "label": "Programmi A-Z",
+  "status": "ready",
+  "context": {
+    "s-azResults": {
+    	"results": [
+	      {
+	        "items": [
+	          {
+	          	"c-teaserSmall": {
+	          		"showLiveMark": true,
+	          		"class": "c-teaserSmall-imgBig@md c-teaserSmall-light c-teaserSmall-live",
+
+	          		"c-embed": {
+						"src": "../../images/16x9/1.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/2.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/4.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+	          		"showLabelRgt": true,
+
+					"c-embed": {
+						"src": "../../images/16x9/3.jpg"
+					}
+	          	}
+	          }
+	        ]
+	      },
+
+	      {
+	       "items": [
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/5.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/6.jpg"
+					}
+	          	}
+	          }
+	        ]
+	      },
+
+	      {
+	        "items": [
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/7.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/8.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/6.jpg"
+					}
+	          	}
+	          }
+	        ]
+	      },
+
+	      {
+	        "items": [
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/5.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/2.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/2.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/1.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/3.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/7.jpg"
+					}
+	          	}
+	          },
+	          {
+	          	"c-teaserSmall": {
+					"c-embed": {
+						"src": "../../images/16x9/8.jpg"
+					}
+	          	}
+	          }
+	        ]
+	      }
+	    ]
+    }
+  }
+}

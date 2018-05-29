@@ -1,0 +1,52 @@
+{
+  "title": "Live mark",
+  "label": "c-liveMark",
+  "status": "ready",
+  "context": {
+    "c-label": {
+      "href": false,
+      "class": "c-label-active c-label-small c-label-bgRsi",
+      "label": "Live"
+    },
+
+    "c-playIcon": {
+      "size": "xs",
+      "class": "c-playIcon-noAlpha"
+    }
+  },
+
+  "variants": [
+    {
+      "name": "horz",
+      "label": "horz",
+      "context": {
+        "class": "c-liveMark-horz",
+        "c-label": {
+          "class": "c-label-small c-label-active c-label-addPaddRgt c-label-bgRsi"
+        }
+      }
+    },
+
+    {
+      "name": "horz-black",
+      "label": "horz-black",
+      "context": {
+        "class": "c-liveMark-horz",
+        "c-label": {
+          "class": "c-label-small c-label-bgBlackAlpha c-label-noBorder c-label-addPaddRgt"
+        }
+      }
+    },
+
+    {
+      "name": "horz-poisBlink",
+      "label": "horz-poisBlink",
+      "context": {
+        "class": "c-liveMark-horz",
+        "c-label": {
+          "class": "c-label-poisBlink c-label-small c-label-active c-label-addPaddRgt c-label-bgRsi"
+        }
+      }
+    }
+  ] 
+}

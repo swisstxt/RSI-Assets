@@ -1,0 +1,170 @@
+//============================================
+// Title list
+//============================================
+
+
+// Wrap
+//============================================
+
+.c-titleList
+  position: relative
+
+// Variation play icon list
+//.c-titleList-play
+
+// Variation style title h3
+//.c-titleList-h3style
+
+// Variation big margin to item
+//.c-titleList-bigMargin
+
+// Variation title inline
+//.c-titleList-inline
+
+// Variation line-height reduced
+//.c-titleList-lineHeightReduced
+ 
+
+// Title heade
+//============================================
+
+.c-titleList_titleHead
+  margin-bottom: $space-half
+
+
+// Items
+//============================================
+
+// List
+.c-titleList_items
+  list-style-type: square
+  padding-left: 1.7rem
+
+  // Variation play icon list
+  .c-titleList-play &
+    list-style-type: none
+    padding-left: 0
+
+  // Variation title inline
+  .c-titleList-inline &
+    list-style-type: none
+    padding-left: 0
+
+  // Variation line-height reduced
+  .c-titleList-lineHeightReduced &
+
+    +mq($bp-md)
+      line-height: 1.9rem
+
+    +mq($bp-lg)
+      line-height: 2.2rem
+  
+// Item
+.c-titleList_item
+  margin-top: $space-third
+  overflow: visible
+
+  &:first-child
+    margin-top: 0
+
+    // Variation title inline
+    .c-titleList-inline &
+      padding-left: 0
+
+      &::before
+        display: none
+
+  &:last-child
+    margin-top: 0
+
+    // Variation title inline
+    .c-titleList-inline &
+      padding-right: 0
+
+  +mq($bp-sm)
+    margin-top: $space-eigth
+
+  +mq($bp-lg)
+    margin-top: $space-third
+  
+  // Variation big margin to item
+  .c-titleList-bigMargin &
+    margin-top: $space-threeQuarter
+
+    &:first-child
+      margin-top: 0
+
+  // Variation title inline
+  .c-titleList-inline &
+    display: inline
+    padding-right: $space-quarter
+
+    &::before
+      display: inline-block
+      +size(0.5rem)
+      content: ""
+      background-color: $gray-light
+      margin-right: $space-quarter
+      margin-bottom: 0.2rem
+      border-radius: 50%
+      
+
+// Title
+.c-titleList_itemTitle
+  font-family: $font
+  font-size: $fs
+  font-weight: normal
+  color: $gray-light
+
+  +mq($bp-sm)
+    font-size: $fs-sm
+
+  +mq($bp-lg)
+    font-size: $fs
+
+  // Variation style title h3
+  .c-titleList-h3style &
+    +h3(true)
+
+  //Variation title inline
+  .c-titleList-inline &
+    display: inline
+
+// Link
+.c-titleList_link
+  
+  &:hover
+    text-decoration: underline
+
+  // Variation play icon list
+  .c-titleList-play &
+    display: block
+    margin-left: $space-double
+    padding-top: 0.2rem
+
+// Icon Play
+.c-titleList_playIcon
+  
+  // Variation play icon list
+  .c-titleList-play &
+    float: left
+
+// Icon type
+.c-titleList_iconType
+  fill: $gray-dust
+  padding-left: 0.2rem
+
+// Type
+.c-titleList_type
+  color: $white
+  text-transform: uppercase
+  font-size: $fs-sm
+  
+  &:hover
+    text-decoration: underline
+
+  +mq($bp-sm)
+  font-size: $fs-xs
+
+  +mq($bp-lg)
+    font-size: $fs-sm
