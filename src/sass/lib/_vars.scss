@@ -525,10 +525,10 @@ $layout-width-lg:  152rem;
 // 3. Full media query expressions for use in modules.
 
 $breakpoints: ( // 1.
-  "xs":     26em, // == 416px
-  "sm":     48em, // == 768px
-  "md": 63.625em, // == 992px
-  "lg":     95em, // == 1460px
+  "xs":     26rem, // == 416px
+  "sm":     48rem, // == 768px
+  "md": 63.625rem, // == 992px
+  "lg":     95rem, // == 1460px
 );
 
 $px-in-em: 0.0625em; // 2.
