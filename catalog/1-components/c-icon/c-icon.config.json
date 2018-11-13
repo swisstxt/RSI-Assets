@@ -1,9 +1,0 @@
-{
-	"title": "Icon",
-	"label": "c-icon",
-	"status": "ready",
-	"context": {
-		"icon": "share",
-		"class": "c-icon-primary"
-	}
-}

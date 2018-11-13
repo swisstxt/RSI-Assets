@@ -1,9 +1,0 @@
-{
-  "title": "Embed full page",
-  "label": "c-embedFullPage",
-  "preview": "@preview-full-page",
-  "status": "ready",
-  "context": {
-    "path-iframe": "/embed/minestrone/PCVERDURE.html"
-  }
-}

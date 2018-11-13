@@ -1,3 +1,0 @@
-# Autori
-
-- Creato da **Nico**.
