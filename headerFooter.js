@@ -50,7 +50,7 @@ function getHeaderFooter(headerId, footerId, sectionId){
             document.head.appendChild(imported);
         }
     };
-    xhttp.open("GET", "rsi-api/headerFooter/headerfooter/"+sectionId, true);
+    xhttp.open("GET",  RSI_BASE_URL + "rsi-api/headerFooter/headerfooter/"+sectionId, true);
     xhttp.send();
 }
 
