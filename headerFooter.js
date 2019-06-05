@@ -19,8 +19,6 @@ function getFooter(footerId,sectionId) {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementById(footerId).innerHTML = this.responseText;
-            console.log(this.responseText);
-
             var imported = document.createElement('script');
             imported.src = RSI_BASE_URL + '/static/newHome/js/main-min.js';
             document.head.appendChild(imported);
