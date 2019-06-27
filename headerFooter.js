@@ -1,6 +1,5 @@
 
-const RSI_BASE_URL = "https://www.rsi.ch";
-
+const RSI_BASE_URL = window.location.origin.indexOf("rsi.ch") > -1 ? "" : "https://www.rsi.ch";
 
 function getHeader(headerId,sectionId) {
 
